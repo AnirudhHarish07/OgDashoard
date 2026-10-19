@@ -1,0 +1,109 @@
+name,state_code,month,type,data_source,is_synthetic
+"Brahmotsavam, Tirumala",AP,10,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Sankranti,AP,1,harvest,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Ugadi,AP,3,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Losar,AR,2,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Solung,AR,9,harvest,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Ziro Festival of Music,AR,9,music_dance,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Bohag Bihu,AS,4,harvest,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Ambubachi Mela,AS,6,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Kaziranga Elephant Festival,AS,2,wildlife,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Chhath Puja,BR,11,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Sonepur Mela,BR,11,fair,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Bastar Dussehra,CG,10,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Chakradhar Samaroh,CG,9,music_dance,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Goa Carnival,GA,2,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Sunburn Festival,GA,12,music_dance,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Feast of St Francis Xavier,GA,12,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Shigmo,GA,3,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Navratri Garba,GJ,10,music_dance,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Rann Utsav,GJ,11,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+International Kite Festival,GJ,1,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Rath Yatra, Ahmedabad",GJ,6,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Surajkund Mela,HR,2,fair,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Gita Mahotsav, Kurukshetra",HR,12,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Kullu Dussehra,HP,10,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Winter Carnival, Manali",HP,1,adventure,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Minjar Fair, Chamba",HP,7,fair,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Sarhul,JH,3,harvest,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Karma Puja,JH,9,harvest,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Mysuru Dasara,KA,10,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Hampi Utsav,KA,11,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Karaga,KA,4,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Kambala,KA,11,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Onam,KL,9,harvest,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Thrissur Pooram,KL,4,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Nehru Trophy Boat Race,KL,8,adventure,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Theyyam Season,KL,1,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Khajuraho Dance Festival,MP,2,music_dance,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Tansen Samaroh, Gwalior",MP,12,music_dance,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Orchha Mahotsav,MP,11,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Ganesh Chaturthi,MH,9,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Ellora Ajanta Festival,MH,11,music_dance,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Kala Ghoda Arts Festival,MH,2,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Pandharpur Wari,MH,7,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Sangai Festival,MN,11,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Lai Haraoba,MN,5,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Yaoshang,MN,3,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Wangala,ML,11,harvest,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Shad Suk Mynsiem,ML,4,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Chapchar Kut,MZ,3,harvest,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Mim Kut,MZ,8,harvest,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Pawl Kut,MZ,12,harvest,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Hornbill Festival,NL,12,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Sekrenyi,NL,2,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Moatsu,NL,5,harvest,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Rath Yatra, Puri",OD,7,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Konark Dance Festival,OD,12,music_dance,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Dhanu Jatra,OD,12,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Bali Jatra, Cuttack",OD,11,fair,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Baisakhi,PB,4,harvest,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Hola Mohalla,PB,3,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Lohri,PB,1,harvest,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Gurpurab,PB,11,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Pushkar Camel Fair,RJ,11,fair,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Jaipur Literature Festival,RJ,1,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Desert Festival, Jaisalmer",RJ,2,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Teej,RJ,8,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Gangaur,RJ,3,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Udaipur World Music Festival,RJ,2,music_dance,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Losar, Sikkim",SK,2,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Pang Lhabsol,SK,8,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Saga Dawa,SK,6,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Pongal,TN,1,harvest,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Chithirai Festival, Madurai",TN,4,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Natyanjali, Chidambaram",TN,2,music_dance,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Karthigai Deepam,TN,11,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Bonalu,TS,7,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Bathukamma,TS,10,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Hyderabad Literary Festival,TS,1,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Kharchi Puja,TR,7,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Garia Puja,TR,4,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Magh Mela, Prayagraj",UP,1,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Dev Deepawali, Varanasi",UP,11,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Lathmar Holi, Barsana",UP,3,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Taj Mahotsav,UP,2,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Janmashtami, Mathura",UP,8,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Kanwar Yatra, Haridwar",UT,7,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"International Yoga Festival, Rishikesh",UT,3,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Nanda Devi Raj Jat,UT,8,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Durga Puja,WB,10,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Kolkata Book Fair,WB,1,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Poush Mela, Santiniketan",WB,12,fair,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Gangasagar Mela,WB,1,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Island Tourism Festival,AN,1,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Chandigarh Carnival,CH,11,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Rose Festival, Chandigarh",CH,2,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Daman Tourism Festival,DD,1,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Republic Day Parade,DL,1,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Diwali,DL,11,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+International Mango Festival,DL,7,food,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Amarnath Yatra,JK,7,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Tulip Festival, Srinagar",JK,4,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Hemis Festival,LA,6,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Sindhu Darshan,LA,6,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Ladakh Festival,LA,9,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Lakshadweep Water Sports Festival,LD,3,adventure,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Puducherry Beach Festival,PY,1,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+"Bastille Day, Puducherry",PY,7,cultural,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
+Masi Magam,PY,2,religious,"SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",True
