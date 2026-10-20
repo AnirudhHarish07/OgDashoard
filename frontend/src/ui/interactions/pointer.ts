@@ -79,3 +79,8 @@ export function subscribePointer(fn: Listener): () => void {
     if (!listeners.size) detach();
   };
 }
+
+/** Number of active subscribers and whether the global listeners are attached (used by tests to prove cleanup). */
+export function pointerStats(): { subscribers: number; attached: boolean } {
+  return { subscribers: listeners.size, attached };
+}

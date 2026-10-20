@@ -3,6 +3,7 @@ import { useTrend } from '@/api/hooks';
 import { ChartCard } from './ChartCard';
 import { DataTable } from './DataTable';
 import { EChart, tooltipBase, useChartTheme, type ChartHandle } from './EChart';
+import { crosshair } from './fx';
 import { QueryBoundary, Skeleton } from '@/components/common/States';
 import { syntheticBadgeHtml } from '@/components/common/SyntheticBadge';
 import { escapeHtml, formatCount, formatCrore, formatPct, shortSource } from '@/lib/format';
@@ -28,7 +29,7 @@ function Chart({ resp, metric, chartRef }: { resp: TrendResponse; metric: Metric
       aria: { enabled: true, label: { description: 'Annual national tourism trend with the 2020 to 2021 COVID dip highlighted.' } },
       tooltip: {
         ...tooltipBase(t), trigger: 'axis',
-        axisPointer: { type: 'line', lineStyle: { color: t.saffron, type: 'dashed', width: 1.2 }, label: { show: false } },
+        axisPointer: crosshair(t),
         formatter: (p: unknown) => {
           const a = (p as { dataIndex: number }[])[0];
           const s = series[a.dataIndex];

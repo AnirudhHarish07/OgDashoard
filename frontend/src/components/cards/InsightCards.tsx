@@ -1,17 +1,13 @@
 import { useInsights } from '@/api/hooks';
-import { useUi } from '@/store/ui';
+import { useSharedHover } from '@/ui/interactions/useSharedHover';
 import { QueryBoundary, Skeleton } from '@/components/common/States';
 import { SyntheticBadge } from '@/components/common/SyntheticBadge';
 import type { InsightCard } from '@/api/types';
 
 function Card({ c }: { c: InsightCard }) {
-  const setHovered = useUi((s) => s.setHovered);
-  const code = c.state_codes[0] ?? null;
+  const { highlighted, bind } = useSharedHover(c.state_codes[0] ?? null);
   return (
-    <article
-      className="card group p-3.5 transition-transform duration-hover hover:-translate-y-0.5"
-      onMouseEnter={() => code && setHovered(code)} onMouseLeave={() => code && setHovered(null)}
-    >
+    <article {...bind} className={`card group p-3.5 transition-transform duration-hover hover:-translate-y-0.5 ${highlighted ? 'ring-1 ring-teal/60' : ''}`}>
       <div className="flex items-center justify-between gap-2">
         <h3 className="label !text-saffron">{c.title}</h3>
         <span className="flex items-center gap-1.5">

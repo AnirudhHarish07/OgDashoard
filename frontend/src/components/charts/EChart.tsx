@@ -6,6 +6,7 @@ import { AriaComponent, DataZoomComponent, GridComponent, LegendComponent, MarkA
 import { CanvasRenderer } from 'echarts/renderers';
 import { useUi } from '@/store/ui';
 import { CHART_PALETTE } from '@/lib/colour';
+import { highlightPlan } from './fx';
 
 echarts.use([BarChart, HeatmapChart, LineChart, PieChart, ScatterChart, AriaComponent, DataZoomComponent, GridComponent, LegendComponent, MarkAreaComponent, MarkLineComponent, MarkPointComponent, TooltipComponent, VisualMapComponent, CanvasRenderer]);
 
@@ -45,9 +46,12 @@ interface Props {
   ariaLabel: string;
   onEvents?: Record<string, (params: unknown) => void>;
   className?: string;
+  /** Per data item state code. Enables shared hover: hovering a point sets the store, and the store highlights the point. */
+  hoverCodes?: (string | null)[];
+  hoverSeries?: number;
 }
 
-export const EChart = forwardRef<ChartHandle, Props>(function EChart({ option, height, ariaLabel, onEvents, className = '' }, ref) {
+export const EChart = forwardRef<ChartHandle, Props>(function EChart({ option, height, ariaLabel, onEvents, className = '', hoverCodes, hoverSeries = 0 }, ref) {
   const el = useRef<HTMLDivElement>(null);
   const chart = useRef<echarts.ECharts | null>(null);
   const events = useRef(onEvents);
@@ -81,6 +85,31 @@ export const EChart = forwardRef<ChartHandle, Props>(function EChart({ option, h
     c.off('globalout');
     for (const name of ['click', 'mouseover', 'mouseout', 'globalout']) c.on(name, (p: unknown) => events.current?.[name]?.(p));
   }, [option]);
+
+  // shared hover: chart -> store
+  const codes = useRef(hoverCodes);
+  codes.current = hoverCodes;
+  useEffect(() => {
+    const c = chart.current;
+    if (!c || !hoverCodes) return;
+    const over = (p: { componentType?: string; dataIndex?: number }) => {
+      if (p.componentType === 'series' && p.dataIndex != null) useUi.getState().setHovered(codes.current?.[p.dataIndex] ?? null);
+    };
+    const out = () => useUi.getState().setHovered(null);
+    c.on('mouseover', over);
+    c.on('globalout', out);
+    return () => { c.off('mouseover', over); c.off('globalout', out); };
+  }, [option, hoverCodes]);
+
+  // shared hover: store -> chart (so a hovered map state or table row lights up its bar / bubble)
+  const hovered = useUi((s) => s.hovered);
+  useEffect(() => {
+    const c = chart.current;
+    if (!c || !hoverCodes) return;
+    c.dispatchAction({ type: 'downplay', seriesIndex: hoverSeries });
+    const { dataIndex } = highlightPlan(hoverCodes, hovered);
+    if (dataIndex != null) c.dispatchAction({ type: 'highlight', seriesIndex: hoverSeries, dataIndex });
+  }, [hovered, hoverCodes, hoverSeries, option]);
 
   return <div ref={el} role="img" aria-label={ariaLabel} className={className} style={{ height, width: '100%' }} />;
 });

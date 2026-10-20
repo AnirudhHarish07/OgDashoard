@@ -63,4 +63,26 @@ Further pages (comparison, drill-down, seasonality, economy, COVID, Ask the data
 
 ## Interaction and motion
 
-All pointer effects share one rAF-throttled pointer tracker (`src/ui/interactions/pointer.ts`) and one set of timing tokens (hover 200ms, transitions 500ms, fly-in 2s, one easing curve). They turn off with the header's motion toggle or `prefers-reduced-motion` (the fly-in becomes an instant jump). Preferences persist in `localStorage`.
+One shared module, `src/ui/interactions/`, drives every pointer effect:
+
+| Effect | Where | File |
+|---|---|---|
+| Custom cursor (dot + lerped ring, grows on clickable elements, shrinks on click) | every page | `Cursor.tsx` |
+| Ambient glow + particle field drifting toward the cursor | one canvas behind all pages | `Ambient.tsx` |
+| Spotlight (dark theme only) | every page | `Spotlight.tsx` |
+| 3D tilt (max 8 degrees) with a light sheen | KPI cards | `useTilt.ts` |
+| Magnetic button | Opening page CTA | `useMagnetic.ts` |
+| Multi-layer parallax | Opening page | `useParallax.ts` |
+| Sliding hover indicator | header navigation | `components/common/Layout.tsx` |
+| Shared hover (one hovered state lights up in every component) | map, tables, insight cards, charts | `useSharedHover.ts`, `charts/EChart.tsx` (`hoverCodes`) |
+| Chart hover effects (bar rise + glow with others dimmed, heatmap cell zoom, crosshair) | all charts | `components/charts/fx.ts` |
+
+Rules every effect follows:
+
+- **Tokens:** hover 200ms, transitions 500ms, fly-in 2s, one easing curve (`tokens.ts`, mirrored as CSS variables).
+- **Throttling:** a single `pointermove` listener (`pointer.ts`), delivered once per animation frame; only `transform` and `opacity` are animated.
+- **Off switches:** the header motion toggle (persisted in `localStorage`) and the OS `prefers-reduced-motion` setting turn off the cursor, ambient field, spotlight, tilt, magnetic, parallax and lerp, and make the fly-in an instant jump. Simple highlight states stay.
+- **Mouse only:** effects need a hover-capable fine pointer. This is a laptop dashboard, so there is no touch gesture handling.
+- **Cleanup:** all listeners and animation frames are released on unmount (`pointerStats()` is used by tests to prove it).
+
+Visual and motion checks run in headless Chromium: `npm run dev:mock`, then `node scripts/shoot.mjs` (screenshots) and `node scripts/verify-motion.mjs` (toggle, reduced motion, nav indicator, frame times).

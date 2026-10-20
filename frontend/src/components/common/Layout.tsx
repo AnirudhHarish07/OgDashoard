@@ -17,28 +17,30 @@ const NAV = [
 function Nav() {
   const { pathname, search } = useLocation();
   const root = useRef<HTMLElement>(null);
-  const [ind, setInd] = useState({ x: 0, w: 0, show: false });
+  const [target, setTarget] = useState<string | null>(null); // hovered / focused link path
+  const [ind, setInd] = useState({ x: 0, w: 0, show: false, hover: false });
   useLayoutEffect(() => {
     const measure = () => {
-      const a = root.current?.querySelector<HTMLElement>('[aria-current="page"]');
-      setInd(a ? { x: a.offsetLeft, w: a.offsetWidth, show: true } : { x: 0, w: 0, show: false });
+      const el = (target && root.current?.querySelector<HTMLElement>(`[data-path="${target}"]`)) || root.current?.querySelector<HTMLElement>('[aria-current="page"]');
+      setInd(el ? { x: el.offsetLeft, w: el.offsetWidth, show: true, hover: !!target } : { x: 0, w: 0, show: false, hover: false });
     };
     measure();
     window.addEventListener('resize', measure);
     return () => window.removeEventListener('resize', measure);
-  }, [pathname]);
+  }, [pathname, target]);
   return (
-    <nav ref={root} aria-label="Main" className="relative flex items-center gap-1">
+    <nav ref={root} aria-label="Main" className="relative flex items-center gap-1" onMouseLeave={() => setTarget(null)} onBlur={() => setTarget(null)}>
       <span
-        aria-hidden
-        className="absolute bottom-0 left-0 h-0.5 w-[100px] origin-left rounded bg-saffron"
-        style={{ transform: `translateX(${ind.x}px) scaleX(${ind.w / 100})`, opacity: ind.show ? 1 : 0, transition: 'transform var(--t-base) var(--ease), opacity var(--t-hover)' }}
+        aria-hidden data-testid="nav-indicator"
+        className="absolute bottom-0 left-0 h-0.5 w-[100px] origin-left rounded"
+        style={{ background: ind.hover ? 'rgb(var(--teal))' : 'rgb(var(--saffron))', transform: `translateX(${ind.x}px) scaleX(${ind.w / 100})`, opacity: ind.show ? 1 : 0, transition: 'transform var(--t-hover) var(--ease), opacity var(--t-hover), background-color var(--t-hover)' }}
       />
       {NAV.map((n) => {
         const active = pathname === n.to || (n.to === '/overview' && pathname.startsWith('/state'));
         return (
           <Link
-            key={n.to} to={{ pathname: n.to, search }} aria-current={active ? 'page' : undefined}
+            key={n.to} to={{ pathname: n.to, search }} data-path={n.to} aria-current={active ? 'page' : undefined}
+            onMouseEnter={() => setTarget(n.to)} onFocus={() => setTarget(n.to)}
             className={`rounded-md px-3 py-4 text-sm transition-colors duration-hover ${active ? 'font-medium text-ink' : 'text-muted hover:text-ink'}`}
           >
             {n.label}
