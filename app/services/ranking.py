@@ -27,10 +27,10 @@ def scoped_rows(metric: str, year: int, f: Filters) -> list[dict]:
         out.append({
             "rank": int(r["scope_rank"]), "national_rank": None if pd.isna(r["rank"]) else int(r["rank"]),
             "state_code": r["state_code"], "state_name": r["state_name"], "region": r["region"],
-            "value": float(r["value"]), "display": r["display"],
+            "value": float(r["value"]), "display": None if pd.isna(r["display"]) else r["display"],
             "share_pct": round(float(r["value"]) / total * 100, 2) if total else None,
             "yoy_change": None if pd.isna(r["yoy_change"]) else float(r["yoy_change"]),
-            "yoy_display": r["yoy_display"], "is_synthetic": bool(r["is_synthetic"])})
+            "yoy_display": None if pd.isna(r["yoy_display"]) else r["yoy_display"], "is_synthetic": bool(r["is_synthetic"])})
     return out
 
 
