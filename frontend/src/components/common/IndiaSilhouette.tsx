@@ -43,3 +43,20 @@ export function IndiaSilhouette({ geo, className = '' }: { geo: GeoCollection | 
     </svg>
   );
 }
+
+/** Per-state SVG paths from the same geometry, for lightweight maps that don't need WebGL. */
+export function useStatePaths(geo: GeoCollection | undefined) {
+  return useMemo(() => {
+    if (!geo) return null;
+    const all = geo.features.map((f) => rings(f.geometry as { type?: unknown; coordinates?: unknown }));
+    let minx = Infinity, miny = Infinity, maxx = -Infinity, maxy = -Infinity;
+    for (const rs of all) for (const r of rs) for (const [x, y] of r) { minx = Math.min(minx, x); maxx = Math.max(maxx, x); miny = Math.min(miny, y); maxy = Math.max(maxy, y); }
+    const k = Math.cos((((miny + maxy) / 2) * Math.PI) / 180);
+    const w = (maxx - minx) * k, h = maxy - miny, s = 1000 / Math.max(w, h);
+    const states = geo.features.map((f, i) => ({
+      code: f.properties.state_code, name: f.properties.state_name,
+      d: all[i].map((r) => 'M' + r.map(([x, y]) => `${((x - minx) * k * s).toFixed(1)} ${((maxy - y) * s).toFixed(1)}`).join('L') + 'Z').join(''),
+    }));
+    return { states, width: w * s, height: h * s };
+  }, [geo]);
+}

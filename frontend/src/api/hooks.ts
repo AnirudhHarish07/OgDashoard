@@ -102,3 +102,23 @@ export const useEconomy = () => useEndpoint('/api/economy', { mode: 'year', cros
 export const useDemandCapacity = () => useEndpoint('/api/infrastructure/demand-capacity', { mode: 'year', crossFilter: false });
 export const useOccupancy = () => useEndpoint('/api/infrastructure/occupancy-trend', { mode: 'range', crossFilter: false });
 export const useCovid = () => useEndpoint('/api/covid/recovery', { mode: 'year', crossFilter: false });
+
+// ---- analytics (explicit params: a forecast / anomaly lookup is about one state and ignores the page filters) ----
+export function useForecast(code: string | null, metric: string, years: number, confidence = 0.95) {
+  return useQuery({
+    queryKey: ['forecast', code, metric, years, confidence],
+    queryFn: ({ signal }) => apiGet('/api/forecast', { state: code, metric, years, confidence, include_synthetic: true }, signal),
+    enabled: !!code,
+    placeholderData: (prev) => prev,
+  });
+}
+
+export function useAnomalies(codes: string[], metric = 'total_visits') {
+  const key = [...codes].sort().join(',');
+  return useQuery({
+    queryKey: ['anomalies', metric, key],
+    queryFn: ({ signal }) => apiGet('/api/anomalies', { metric, states: key, threshold: 2, limit: 200, include_synthetic: true }, signal),
+    enabled: codes.length > 0,
+    staleTime: 10 * 60_000,
+  });
+}

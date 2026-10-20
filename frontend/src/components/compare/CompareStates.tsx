@@ -1,5 +1,6 @@
 import { useRef } from 'react';
-import { useCompare, useRankings } from '@/api/hooks';
+import { useAnomalies, useCompare, useRankings } from '@/api/hooks';
+import { anomalyLegend, anomalyMarkPoint } from '@/components/charts/anomaly';
 import type { CompareResponse } from '@/api/types';
 import { ChartCard } from '@/components/charts/ChartCard';
 import { EChart, tooltipBase, useChartTheme, type ChartHandle } from '@/components/charts/EChart';
@@ -19,6 +20,8 @@ function Side({ resp }: { resp: CompareResponse }) {
   const t = useChartTheme();
   const { states, metrics, series, year } = resp.data;
   const src = resp.meta.data_sources[0];
+  const an = useAnomalies(states.map((s) => s.state_code));
+  const flagged = an.data?.data.anomalies ?? [];
   const years = series[states[0].state_code].map((p) => String(p.year));
   const option = {
     grid: { left: 64, right: 16, top: 28, bottom: 26 },
@@ -30,7 +33,8 @@ function Side({ resp }: { resp: CompareResponse }) {
     xAxis: { type: 'category', data: years, boundaryGap: false, axisLabel: { color: t.muted }, axisLine: { lineStyle: { color: t.line } }, axisTick: { show: false } },
     yAxis: { type: 'value', splitLine: { lineStyle: { color: t.lineSoft } }, axisLabel: { color: t.muted, formatter: (v: number) => formatCount(v) ?? '' } },
     series: states.map((s, i) => ({ name: s.state_name, type: 'line', smooth: 0.2, symbolSize: 6, lineStyle: { width: 2.5, color: t.palette[i] }, itemStyle: { color: t.palette[i] },
-      emphasis: { focus: 'series' }, data: series[s.state_code].map((p) => p.total_visits) })),
+      emphasis: { focus: 'series' }, data: series[s.state_code].map((p) => p.total_visits),
+      markPoint: anomalyMarkPoint(t, flagged.filter((a) => a.state_code === s.state_code), (a) => series[s.state_code].find((p) => p.year === a.year)?.total_visits ?? null, src) })),
   };
   return (
     <div className="grid grid-cols-5 gap-4">
@@ -65,7 +69,10 @@ function Side({ resp }: { resp: CompareResponse }) {
         </table>
         <p className="px-3 pt-2 text-[11px] text-faint"><span className="text-saffron">★</span> marks the leader on each metric (for rank, the lowest number). YoY is blank across the J&amp;K/Ladakh boundary change.</p>
       </div>
-      <div className="col-span-2"><EChart option={option} height={330} ariaLabel="Line chart of total visits by year for the compared states" /></div>
+      <div className="col-span-2">
+        <EChart option={option} height={330} ariaLabel="Line chart of total visits by year for the compared states" />
+        {flagged.length > 0 && <p className="px-2 pt-1 text-[11px] text-muted">{anomalyLegend}. Hover a marker for the values behind it.</p>}
+      </div>
     </div>
   );
 }

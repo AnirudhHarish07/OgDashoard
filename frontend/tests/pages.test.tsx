@@ -270,6 +270,7 @@ describe('state drill-down page', () => {
     renderApp(<StatePage />, { path: '/state/ga', route: '/state/:code' });
     expect(document.querySelector('.skeleton')).toBeTruthy(); // skeletons while loading
     await screen.findByRole('heading', { level: 1, name: 'Goa' });
-    expect(document.querySelector('.skeleton')).toBeNull();
+    // the forecast and anomaly flags load in their own requests: all skeletons clear once they arrive
+    await waitFor(() => expect(document.querySelector('.skeleton')).toBeNull());
   });
 });

@@ -26,3 +26,6 @@ export type DemandResponse = S['Envelope_DemandCapacityData_'];
 export type OccupancyResponse = S['Envelope_OccupancyData_'];
 export type CovidResponse = S['Envelope_CovidData_'];
 export type StateDetail = S['StateDetail'];
+export type ForecastResponse = S['Envelope_ForecastData_'];
+export type AnomalyResponse = S['Envelope_AnomalyData_'];
+export type Anomaly = S['Anomaly'];

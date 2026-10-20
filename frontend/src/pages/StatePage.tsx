@@ -4,6 +4,7 @@ import { ApiError } from '@/api/client';
 import { PageHeader } from '@/components/common/PageHeader';
 import { ErrorState, Skeleton } from '@/components/common/States';
 import { SyntheticBadge } from '@/components/common/SyntheticBadge';
+import { ForecastSection } from '@/components/state/ForecastSection';
 import { BackLink, HotelInfra, KpiGrid, ProfileCard, RankHistory, SeasonalitySection, SourceCountries, TopAttractions, TrendSection } from '@/components/state/sections';
 import { useFilters } from '@/store/filters';
 
@@ -55,6 +56,7 @@ export default function StatePage() {
             <div className="col-span-2"><SeasonalitySection d={d} src={src} code={upper} params={params} /></div>
             <RankHistory d={d} src={src} code={upper} params={params} />
           </div>
+          <ForecastSection code={upper} />
         </>
       )}
     </div>

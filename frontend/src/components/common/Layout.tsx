@@ -1,9 +1,10 @@
-import { Suspense, useLayoutEffect, useRef, useState } from 'react';
+import { Suspense, useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import { useUi } from '@/store/ui';
 import { useMotionEnabled, useHtmlClasses, Ambient, Cursor, Spotlight } from '@/ui/interactions';
 import { FilterBar } from '@/components/filters/FilterBar';
 import { WakingBanner } from './WakingBanner';
+import { AskDrawer } from '@/components/ask/AskDrawer';
 import { Skeleton } from './States';
 
 const NAV = [
@@ -65,6 +66,8 @@ export function Header() {
   const motion = useUi((s) => s.motion);
   const setMotion = useUi((s) => s.setMotion);
   const effective = useMotionEnabled();
+  const askOpen = useUi((s) => s.askOpen);
+  const setAskOpen = useUi((s) => s.setAskOpen);
   const { search } = useLocation();
   return (
     <header className="sticky top-0 z-50 border-b border-line/70 bg-bg/85 backdrop-blur-md">
@@ -77,6 +80,10 @@ export function Header() {
         </Link>
         <Nav />
         <div className="ml-auto flex items-center gap-2">
+          <button type="button" className="btn h-9 gap-2 border-teal/50 bg-teal/10 text-sm" aria-haspopup="dialog" aria-expanded={askOpen} onClick={() => setAskOpen(!askOpen)} title="Ask the data (Ctrl+K)">
+            <svg aria-hidden width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z" /></svg>
+            Ask the data <kbd className="rounded border border-line px-1 text-[10px] text-faint">Ctrl K</kbd>
+          </button>
           <IconButton label={motion ? 'Motion effects on (click to turn off)' : 'Motion effects off (click to turn on)'} pressed={motion} onClick={() => setMotion(!motion)}>
             <svg aria-hidden width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" className={effective ? 'text-teal' : 'text-faint'}>
               <path d="M3 12c3-6 6-6 9 0s6 6 9 0" />{!effective && <path d="M4 20 20 4" />}
@@ -117,6 +124,17 @@ function PageFallback() {
 
 export function Layout() {
   useHtmlClasses();
+  useEffect(() => {
+    const key = (e: KeyboardEvent) => {
+      const typing = e.target instanceof HTMLElement && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName);
+      if ((e.key.toLowerCase() === 'k' && (e.ctrlKey || e.metaKey)) || (e.key === '/' && !typing)) {
+        e.preventDefault();
+        useUi.getState().setAskOpen(!useUi.getState().askOpen);
+      }
+    };
+    window.addEventListener('keydown', key);
+    return () => window.removeEventListener('keydown', key);
+  }, []);
   const { pathname } = useLocation();
   return (
     <div className="relative min-h-screen">
@@ -133,6 +151,7 @@ export function Layout() {
           </Suspense>
         </main>
         <Footer />
+        <AskDrawer />
       </div>
     </div>
   );

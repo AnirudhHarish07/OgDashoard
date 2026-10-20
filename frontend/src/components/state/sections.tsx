@@ -10,6 +10,8 @@ import { EmptyState } from '@/components/common/States';
 import { SyntheticBadge } from '@/components/common/SyntheticBadge';
 import type { Query } from '@/api/client';
 import { formatCount, formatNumber, formatPct } from '@/lib/format';
+import { useAnomalies } from '@/api/hooks';
+import { anomalyLegend, anomalyList, anomalyMarkPoint } from '@/components/charts/anomaly';
 
 interface P { d: StateDetail; src: string | undefined; code: string; params: Query }
 
@@ -58,6 +60,8 @@ export function TrendSection({ d, src, code, params }: P) {
   const t = useChartTheme();
   const chart = useRef<ChartHandle>(null);
   const tr = d.trend;
+  const an = useAnomalies([code]);
+  const flagged = useMemo(() => an.data?.data.anomalies ?? [], [an.data]);
   const option = useMemo(() => ({
     grid: { left: 64, right: 64, top: 30, bottom: 28 },
     legend: { top: 0, textStyle: { color: t.muted }, icon: 'roundRect' },
@@ -73,19 +77,21 @@ export function TrendSection({ d, src, code, params }: P) {
     ],
     series: [
       { name: 'Domestic visits', type: 'line', smooth: 0.2, symbolSize: 6, yAxisIndex: 0, lineStyle: { width: 3, color: t.teal }, itemStyle: { color: t.teal }, emphasis: { focus: 'series' },
-        areaStyle: { color: { type: 'linear', x: 0, y: 0, x2: 0, y2: 1, colorStops: [{ offset: 0, color: t.theme === 'dark' ? 'rgba(45,212,191,.25)' : 'rgba(13,125,116,.22)' }, { offset: 1, color: 'rgba(45,212,191,0)' }] } }, data: tr.map((p) => p.domestic_visits) },
+        areaStyle: { color: { type: 'linear', x: 0, y: 0, x2: 0, y2: 1, colorStops: [{ offset: 0, color: t.theme === 'dark' ? 'rgba(45,212,191,.25)' : 'rgba(13,125,116,.22)' }, { offset: 1, color: 'rgba(45,212,191,0)' }] } }, data: tr.map((p) => p.domestic_visits),
+        markPoint: anomalyMarkPoint(t, flagged, (a) => tr.find((p) => p.year === a.year)?.domestic_visits ?? null, src) },
       { name: 'Foreign visits', type: 'line', smooth: 0.2, symbolSize: 6, symbol: 'diamond', yAxisIndex: 1, lineStyle: { width: 3, color: t.saffron, type: 'solid' }, itemStyle: { color: t.saffron }, emphasis: { focus: 'series' }, data: tr.map((p) => p.foreign_visits) },
     ],
-  }), [tr, src, t]);
+  }), [tr, flagged, src, t]);
   return (
     <ChartCard title="Domestic vs foreign visits" subtitle="Separate axes, since domestic volumes are far larger" chart={chart} view="trend" params={{ ...params, states: code }}
       table={<DataTable caption="Domestic and foreign visits by year" rows={tr} columns={[{ key: 'y', label: 'Year', render: (r) => r.year }, { key: 'd', label: 'Domestic', align: 'right', render: (r) => r.domestic_display }, { key: 'dy', label: 'YoY', align: 'right', render: (r) => formatPct(r.yoy_domestic_pct, true) ?? 'n/a' }, { key: 'f', label: 'Foreign', align: 'right', render: (r) => r.foreign_display }, { key: 'fy', label: 'YoY', align: 'right', render: (r) => formatPct(r.yoy_foreign_pct, true) ?? 'n/a' }]} />}>
       {tr.length ? <EChart ref={chart} option={option} height={310} ariaLabel="Line chart of domestic and foreign visits by year" /> : <EmptyState hint="No yearly data for this state." />}
+      {flagged.length > 0 && <p className="px-2 pt-1 text-[11px] text-muted" role="status"><span className="font-medium text-saffron">Flagged: </span>{anomalyList(flagged)}. <span className="text-faint">{anomalyLegend}.</span></p>}
     </ChartCard>
   );
 }
 
-export function SourceCountries({ d, src }: P) {
+export function SourceCountries({ d, src, code }: P) {
   const t = useChartTheme();
   const chart = useRef<ChartHandle>(null);
   const cs = d.source_countries;
@@ -99,14 +105,14 @@ export function SourceCountries({ d, src }: P) {
       label: { show: true, position: 'right', color: t.ink, fontSize: 11, formatter: (p: { dataIndex: number }) => `${cs[p.dataIndex].share_pct ?? ''}%` }, ...barFx(t) }],
   }), [cs, src, t]);
   return (
-    <ChartCard title="Top foreign source countries" subtitle="Share of the state's foreign visits" chart={chart}
+    <ChartCard title="Top foreign source countries" subtitle="Share of the state's foreign visits" chart={chart} csv={{ name: `${code}-source-countries`, source: src, rows: cs.map((c) => ({ country: c.country, foreign_visits: c.foreign_visits, share_pct: c.share_pct, is_other: c.is_other, is_synthetic: c.is_synthetic })) }}
       table={<DataTable caption="Foreign visits by source country" rows={cs} columns={[{ key: 'c', label: 'Country', render: (r) => r.country + (r.is_other ? ' (all others)' : '') }, { key: 'v', label: 'Visits', align: 'right', render: (r) => r.display }, { key: 's', label: 'Share', align: 'right', render: (r) => (r.share_pct != null ? `${r.share_pct}%` : 'n/a') }]} />}>
       {cs.length ? <EChart ref={chart} option={option} height={310} ariaLabel="Bar chart of foreign visits by source country" /> : <EmptyState hint="No source-country data for this state and year." />}
     </ChartCard>
   );
 }
 
-export function TopAttractions({ d, src }: P) {
+export function TopAttractions({ d, src, code }: P) {
   const t = useChartTheme();
   const chart = useRef<ChartHandle>(null);
   const at = d.top_attractions;
@@ -120,14 +126,14 @@ export function TopAttractions({ d, src }: P) {
       label: { show: true, position: 'right', color: t.ink, fontSize: 11, formatter: (p: { dataIndex: number }) => at[p.dataIndex].footfall_display ?? '' }, ...barFx(t) }],
   }), [at, src, t]);
   return (
-    <ChartCard title="Top attractions by footfall" subtitle="Single-year snapshot. ★ = UNESCO site" chart={chart}
+    <ChartCard title="Top attractions by footfall" subtitle="Single-year snapshot. ★ = UNESCO site" chart={chart} csv={{ name: `${code}-attractions`, source: src, rows: at.map((a) => ({ name: a.name, type: a.type, annual_footfall: a.annual_footfall, footfall_year: a.footfall_year, is_unesco: a.is_unesco, is_asi_protected: a.is_asi_protected, is_synthetic: a.is_synthetic })) }}
       table={<DataTable caption="Top attractions" rows={at} columns={[{ key: 'n', label: 'Attraction', render: (r) => r.name }, { key: 't', label: 'Type', render: (r) => r.type }, { key: 'u', label: 'UNESCO', render: (r) => (r.is_unesco ? 'Yes' : '') }, { key: 'f', label: `Footfall`, align: 'right', render: (r) => r.footfall_display }]} />}>
       {at.length ? <EChart ref={chart} option={option} height={310} ariaLabel="Bar chart of top attractions by annual footfall" /> : <EmptyState hint="No attractions listed for this state." />}
     </ChartCard>
   );
 }
 
-export function HotelInfra({ d, src }: P) {
+export function HotelInfra({ d, src, code }: P) {
   const t = useChartTheme();
   const chart = useRef<ChartHandle>(null);
   const h = d.hotel_infrastructure;
@@ -153,7 +159,7 @@ export function HotelInfra({ d, src }: P) {
   }), [h, src, t]);
   const tile = (k: string, v: string | number | null) => <div className="rounded-lg border border-line/70 bg-raised/60 p-2.5"><p className="label !text-[10px]">{k}</p><p className="num mt-0.5 text-lg font-semibold">{v ?? 'n/a'}</p></div>;
   return (
-    <ChartCard title="Hotel infrastructure" subtitle={h ? `${h.year}` : undefined} chart={chart} synthetic={h?.is_synthetic ?? true}
+    <ChartCard title="Hotel infrastructure" subtitle={h ? `${h.year}` : undefined} chart={chart} synthetic={h?.is_synthetic ?? true} csv={h ? { name: `${code}-hotels`, source: src, rows: (h.star_mix as { class: string; hotels: number; share_pct: number | null }[]).map((m) => ({ year: h.year, class: m.class, hotels: m.hotels, share_pct: m.share_pct, hotel_rooms: h.hotel_rooms, occupancy_rate: h.occupancy_rate, is_synthetic: h.is_synthetic })) } : undefined}
       table={h && <DataTable caption="Hotel infrastructure" rows={h.star_mix as { class: string; hotels: number; share_pct: number | null }[]} columns={[{ key: 'c', label: 'Class', render: (r) => r.class }, { key: 'h', label: 'Hotels', align: 'right', render: (r) => formatNumber(r.hotels) }, { key: 's', label: 'Share', align: 'right', render: (r) => (r.share_pct != null ? `${r.share_pct}%` : 'n/a') }]} />}>
       {!h ? <EmptyState hint="No hotel data for this state and year." /> : (
         <div className="space-y-3">
@@ -212,7 +218,7 @@ export function SeasonalitySection({ d, src, code, params }: P) {
   );
 }
 
-export function RankHistory({ d, src }: P) {
+export function RankHistory({ d, src, code }: P) {
   const t = useChartTheme();
   const chart = useRef<ChartHandle>(null);
   const h = d.rank_history;
@@ -229,7 +235,7 @@ export function RankHistory({ d, src }: P) {
     ],
   }), [h, src, t]);
   return (
-    <ChartCard title="Rank history" subtitle="Among all states and UTs (1 = highest)" chart={chart}
+    <ChartCard title="Rank history" subtitle="Among all states and UTs (1 = highest)" chart={chart} csv={{ name: `${code}-rank-history`, source: src, rows: h.map((r) => ({ year: r.year, rank_total_visits: r.rank_total_visits, total_visits: r.total_visits, rank_revenue: r.rank_revenue, is_synthetic: r.is_synthetic })) }}
       table={<DataTable caption="Rank history" rows={h} columns={[{ key: 'y', label: 'Year', render: (r) => r.year }, { key: 'v', label: 'Rank by visits', align: 'right', render: (r) => `#${r.rank_total_visits}` }, { key: 'r', label: 'Rank by revenue', align: 'right', render: (r) => (r.rank_revenue != null ? `#${r.rank_revenue}` : 'n/a') }]} />}>
       {h.length ? <EChart ref={chart} option={option} height={300} ariaLabel="Line chart of rank by total visits and revenue over time" /> : <EmptyState hint="No rank history for this state." />}
     </ChartCard>

@@ -34,6 +34,9 @@ interface UiState {
   crossFilter: string | null;
   /** true when the first API request has been pending for more than ~3 s */
   waking: boolean;
+  /** the "Ask the data" drawer */
+  askOpen: boolean;
+  setAskOpen: (open: boolean) => void;
   setTheme: (t: Theme) => void;
   toggleTheme: () => void;
   setMotion: (m: boolean) => void;
@@ -48,6 +51,8 @@ export const useUi = create<UiState>((set, get) => ({
   hovered: null,
   crossFilter: null,
   waking: false,
+  askOpen: false,
+  setAskOpen: (askOpen) => set({ askOpen }),
   setTheme: (theme) => {
     write(LS.theme, theme);
     set({ theme });

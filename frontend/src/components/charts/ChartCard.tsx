@@ -1,7 +1,7 @@
 import { useRef, useState, type ReactNode, type RefObject } from 'react';
 import { toPng } from 'html-to-image';
 import type { Query } from '@/api/client';
-import { ExportMenu } from './ExportMenu';
+import { ExportMenu, type CsvRows } from './ExportMenu';
 import type { ChartHandle } from './EChart';
 import { SyntheticBadge } from '@/components/common/SyntheticBadge';
 
@@ -13,8 +13,8 @@ function download(url: string, name: string) {
 }
 
 /** Card chrome shared by every chart: title, controls, export menu, table fallback toggle. */
-export function ChartCard({ title, subtitle, view, params, chart, synthetic = true, controls, table, children, footer, className = '', bodyClass = '' }: {
-  title: string; subtitle?: string; view?: string; params?: Query; chart?: RefObject<ChartHandle>; synthetic?: boolean;
+export function ChartCard({ title, subtitle, view, params, csv, chart, synthetic = true, controls, table, children, footer, className = '', bodyClass = '' }: {
+  title: string; subtitle?: string; view?: string; params?: Query; csv?: CsvRows; chart?: RefObject<ChartHandle>; synthetic?: boolean;
   controls?: ReactNode; table?: ReactNode; children: ReactNode; footer?: ReactNode; className?: string; bodyClass?: string;
 }) {
   const card = useRef<HTMLElement>(null);
@@ -38,7 +38,7 @@ export function ChartCard({ title, subtitle, view, params, chart, synthetic = tr
             {asTable ? 'Chart' : 'Table'}
           </button>
         )}
-        <ExportMenu view={view} params={params} onPng={onPng} />
+        <ExportMenu view={view} params={params} onPng={onPng} csv={csv} />
       </header>
       <div className={`min-h-0 flex-1 px-3 pb-3 ${bodyClass}`}>{asTable && table ? table : children}</div>
       {footer && <footer className="border-t border-line/60 px-4 py-2 text-xs text-muted">{footer}</footer>}
