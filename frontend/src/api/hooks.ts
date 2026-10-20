@@ -80,3 +80,25 @@ export function useStateDetail(code: string | null) {
     placeholderData: (prev) => prev,
   });
 }
+
+// ---- comparison ----------------------------------------------------------------------------------
+export const useRankings = (metric: string, order: 'top' | 'bottom', n = 10) =>
+  useEndpoint('/api/rankings', { mode: 'year', crossFilter: false, extra: { metric, order, n } });
+export const useRace = (metric: string, n = 10) => useEndpoint('/api/rankings/race', { mode: 'range', crossFilter: false, extra: { metric, n } });
+export const useScatter = () => useEndpoint('/api/scatter', { mode: 'year', crossFilter: false });
+/** Compare needs exactly 2-3 states; `states` is passed explicitly and replaces the filter selection. */
+export function useCompare(codes: string[]) {
+  const ok = codes.length >= 2 && codes.length <= 3;
+  return useEndpoint('/api/compare', { mode: 'year', crossFilter: false, enabled: ok, extra: { states: codes.join(',') } });
+}
+
+// ---- seasonality ----------------------------------------------------------------------------------
+export const useHeatmap = () => useEndpoint('/api/seasonality/heatmap', { mode: 'year', crossFilter: false });
+export const useByType = () => useEndpoint('/api/seasonality/by-type', { mode: 'year', crossFilter: false });
+export const useFestivals = () => useEndpoint('/api/festivals', { mode: 'none', crossFilter: false });
+
+// ---- economy / infrastructure / covid --------------------------------------------------------------
+export const useEconomy = () => useEndpoint('/api/economy', { mode: 'year', crossFilter: false });
+export const useDemandCapacity = () => useEndpoint('/api/infrastructure/demand-capacity', { mode: 'year', crossFilter: false });
+export const useOccupancy = () => useEndpoint('/api/infrastructure/occupancy-trend', { mode: 'range', crossFilter: false });
+export const useCovid = () => useEndpoint('/api/covid/recovery', { mode: 'year', crossFilter: false });

@@ -21,7 +21,7 @@ export function KpiCard({ kpi, previousYear, highlight = false }: { kpi: Kpi; pr
       <div data-sheen aria-hidden className="pointer-events-none absolute -inset-1/2 opacity-0 transition-opacity duration-hover" style={{ background: 'radial-gradient(circle at 50% 50%, rgb(var(--ink) / 0.10), transparent 40%)' }} />
       <div className="flex items-start justify-between gap-2">
         <span className="label">{kpi.label}</span>
-        <SyntheticBadge show={kpi.is_synthetic} compact />
+        <SyntheticBadge show={kpi.is_synthetic} compact align="right" />
       </div>
       <div className="mt-2 text-[28px] font-semibold leading-none tracking-tight">
         {kpi.display ? <CountUp display={kpi.display} /> : <span className="text-base font-normal text-muted">Not available</span>}

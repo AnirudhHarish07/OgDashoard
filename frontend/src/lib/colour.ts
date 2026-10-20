@@ -70,3 +70,11 @@ export const CHART_PALETTE: Record<Theme, string[]> = {
   dark: ['#5eead4', '#fbbf24', '#818cf8', '#fb923c', '#f472b6', '#a3e635', '#38bdf8', '#e879f9'],
   light: ['#0f766e', '#b45309', '#4338ca', '#c2410c', '#be185d', '#4d7c0f', '#0369a1', '#a21caf'],
 };
+
+const REGIONS = ['North', 'South', 'East', 'West', 'Central', 'North-East', 'Islands'];
+/** Stable colour per region, so a state keeps its colour across charts (the region is always also shown as text). */
+export function regionColour(theme: Theme, region: string): string {
+  const i = REGIONS.indexOf(region);
+  return CHART_PALETTE[theme][i >= 0 ? i : CHART_PALETTE[theme].length - 1];
+}
+export const REGION_LIST = REGIONS;

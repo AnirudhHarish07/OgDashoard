@@ -24,7 +24,7 @@ export function ExportMenu({ view, params, onPng }: { view?: string; params?: Qu
       {open && (
         <div role="menu" className="card absolute right-0 top-full z-50 mt-1 w-60 p-1.5">
           {csvOff ? (
-            <span role="menuitem" aria-disabled className={`${item} cursor-not-allowed text-faint`} title={USE_MOCKS ? 'CSV export needs the live backend' : undefined}>CSV (needs live backend)</span>
+            <span role="menuitem" aria-disabled className={`${item} cursor-not-allowed text-faint`} title={USE_MOCKS ? 'CSV export needs the live backend' : undefined}>{USE_MOCKS ? 'CSV (needs live backend)' : 'CSV not available for this chart'}</span>
           ) : (
             <a role="menuitem" className={item} href={exportUrl(view as string, params ?? {})} download onClick={() => setOpen(false)}>CSV · includes is_synthetic, data_source</a>
           )}

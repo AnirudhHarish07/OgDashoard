@@ -48,18 +48,30 @@ scripts/shoot.mjs optional headless-Chromium screenshots for visual checks
 
 ## Component to endpoint map
 
-| Component | Endpoint |
+| Page / component | Endpoint |
 |---|---|
 | Filter bar (years, states, region, type, visitors) | `/api/filters` |
 | Opening page hero + silhouette | `/api/overview/kpis`, `/api/geo/states` |
-| KPI cards | `/api/overview/kpis` |
+| Overview KPI cards | `/api/overview/kpis` |
 | HeroMap (choropleth, top 10, 3D, fly-in, labels) | `/api/geo/states`, `/api/map` |
-| Map state panel | `/api/states/{code}` |
+| Map state panel, `/state/:code` drill-down (profile, KPIs, trend, source countries, attractions, hotels, seasonality, festivals, rank history) | `/api/states/{code}` |
 | National trend chart | `/api/overview/trend` |
 | Insight cards | `/api/insights` |
-| Export menu (CSV) | `/api/export` |
+| Compare: top/bottom ranking | `/api/rankings` |
+| Compare: bar chart race | `/api/rankings/race` |
+| Compare: side-by-side states | `/api/compare` (+ `/api/rankings` for the default top 3) |
+| Compare: crowds vs spending scatter | `/api/scatter` |
+| Seasonality: state x month heatmap | `/api/seasonality/heatmap` |
+| Seasonality: curves by tourism type + festival calendar | `/api/seasonality/by-type`, `/api/festivals` |
+| Economy: GSDP share, revenue per tourist, forex | `/api/economy` |
+| Economy: demand vs capacity, under-served states | `/api/infrastructure/demand-capacity` |
+| Economy: occupancy trends | `/api/infrastructure/occupancy-trend` |
+| COVID recovery | `/api/covid/recovery` |
+| Export menu (CSV) on every chart | `/api/export` |
 
-Further pages (comparison, drill-down, seasonality, economy, COVID, Ask the data, forecast, anomaly flags) are added in later steps and listed here as they land.
+Mock mode (`npm run dev:mock`) serves static samples that ignore filters. The festivals sample holds October events only (it was generated with `?month=10`), so the festival list looks short there; the live API returns all 108.
+
+Checks: `node scripts/verify-pages.mjs` (26 browser behaviour checks), `node scripts/shoot-pages.mjs` (full-page screenshots), both against `npm run dev:mock`.
 
 ## Interaction and motion
 

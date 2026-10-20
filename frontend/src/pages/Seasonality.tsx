@@ -1,10 +1,13 @@
+import { PageHeader } from '@/components/common/PageHeader';
+import { Heatmap } from '@/components/seasonality/Heatmap';
+import { TypeCurves } from '@/components/seasonality/TypeCurves';
+
 export default function Seasonality() {
   return (
-    <div className="mx-auto max-w-[1600px] px-6 py-8">
-      <div className="card p-10 text-center">
-        <h1 className="text-xl font-semibold">Seasonality</h1>
-        <p className="mt-2 text-sm text-muted">This page is built in a later step.</p>
-      </div>
+    <div className="mx-auto max-w-[1600px] space-y-5 px-6 py-5">
+      <PageHeader title="Seasonality" subtitle="Which months each state and each kind of tourism peaks in, and which festivals fall near those peaks." />
+      <Heatmap />
+      <TypeCurves />
     </div>
   );
 }

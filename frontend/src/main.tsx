@@ -7,6 +7,11 @@ import { BrowserRouter } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import App from './App';
 import { ApiError } from '@/api/client';
+import { useFilters } from '@/store/filters';
+import { useUi } from '@/store/ui';
+
+// dev-only handles used by scripts/verify-pages.mjs
+if (import.meta.env.DEV) Object.assign(window, { __ui: useUi, __filters: useFilters });
 
 const queryClient = new QueryClient({
   defaultOptions: {
