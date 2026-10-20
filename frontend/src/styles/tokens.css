@@ -1,0 +1,43 @@
+/* Design tokens. Colours are "r g b" triples so Tailwind can apply alpha. */
+:root,
+[data-theme='dark'] {
+  --bg: 9 13 24;
+  --surface: 16 22 38;
+  --raised: 24 32 53;
+  --line: 44 56 82;
+  --ink: 233 237 245;
+  --muted: 161 172 193;
+  --faint: 118 129 152;
+  --saffron: 255 153 51;
+  --teal: 45 212 191;
+  --marigold: 251 191 36;
+  --indigo: 129 140 248;
+  --good: 74 222 128;
+  --bad: 251 146 60;
+  --shadow: 0 10px 40px -12px rgb(0 0 0 / 0.6);
+  color-scheme: dark;
+}
+[data-theme='light'] {
+  --bg: 243 245 250;
+  --surface: 255 255 255;
+  --raised: 249 250 253;
+  --line: 214 220 232;
+  --ink: 15 23 42;
+  --muted: 71 85 105;
+  --faint: 100 116 139;
+  --saffron: 194 90 5;
+  --teal: 13 125 116;
+  --marigold: 161 98 7;
+  --indigo: 67 56 202;
+  --good: 21 128 61;
+  --bad: 194 65 12;
+  --shadow: 0 10px 30px -14px rgb(30 41 59 / 0.25);
+  color-scheme: light;
+}
+:root {
+  /* Motion tokens (mirrored in src/ui/interactions/tokens.ts) */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-hover: 200ms;
+  --t-base: 500ms;
+  --t-fly: 2000ms;
+}

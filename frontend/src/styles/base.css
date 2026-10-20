@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root { min-height: 100%; }
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+    min-width: 1100px;
+    font-feature-settings: 'cv11', 'ss01';
+    transition: background-color var(--t-base) var(--ease), color var(--t-base) var(--ease);
+  }
+  .num, [data-num] { font-variant-numeric: tabular-nums lining-nums; }
+  :focus-visible { outline: 2px solid rgb(var(--teal)); outline-offset: 2px; border-radius: 6px; }
+  ::selection { background: rgb(var(--saffron) / 0.35); }
+  * { scrollbar-width: thin; scrollbar-color: rgb(var(--line)) transparent; }
+}
+
+@layer components {
+  .card {
+    @apply rounded-card border border-line/70 bg-surface/80 backdrop-blur-sm;
+    box-shadow: var(--shadow);
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-line bg-raised px-3 py-1 text-xs text-ink;
+    transition: transform var(--t-hover) var(--ease), border-color var(--t-hover) var(--ease), background-color var(--t-hover) var(--ease);
+  }
+  .chip:hover { transform: translateY(-1px); border-color: rgb(var(--teal) / 0.7); }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-line bg-raised px-3 py-1.5 text-sm text-ink;
+    transition: transform var(--t-hover) var(--ease), border-color var(--t-hover) var(--ease), background-color var(--t-hover) var(--ease);
+  }
+  .btn:hover { transform: translateY(-1px); border-color: rgb(var(--teal) / 0.7); }
+  .btn:active { transform: translateY(0) scale(0.98); }
+  .field {
+    @apply rounded-lg border border-line bg-raised px-2.5 py-1.5 text-sm text-ink;
+    transition: border-color var(--t-hover) var(--ease), transform var(--t-hover) var(--ease);
+  }
+  .field:hover { border-color: rgb(var(--teal) / 0.7); transform: translateY(-1px); }
+  .label { @apply text-[11px] font-medium uppercase tracking-wider text-faint; }
+  .skeleton {
+    @apply rounded-lg bg-line/50;
+    background-image: linear-gradient(100deg, transparent 20%, rgb(var(--ink) / 0.06) 50%, transparent 80%);
+    background-size: 200% 100%;
+    animation: shimmer 1.4s linear infinite;
+  }
+}
+
+@keyframes shimmer { from { background-position: 150% 0; } to { background-position: -50% 0; } }
+
+/* Custom cursor: only applied by the Cursor component (fine pointer + motion on). */
+html.fx-cursor, html.fx-cursor * { cursor: none !important; }
+html.fx-cursor input[type='text'], html.fx-cursor input[type='search'], html.fx-cursor textarea { cursor: text !important; }
+
+.maplibregl-canvas { outline: none; }
+.maplibregl-map { font-family: inherit; }
+
+/* Motion off: kill decorative transitions and animations, keep simple highlight states. */
+html.no-motion *, html.no-motion *::before, html.no-motion *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+}
+
+/* dual range slider thumbs */
+.range-thumb::-webkit-slider-thumb { pointer-events: auto; appearance: none; width: 16px; height: 16px; border-radius: 99px; background: rgb(var(--teal)); border: 2px solid rgb(var(--bg)); box-shadow: 0 0 0 1px rgb(var(--teal)); cursor: pointer; transition: transform 200ms var(--ease); }
+.range-thumb::-webkit-slider-thumb:hover { transform: scale(1.25); }
+.range-thumb::-moz-range-thumb { pointer-events: auto; width: 14px; height: 14px; border-radius: 99px; background: rgb(var(--teal)); border: 2px solid rgb(var(--bg)); cursor: pointer; }
+.range-thumb::-webkit-slider-runnable-track { background: transparent; }
+.range-thumb::-moz-range-track { background: transparent; }
