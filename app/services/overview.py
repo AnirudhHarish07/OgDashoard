@@ -31,7 +31,7 @@ def _sum(a: pd.DataFrame, year: int, col: str):
     return round(float(r[col].sum()), 2), bool(r["is_synthetic"].any()), set(r["state_code"])
 
 
-def _kpi(key, label, unit, cur, prev, syn, fmt, *, pct_points=False, note=None, **extra) -> dict:
+def make_kpi(key, label, unit, cur, prev, syn, fmt, *, pct_points=False, note=None, **extra) -> dict:
     cur_v, prev_v = cur, prev
     chg = None if cur_v is None or prev_v is None else round(cur_v - prev_v, 2)
     if pct_points:
@@ -67,15 +67,15 @@ def build_kpis(f: Filters) -> tuple[dict, list[bool]]:
         note = None
         if cur is not None and prev is not None and not comparable(codes, year):
             prev, note = None, "boundary_change: J&K/Ladakh split in 2019; previous year not comparable for this selection"
-        kpis.append(_kpi(key, label, "INR crore" if key == "revenue" else "visits", cur, prev, s1 or s2, fmt, note=note))
+        kpis.append(make_kpi(key, label, "INR crore" if key == "revenue" else "visits", cur, prev, s1 or s2, fmt, note=note))
     g, gs = _growth(a, year, vcol)
     gp, gps = _growth(a, year - 1, vcol)
-    kpis.append(_kpi("yoy_growth", "YoY growth of visits", "%", g, gp, gs or gps, lambda v: fmt_pct(v, signed=True),
+    kpis.append(make_kpi("yoy_growth", "YoY growth of visits", "%", g, gp, gs or gps, lambda v: fmt_pct(v, signed=True),
                      pct_points=True, note=None if g is not None else "not_available: no comparable previous year"))
     # top state
     cur = a[a["year"] == year]
     if cur.empty:
-        kpis.append(_kpi("top_state", "Top state", "visits", None, None, False, fmt_count, note="not_available"))
+        kpis.append(make_kpi("top_state", "Top state", "visits", None, None, False, fmt_count, note="not_available"))
     else:
         top = cur.sort_values([vcol, "state_code"], ascending=[False, True]).iloc[0]
         prv = a[a["year"] == year - 1]
@@ -83,7 +83,7 @@ def build_kpis(f: Filters) -> tuple[dict, list[bool]]:
         same = prv[(prv["state_code"] == top["state_code"]) & (prv["boundary_basis"] == top["boundary_basis"])]
         pv = float(same[vcol].iloc[0]) if not same.empty else None
         syn = bool(top["is_synthetic"] or (not same.empty and same["is_synthetic"].iloc[0]))
-        kpis.append(_kpi("top_state", "Top state", "visits", float(top[vcol]), pv, syn, fmt_count,
+        kpis.append(make_kpi("top_state", "Top state", "visits", float(top[vcol]), pv, syn, fmt_count,
                          state_code=top["state_code"], state_name=top["state_name"],
                          previous_state_code=None if ptop is None else ptop["state_code"],
                          share_pct=round(float(top[vcol]) / float(cur[vcol].sum()) * 100, 2)))

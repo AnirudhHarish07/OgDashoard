@@ -26,6 +26,8 @@ def frames() -> SimpleNamespace:
     annual["total_visits"] = annual["domestic_visits"] + annual["foreign_visits"]
     # derived: domestic revenue = total revenue - foreign (forex) spend
     annual["domestic_revenue_cr"] = annual["tourism_revenue_cr"] - annual["forex_earnings_cr"]
+    annual["revenue_per_tourist"] = annual["tourism_revenue_cr"] * 1e7 / annual["total_visits"]
+    annual["visits_per_1000"] = annual["total_visits"] / annual["population"] * 1000
     t["annual"] = annual
     t["table_counts"] = {n: len(t[n]) for n in TABLES}
     return SimpleNamespace(**t)
