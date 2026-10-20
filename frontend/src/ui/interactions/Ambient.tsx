@@ -19,7 +19,8 @@ export function Ambient() {
     const ctx = c.getContext('2d');
     if (!ctx) return;
     let w = 0, h = 0, raf = 0, last = performance.now();
-    const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+    // soft glow + sparse dots don't need full resolution: half-res and 30fps is ~8x cheaper than full-res at 60fps
+    const dpr = 0.5;
     const resize = () => {
       w = window.innerWidth;
       h = window.innerHeight;
@@ -38,6 +39,8 @@ export function Ambient() {
     const unsub = fx ? subscribePointer((s) => { target.x = s.x; target.y = s.y; }) : () => {};
     const dark = theme === 'dark';
     const draw = (now: number) => {
+      raf = requestAnimationFrame(draw);
+      if (now - last < 32) return;
       const dt = Math.min(0.05, (now - last) / 1000);
       last = now;
       const tt = now / 1000;
@@ -74,11 +77,10 @@ export function Ambient() {
         if (p.y > h + 10) p.y = -10;
         ctx.globalAlpha = p.a * (dark ? 1 : 0.7);
         ctx.beginPath();
-        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.arc(p.x, p.y, p.r * 1.4, 0, Math.PI * 2);
         ctx.fill();
       }
       ctx.globalAlpha = 1;
-      raf = requestAnimationFrame(draw);
     };
     const onVis = () => {
       cancelAnimationFrame(raf);
