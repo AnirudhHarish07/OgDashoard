@@ -1,0 +1,161 @@
+{
+  "data": {
+    "month": 10,
+    "events": [
+      {
+        "name": "Brahmotsavam, Tirumala",
+        "state_code": "AP",
+        "state_name": "Andhra Pradesh",
+        "region": "South",
+        "month": 10,
+        "month_name": "Oct",
+        "type": "religious",
+        "is_synthetic": true
+      },
+      {
+        "name": "Bastar Dussehra",
+        "state_code": "CG",
+        "state_name": "Chhattisgarh",
+        "region": "Central",
+        "month": 10,
+        "month_name": "Oct",
+        "type": "cultural",
+        "is_synthetic": true
+      },
+      {
+        "name": "Navratri Garba",
+        "state_code": "GJ",
+        "state_name": "Gujarat",
+        "region": "West",
+        "month": 10,
+        "month_name": "Oct",
+        "type": "music_dance",
+        "is_synthetic": true
+      },
+      {
+        "name": "Kullu Dussehra",
+        "state_code": "HP",
+        "state_name": "Himachal Pradesh",
+        "region": "North",
+        "month": 10,
+        "month_name": "Oct",
+        "type": "religious",
+        "is_synthetic": true
+      },
+      {
+        "name": "Mysuru Dasara",
+        "state_code": "KA",
+        "state_name": "Karnataka",
+        "region": "South",
+        "month": 10,
+        "month_name": "Oct",
+        "type": "cultural",
+        "is_synthetic": true
+      },
+      {
+        "name": "Bathukamma",
+        "state_code": "TS",
+        "state_name": "Telangana",
+        "region": "South",
+        "month": 10,
+        "month_name": "Oct",
+        "type": "cultural",
+        "is_synthetic": true
+      },
+      {
+        "name": "Durga Puja",
+        "state_code": "WB",
+        "state_name": "West Bengal",
+        "region": "East",
+        "month": 10,
+        "month_name": "Oct",
+        "type": "religious",
+        "is_synthetic": true
+      }
+    ],
+    "by_month": [
+      {
+        "month": 1,
+        "month_name": "Jan",
+        "count": 15
+      },
+      {
+        "month": 2,
+        "month_name": "Feb",
+        "count": 14
+      },
+      {
+        "month": 3,
+        "month_name": "Mar",
+        "count": 10
+      },
+      {
+        "month": 4,
+        "month_name": "Apr",
+        "count": 8
+      },
+      {
+        "month": 5,
+        "month_name": "May",
+        "count": 2
+      },
+      {
+        "month": 6,
+        "month_name": "Jun",
+        "count": 5
+      },
+      {
+        "month": 7,
+        "month_name": "Jul",
+        "count": 9
+      },
+      {
+        "month": 8,
+        "month_name": "Aug",
+        "count": 6
+      },
+      {
+        "month": 9,
+        "month_name": "Sep",
+        "count": 7
+      },
+      {
+        "month": 10,
+        "month_name": "Oct",
+        "count": 7
+      },
+      {
+        "month": 11,
+        "month_name": "Nov",
+        "count": 16
+      },
+      {
+        "month": 12,
+        "month_name": "Dec",
+        "count": 9
+      }
+    ]
+  },
+  "meta": {
+    "filters": {
+      "year": null,
+      "year_from": null,
+      "year_to": null,
+      "states": [],
+      "region": null,
+      "tourism_type": null,
+      "visitor_type": "all",
+      "include_synthetic": true
+    },
+    "data_sources": [
+      "SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",
+      "SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source); population = Census 2011 (approx.)"
+    ],
+    "synthetic_share": 100.0,
+    "record_count": 7,
+    "notes": [
+      "Festival names and months are hand-entered reference values, unverified.",
+      "year and visitor_type do not apply."
+    ]
+  }
+}

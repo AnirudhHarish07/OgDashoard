@@ -1,0 +1,178 @@
+name,state_code,type,is_unesco,is_asi_protected,tier
+Tirumala Venkateswara Temple,AP,religious,False,False,0
+Araku Valley,AP,hill,False,False,4
+Borra Caves,AP,nature,False,False,5
+Srisailam Temple,AP,religious,False,False,3
+Tawang Monastery,AR,religious,False,False,5
+Ziro Valley,AR,nature,False,False,5
+Namdapha National Park,AR,wildlife,False,False,5
+Kaziranga National Park,AS,wildlife,True,False,4
+Kamakhya Temple,AS,religious,False,False,3
+Majuli,AS,nature,False,False,5
+Manas National Park,AS,wildlife,True,False,5
+"Mahabodhi Temple Complex, Bodh Gaya",BR,religious,True,False,3
+Nalanda Mahavihara,BR,heritage,True,True,4
+"Vishnupad Temple, Gaya",BR,religious,False,False,4
+Chitrakote Falls,CG,nature,False,False,4
+Bhoramdeo Temple,CG,heritage,False,False,5
+Sirpur Archaeological Site,CG,heritage,False,True,5
+Churches and Convents of Goa,GA,heritage,True,True,3
+Baga Beach,GA,beach,False,False,2
+Dudhsagar Falls,GA,nature,False,False,3
+Calangute Beach,GA,beach,False,False,2
+Statue of Unity,GJ,heritage,False,False,2
+Somnath Temple,GJ,religious,False,False,2
+Rani ki Vav,GJ,heritage,True,True,4
+Gir National Park,GJ,wildlife,False,False,4
+Champaner-Pavagadh Archaeological Park,GJ,heritage,True,True,5
+Dwarkadhish Temple,GJ,religious,False,False,2
+White Rann of Kutch,GJ,nature,False,False,3
+Kurukshetra Brahma Sarovar,HR,religious,False,False,3
+Sultanpur National Park,HR,wildlife,False,False,5
+Pinjore Gardens,HR,heritage,False,False,4
+Shimla Ridge and Mall Road,HP,hill,False,False,2
+"Solang Valley, Manali",HP,adventure,False,False,2
+"McLeod Ganj, Dharamshala",HP,hill,False,False,3
+Kalka-Shimla Railway,HP,heritage,True,False,4
+Great Himalayan National Park,HP,wildlife,True,False,5
+Spiti Valley,HP,adventure,False,False,5
+"Baidyanath Temple, Deoghar",JH,religious,False,False,2
+Hundru Falls,JH,nature,False,False,4
+Betla National Park,JH,wildlife,False,False,5
+Hampi Group of Monuments,KA,heritage,True,True,3
+Mysore Palace,KA,heritage,False,False,1
+Pattadakal Group of Monuments,KA,heritage,True,True,4
+Jog Falls,KA,nature,False,False,3
+Bandipur National Park,KA,wildlife,False,False,4
+Gol Gumbaz,KA,heritage,False,True,3
+Coorg,KA,hill,False,False,3
+Lalbagh Botanical Garden,KA,nature,False,False,2
+Padmanabhaswamy Temple,KL,religious,False,False,2
+Munnar,KL,hill,False,False,2
+Alleppey Backwaters,KL,nature,False,False,3
+Kovalam Beach,KL,beach,False,False,3
+Periyar Tiger Reserve,KL,wildlife,False,False,3
+Fort Kochi,KL,heritage,False,False,3
+Khajuraho Group of Monuments,MP,heritage,True,True,3
+Sanchi Stupa,MP,heritage,True,True,3
+"Mahakaleshwar Temple, Ujjain",MP,religious,False,False,0
+Bandhavgarh National Park,MP,wildlife,False,False,4
+Kanha National Park,MP,wildlife,False,False,4
+Rock Shelters of Bhimbetka,MP,heritage,True,True,5
+Gwalior Fort,MP,heritage,False,True,3
+Ajanta Caves,MH,heritage,True,True,3
+Ellora Caves,MH,heritage,True,True,3
+Gateway of India,MH,heritage,False,True,1
+Elephanta Caves,MH,heritage,True,True,3
+Shirdi Sai Baba Temple,MH,religious,False,False,0
+Chhatrapati Shivaji Terminus,MH,heritage,True,False,2
+Mahabaleshwar,MH,hill,False,False,2
+Loktak Lake,MN,nature,False,False,5
+Kangla Fort,MN,heritage,False,False,5
+Ima Keithel,MN,heritage,False,False,5
+"Living Root Bridges, Cherrapunji",ML,nature,False,False,4
+Mawlynnong Village,ML,nature,False,False,5
+Dawki and Umngot River,ML,adventure,False,False,4
+Champhai,MZ,hill,False,False,5
+Vantawng Falls,MZ,nature,False,False,5
+Reiek Heritage Village,MZ,heritage,False,False,5
+Kisama Heritage Village,NL,heritage,False,False,5
+Dzukou Valley,NL,adventure,False,False,5
+Khonoma Village,NL,nature,False,False,5
+Konark Sun Temple,OD,heritage,True,True,3
+"Jagannath Temple, Puri",OD,religious,False,False,0
+Chilika Lake,OD,nature,False,False,3
+Lingaraj Temple,OD,religious,False,False,3
+Puri Beach,OD,beach,False,False,2
+Similipal National Park,OD,wildlife,False,False,5
+Golden Temple (Harmandir Sahib),PB,religious,False,False,0
+Jallianwala Bagh,PB,heritage,False,False,1
+Wagah Border Ceremony,PB,heritage,False,False,2
+Anandpur Sahib,PB,religious,False,False,2
+Amber Fort,RJ,heritage,True,False,2
+Hawa Mahal,RJ,heritage,False,False,2
+Jaisalmer Fort,RJ,heritage,True,False,3
+"City Palace, Udaipur",RJ,heritage,False,False,3
+Ranthambore National Park,RJ,wildlife,False,False,4
+"Jantar Mantar, Jaipur",RJ,heritage,True,False,3
+Pushkar,RJ,religious,False,False,2
+Mehrangarh Fort,RJ,heritage,False,False,3
+Ajmer Sharif Dargah,RJ,religious,False,False,1
+Chittorgarh Fort,RJ,heritage,True,False,3
+Keoladeo National Park,RJ,wildlife,True,False,4
+Rumtek Monastery,SK,religious,False,False,4
+Tsomgo Lake,SK,nature,False,False,3
+Khangchendzonga National Park,SK,wildlife,True,False,5
+Nathula Pass,SK,adventure,False,False,4
+"Meenakshi Amman Temple, Madurai",TN,religious,False,False,0
+"Brihadisvara Temple, Thanjavur",TN,heritage,True,True,2
+Group of Monuments at Mahabalipuram,TN,heritage,True,True,2
+Marina Beach,TN,beach,False,False,1
+Ooty,TN,hill,False,False,1
+"Ramanathaswamy Temple, Rameswaram",TN,religious,False,False,1
+Kanyakumari,TN,beach,False,False,1
+Kodaikanal,TN,hill,False,False,2
+Charminar,TS,heritage,False,True,1
+Golconda Fort,TS,heritage,False,True,2
+Ramoji Film City,TS,entertainment,False,False,2
+Ramappa Temple,TS,heritage,True,True,4
+Salar Jung Museum,TS,museum,False,False,3
+Yadadri Temple,TS,religious,False,False,1
+Ujjayanta Palace,TR,heritage,False,False,4
+Neermahal,TR,heritage,False,False,4
+Tripura Sundari Temple,TR,religious,False,False,3
+Taj Mahal,UP,heritage,True,True,1
+Kashi Vishwanath Temple,UP,religious,False,False,0
+Agra Fort,UP,heritage,True,True,2
+Fatehpur Sikri,UP,heritage,True,True,3
+"Ram Janmabhoomi, Ayodhya",UP,religious,False,False,0
+Sarnath,UP,heritage,False,True,3
+Mathura-Vrindavan,UP,religious,False,False,1
+"Triveni Sangam, Prayagraj",UP,religious,False,False,0
+"Har Ki Pauri, Haridwar",UT,religious,False,False,0
+Rishikesh,UT,adventure,False,False,1
+Kedarnath Temple,UT,religious,False,False,2
+Jim Corbett National Park,UT,wildlife,False,False,3
+Nainital,UT,hill,False,False,1
+Valley of Flowers National Park,UT,nature,True,False,5
+Mussoorie,UT,hill,False,False,1
+Victoria Memorial,WB,heritage,False,False,2
+Dakshineswar Kali Temple,WB,religious,False,False,1
+Darjeeling Himalayan Railway,WB,heritage,True,False,3
+Sundarbans National Park,WB,wildlife,True,False,4
+Digha Beach,WB,beach,False,False,2
+Santiniketan,WB,heritage,True,False,4
+Cellular Jail,AN,heritage,False,False,3
+"Radhanagar Beach, Havelock",AN,beach,False,False,4
+Ross Island,AN,heritage,False,False,4
+"Rock Garden, Chandigarh",CH,art,False,False,2
+"Capitol Complex, Chandigarh",CH,heritage,True,False,4
+Sukhna Lake,CH,nature,False,False,2
+Moti Daman Fort,DD,heritage,False,False,4
+"Vanganga Lake Garden, Silvassa",DD,nature,False,False,4
+Diu Fort,DD,heritage,False,False,4
+"Nagoa Beach, Diu",DD,beach,False,False,3
+Red Fort,DL,heritage,True,True,1
+Qutub Minar,DL,heritage,True,True,1
+Humayun's Tomb,DL,heritage,True,True,2
+India Gate,DL,heritage,False,False,1
+Lotus Temple,DL,religious,False,False,1
+"Akshardham Temple, Delhi",DL,religious,False,False,1
+"Jama Masjid, Delhi",DL,religious,False,False,2
+Vaishno Devi Shrine,JK,religious,False,False,0
+Dal Lake,JK,nature,False,False,1
+Gulmarg,JK,hill,False,False,2
+Pahalgam,JK,hill,False,False,2
+Amarnath Cave,JK,religious,False,False,3
+"Shalimar Bagh, Srinagar",JK,heritage,False,False,2
+Pangong Tso,LA,nature,False,False,4
+Leh Palace,LA,heritage,False,True,4
+Hemis Monastery,LA,religious,False,False,4
+Nubra Valley,LA,adventure,False,False,4
+Bangaram Island,LD,beach,False,False,5
+Minicoy Lighthouse,LD,heritage,False,False,5
+Kavaratti Marine Aquarium,LD,nature,False,False,5
+Auroville,PY,religious,False,False,3
+Promenade Beach,PY,beach,False,False,2
+Paradise Beach,PY,beach,False,False,3
+Sri Aurobindo Ashram,PY,religious,False,False,3
