@@ -14,6 +14,9 @@ from app.routers import meta as meta_router
 from app.routers import overview as overview_router
 from app.routers import comparison as comparison_router
 from app.routers import states as states_router
+from app.routers import seasonality as seasonality_router
+from app.routers import economy as economy_router
+from app.routers import covid as covid_router
 
 setup_logging()
 log = logging.getLogger("app")
@@ -46,5 +49,6 @@ async def access_log(request, call_next):
     return resp
 
 
-for r in (meta_router, map_router, overview_router, comparison_router, states_router):
+for r in (meta_router, map_router, overview_router, comparison_router, states_router,
+          seasonality_router, economy_router, covid_router):
     app.include_router(r.router)
