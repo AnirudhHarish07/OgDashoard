@@ -86,17 +86,24 @@ async function open(opts = {}) {
   await ctx.close();
 }
 
-// 4) frame cost of the effects on the Opening page (no WebGL there): rAF intervals while the pointer moves
+// 4) main-thread cost per frame on the Opening page while the pointer moves (CDP metrics).
+//    Raster/composite time is NOT included: headless Chromium here has no GPU, so frame intervals would be meaningless.
 for (const label of ['effectsOn', 'effectsOff']) {
   const { ctx, page } = await open();
   if (label === 'effectsOff') await page.addInitScript(() => localStorage.setItem('itd.motion', 'off'));
   await page.goto(base + '/', { waitUntil: 'networkidle' });
-  await page.evaluate(() => { window.__dt = []; let last = performance.now(); const f = (n) => { window.__dt.push(n - last); last = n; requestAnimationFrame(f); }; requestAnimationFrame(f); });
-  for (let i = 0; i < 120; i++) { await page.mouse.move(200 + (i * 9) % 1000, 200 + Math.sin(i / 8) * 250 + 250); await page.waitForTimeout(12); }
-  const dt = await page.evaluate(() => window.__dt.slice(5));
-  dt.sort((a, b) => a - b);
-  const pct = (p) => +dt[Math.min(dt.length - 1, Math.floor(dt.length * p))].toFixed(1);
-  results['frames_' + label] = { frames: dt.length, median_ms: pct(0.5), p95_ms: pct(0.95), max_ms: +dt[dt.length - 1].toFixed(1) };
+  await page.waitForTimeout(600);
+  const cdp = await ctx.newCDPSession(page);
+  await cdp.send('Performance.enable');
+  const metrics = async () => Object.fromEntries((await cdp.send('Performance.getMetrics')).metrics.map((m) => [m.name, m.value]));
+  await page.evaluate(() => { window.__n = 0; const f = () => { window.__n++; requestAnimationFrame(f); }; requestAnimationFrame(f); });
+  const m0 = await metrics();
+  const n0 = await page.evaluate(() => window.__n);
+  for (let i = 0; i < 50; i++) { await page.mouse.move(200 + (i * 17) % 1000, 200 + Math.sin(i / 8) * 250 + 250); await page.waitForTimeout(16); }
+  const m1 = await metrics();
+  const frames = Math.max(1, (await page.evaluate(() => window.__n)) - n0);
+  const per = (k) => +(((m1[k] - m0[k]) * 1000) / frames).toFixed(2);
+  results['mainThread_' + label] = { frames, script_ms_per_frame: per('ScriptDuration'), style_ms_per_frame: per('RecalcStyleDuration'), total_ms_per_frame: per('TaskDuration'), budget_ms: 16.7 };
   await ctx.close();
 }
 
