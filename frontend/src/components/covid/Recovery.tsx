@@ -43,7 +43,7 @@ function Chart({ resp, mode, chartRef }: { resp: CovidResponse; mode: Mode; char
       { name: 'Foreign', type: 'bar', data: states.map((s) => s.foreign.recovery_pct), itemStyle: { color: t.saffron, borderRadius: [0, 3, 3, 0] }, label: { show: true, position: 'right', color: t.muted, fontSize: 9.5, formatter: (p: { value: number }) => formatPct(p.value) ?? '' }, ...barFx(t) },
     ],
   }), [states, mode, baseline_year, latest_year, src, t]);
-  return <div className="max-h-[620px] overflow-y-auto pr-1"><EChart ref={chartRef} option={option} height={states.length * (mode === 'split' ? 38 : 24) + 50} hoverCodes={codes} ariaLabel={`Bar chart of recovery vs ${baseline_year} by state`} /></div>;
+  return <div className="max-h-[620px] overflow-y-auto pr-1" tabIndex={0} role="group" aria-label="Scrollable chart"><EChart ref={chartRef} option={option} height={states.length * (mode === 'split' ? 38 : 24) + 50} hoverCodes={codes} ariaLabel={`Bar chart of recovery vs ${baseline_year} by state`} /></div>;
 }
 
 export function Recovery() {

@@ -65,7 +65,7 @@ export default function AskResult({ resp }: { resp: AskResponse }) {
       <ChartCard
         title={d.title || 'Result'} subtitle={d.explanation} chart={chart} synthetic={synthetic}
         csv={{ name: 'ask-result', source: src, rows }}
-        controls={shape.nums.length > 1 && (type === 'bar' || type === 'line' || type === 'map') ? <Select label="" allLabel="" value={val} onChange={(v) => v && setValCol(v)} options={shape.nums.map((c) => ({ value: c, label: labelOf(c) }))} /> : undefined}
+        controls={shape.nums.length > 1 && (type === 'bar' || type === 'line' || type === 'map') ? <Select label="Metric" allLabel="" value={val} onChange={(v) => v && setValCol(v)} options={shape.nums.map((c) => ({ value: c, label: labelOf(c) }))} /> : undefined}
         table={type === 'table' ? undefined : table}
         footer={<span>{d.row_count} row{d.row_count === 1 ? '' : 's'}{d.truncated ? ' (truncated to the row limit)' : ''} from {d.tables_used.join(', ')}. Shown as a {type}.</span>}
       >

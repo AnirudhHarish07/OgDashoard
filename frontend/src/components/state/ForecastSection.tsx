@@ -80,7 +80,7 @@ export function ForecastSection({ code }: { code: string }) {
     <ChartCard
       title="Forecast" chart={chart} view="forecast" params={{ state: code, metric, years, include_synthetic: true }}
       subtitle={`Dashed line and shaded band are a model projection (is_forecast), shown separately from the synthetic flag. ${d?.model ? d.model.interval + '.' : ''}`}
-      controls={<div className="flex items-end gap-2"><Select label="" allLabel="" value={metric} onChange={(v) => v && setMetric(v)} options={METRICS} /><Segmented label="" value={String(years) as '2' | '3'} onChange={(v) => setYears(Number(v) as 2 | 3)} options={[{ value: '2', label: '2 years' }, { value: '3', label: '3 years' }]} /></div>}
+      controls={<div className="flex items-end gap-2"><Select label="Metric" allLabel="" value={metric} onChange={(v) => v && setMetric(v)} options={METRICS} /><Segmented label="" value={String(years) as '2' | '3'} onChange={(v) => setYears(Number(v) as 2 | 3)} options={[{ value: '2', label: '2 years' }, { value: '3', label: '3 years' }]} /></div>}
       table={d && !noModel ? <DataTable caption="History and forecast" rows={rows} columns={[{ key: 'y', label: 'Year', render: (r) => r.year }, { key: 'k', label: 'Kind', render: (r) => r.kind }, { key: 'v', label: 'Value', align: 'right', render: (r) => r.value }, { key: 'l', label: 'Lower', align: 'right', render: (r) => r.lower }, { key: 'u', label: 'Upper', align: 'right', render: (r) => r.upper }, { key: 'n', label: 'Note', render: (r) => r.note }]} /> : undefined}
       footer={d?.notes?.length ? <ul className="list-disc pl-4">{d.notes.map((n) => <li key={n}>{n.replace(/^(not_available|boundary_change):\s*/, '')}</li>)}</ul> : undefined}
     >

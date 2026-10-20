@@ -59,7 +59,7 @@ export function RaceChart() {
   const year = d?.frames[Math.min(frame, last)]?.year;
   const controls = (
     <div className="flex items-center gap-2">
-      <Select label="" allLabel="" value={metric} onChange={(v) => v && setMetric(v)} options={RANK_METRICS.filter((m) => m.value !== 'growth_pct').map((m) => ({ value: m.value, label: m.label }))} />
+      <Select label="Metric" allLabel="" value={metric} onChange={(v) => v && setMetric(v)} options={RANK_METRICS.filter((m) => m.value !== 'growth_pct').map((m) => ({ value: m.value, label: m.label }))} />
     </div>
   );
   return (

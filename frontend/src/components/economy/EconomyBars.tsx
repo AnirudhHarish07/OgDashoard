@@ -41,7 +41,7 @@ function Chart({ resp, m, chartRef }: { resp: EconomyResponse; m: M; chartRef: R
   }), [rows, m, resp.data.year, src, t]);
   return (
     <>
-      <div className="max-h-[560px] overflow-y-auto pr-1"><EChart ref={chartRef} option={option} height={rows.length * 24 + 30} hoverCodes={codes} ariaLabel={`Bar chart of ${META[m].label} for ${rows.length} states`} /></div>
+      <div className="max-h-[560px] overflow-y-auto pr-1" tabIndex={0} role="group" aria-label="Scrollable chart"><EChart ref={chartRef} option={option} height={rows.length * 24 + 30} hoverCodes={codes} ariaLabel={`Bar chart of ${META[m].label} for ${rows.length} states`} /></div>
       <Caption>Scroll inside the chart to see all {rows.length} states and UTs.</Caption>
       <div className="flex flex-wrap items-center gap-x-4 gap-y-1 px-2 pt-2 text-[11px] text-muted">{REGION_LIST.filter((g) => rows.some((x) => x.r.region === g)).map((g) => <span key={g} className="inline-flex items-center gap-1.5"><span aria-hidden className="h-2.5 w-2.5 rounded-sm" style={{ background: regionColour(t.theme, g) }} />{g}</span>)}</div>
     </>

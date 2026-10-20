@@ -53,7 +53,7 @@ export function RankingChart() {
     <ChartCard
       title={`${order === 'top' ? 'Top' : 'Bottom'} 10 states`} subtitle={d ? `${d.label}, ${d.year}. Click a bar to add it to the comparison below.` : undefined}
       chart={chart} view="rankings" params={q.params}
-      controls={<div className="flex items-end gap-2"><Select label="" allLabel="" value={metric} onChange={(v) => v && setMetric(v)} options={RANK_METRICS.map((m) => ({ value: m.value, label: m.label }))} />
+      controls={<div className="flex items-end gap-2"><Select label="Metric" allLabel="" value={metric} onChange={(v) => v && setMetric(v)} options={RANK_METRICS.map((m) => ({ value: m.value, label: m.label }))} />
         <Segmented label="" value={order} onChange={setOrder} options={[{ value: 'top', label: 'Top' }, { value: 'bottom', label: 'Bottom' }]} /></div>}
       table={d && <DataTable caption="Ranking" rows={d.items} rowCode={(r) => r.state_code} columns={[
         { key: 'r', label: 'Rank', render: (r) => r.rank }, { key: 's', label: 'State', render: (r) => r.state_name },
