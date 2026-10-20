@@ -5,7 +5,9 @@ METRICS = ["domestic_visits", "foreign_visits", "total_visits", "revenue", "grow
 PATHS = ["/api/map?metric={m}", "/api/rankings?metric={m}", "/api/rankings/race?metric={m}"]
 PLAIN = ["/api/overview/kpis", "/api/overview/trend", "/api/scatter", "/api/states/LA", "/api/states/JK",
          "/api/seasonality/heatmap", "/api/seasonality/by-type", "/api/festivals", "/api/economy",
-         "/api/infrastructure/demand-capacity", "/api/infrastructure/occupancy-trend", "/api/covid/recovery"]
+         "/api/infrastructure/demand-capacity", "/api/infrastructure/occupancy-trend", "/api/covid/recovery",
+         "/api/forecast", "/api/forecast?state=LA&metric=revenue", "/api/forecast?state=JK&metric=foreign_visits",
+         "/api/anomalies", "/api/anomalies?metric=revenue&threshold=1.5", "/api/insights", "/api/insights?state=DD"]
 EXTRAS = ["", "year=2015", "year=2019", "year=2020", "year=2025", "region=Islands", "tourism_type=medical",
           "visitor_type=foreign", "include_synthetic=false", "states=JK,LA&year=2019", "states=LA&year=2019&visitor_type=foreign"]
 

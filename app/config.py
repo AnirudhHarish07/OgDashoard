@@ -34,8 +34,9 @@ class Settings:
         default_factory=lambda: tuple(o.strip() for o in os.getenv("CORS_ORIGINS", "http://localhost:5173").split(",") if o.strip())
     )
     anthropic_api_key: str | None = field(default_factory=lambda: os.getenv("ANTHROPIC_API_KEY") or None)
-    claude_model: str = field(default_factory=lambda: os.getenv("CLAUDE_MODEL", "claude-sonnet-5-5"))
+    claude_model: str = field(default_factory=lambda: os.getenv("CLAUDE_MODEL", "claude-opus-5-5"))
     port: int = field(default_factory=lambda: int(os.getenv("PORT", "8000")))
+    claude_timeout_seconds: float = 45.0
     cache_ttl_seconds: int = 3600
     # States below this area (km2, from the states table) get small_state=true for leader-line labels.
     small_state_area_km2: int = 12000
