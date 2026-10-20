@@ -1,0 +1,962 @@
+{
+  "data": {
+    "year": 2023,
+    "curves": [
+      {
+        "tourism_type": "adventure",
+        "n_states": 14,
+        "state_codes": [
+          "AN",
+          "AR",
+          "CG",
+          "HP",
+          "JK",
+          "LA",
+          "LD",
+          "ML",
+          "MN",
+          "MZ",
+          "NL",
+          "RJ",
+          "SK",
+          "UT"
+        ],
+        "peak_month": 10,
+        "low_month": 8,
+        "months": [
+          {
+            "month": 1,
+            "month_name": "Jan",
+            "value": 12702392.0,
+            "display": "1.27 Cr",
+            "share_of_year_pct": 7.02,
+            "seasonal_index": 84.3,
+            "is_synthetic": true
+          },
+          {
+            "month": 2,
+            "month_name": "Feb",
+            "value": 13648186.0,
+            "display": "1.36 Cr",
+            "share_of_year_pct": 7.55,
+            "seasonal_index": 90.6,
+            "is_synthetic": true
+          },
+          {
+            "month": 3,
+            "month_name": "Mar",
+            "value": 14934163.0,
+            "display": "1.49 Cr",
+            "share_of_year_pct": 8.26,
+            "seasonal_index": 99.1,
+            "is_synthetic": true
+          },
+          {
+            "month": 4,
+            "month_name": "Apr",
+            "value": 18900716.0,
+            "display": "1.89 Cr",
+            "share_of_year_pct": 10.45,
+            "seasonal_index": 125.4,
+            "is_synthetic": true
+          },
+          {
+            "month": 5,
+            "month_name": "May",
+            "value": 19257802.0,
+            "display": "1.93 Cr",
+            "share_of_year_pct": 10.65,
+            "seasonal_index": 127.8,
+            "is_synthetic": true
+          },
+          {
+            "month": 6,
+            "month_name": "Jun",
+            "value": 16169149.0,
+            "display": "1.62 Cr",
+            "share_of_year_pct": 8.94,
+            "seasonal_index": 107.3,
+            "is_synthetic": true
+          },
+          {
+            "month": 7,
+            "month_name": "Jul",
+            "value": 10928001.0,
+            "display": "1.09 Cr",
+            "share_of_year_pct": 6.04,
+            "seasonal_index": 72.5,
+            "is_synthetic": true
+          },
+          {
+            "month": 8,
+            "month_name": "Aug",
+            "value": 9738524.0,
+            "display": "97.4 L",
+            "share_of_year_pct": 5.38,
+            "seasonal_index": 64.6,
+            "is_synthetic": true
+          },
+          {
+            "month": 9,
+            "month_name": "Sep",
+            "value": 13339858.0,
+            "display": "1.33 Cr",
+            "share_of_year_pct": 7.38,
+            "seasonal_index": 88.5,
+            "is_synthetic": true
+          },
+          {
+            "month": 10,
+            "month_name": "Oct",
+            "value": 21266370.0,
+            "display": "2.13 Cr",
+            "share_of_year_pct": 11.76,
+            "seasonal_index": 141.1,
+            "is_synthetic": true
+          },
+          {
+            "month": 11,
+            "month_name": "Nov",
+            "value": 16071460.0,
+            "display": "1.61 Cr",
+            "share_of_year_pct": 8.89,
+            "seasonal_index": 106.6,
+            "is_synthetic": true
+          },
+          {
+            "month": 12,
+            "month_name": "Dec",
+            "value": 13898684.0,
+            "display": "1.39 Cr",
+            "share_of_year_pct": 7.68,
+            "seasonal_index": 92.2,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "tourism_type": "beach",
+        "n_states": 12,
+        "state_codes": [
+          "AN",
+          "AP",
+          "DD",
+          "GA",
+          "GJ",
+          "KL",
+          "LD",
+          "MH",
+          "OD",
+          "PY",
+          "TN",
+          "WB"
+        ],
+        "peak_month": 12,
+        "low_month": 6,
+        "months": [
+          {
+            "month": 1,
+            "month_name": "Jan",
+            "value": 110286844.0,
+            "display": "11.0 Cr",
+            "share_of_year_pct": 9.67,
+            "seasonal_index": 116.1,
+            "is_synthetic": true
+          },
+          {
+            "month": 2,
+            "month_name": "Feb",
+            "value": 110127940.0,
+            "display": "11.0 Cr",
+            "share_of_year_pct": 9.66,
+            "seasonal_index": 115.9,
+            "is_synthetic": true
+          },
+          {
+            "month": 3,
+            "month_name": "Mar",
+            "value": 97385225.0,
+            "display": "9.74 Cr",
+            "share_of_year_pct": 8.54,
+            "seasonal_index": 102.5,
+            "is_synthetic": true
+          },
+          {
+            "month": 4,
+            "month_name": "Apr",
+            "value": 90727790.0,
+            "display": "9.07 Cr",
+            "share_of_year_pct": 7.96,
+            "seasonal_index": 95.5,
+            "is_synthetic": true
+          },
+          {
+            "month": 5,
+            "month_name": "May",
+            "value": 99693695.0,
+            "display": "9.97 Cr",
+            "share_of_year_pct": 8.74,
+            "seasonal_index": 104.9,
+            "is_synthetic": true
+          },
+          {
+            "month": 6,
+            "month_name": "Jun",
+            "value": 69786584.0,
+            "display": "6.98 Cr",
+            "share_of_year_pct": 6.12,
+            "seasonal_index": 73.5,
+            "is_synthetic": true
+          },
+          {
+            "month": 7,
+            "month_name": "Jul",
+            "value": 73109822.0,
+            "display": "7.31 Cr",
+            "share_of_year_pct": 6.41,
+            "seasonal_index": 77.0,
+            "is_synthetic": true
+          },
+          {
+            "month": 8,
+            "month_name": "Aug",
+            "value": 73522293.0,
+            "display": "7.35 Cr",
+            "share_of_year_pct": 6.45,
+            "seasonal_index": 77.4,
+            "is_synthetic": true
+          },
+          {
+            "month": 9,
+            "month_name": "Sep",
+            "value": 87727795.0,
+            "display": "8.77 Cr",
+            "share_of_year_pct": 7.69,
+            "seasonal_index": 92.3,
+            "is_synthetic": true
+          },
+          {
+            "month": 10,
+            "month_name": "Oct",
+            "value": 99358332.0,
+            "display": "9.94 Cr",
+            "share_of_year_pct": 8.71,
+            "seasonal_index": 104.6,
+            "is_synthetic": true
+          },
+          {
+            "month": 11,
+            "month_name": "Nov",
+            "value": 100504632.0,
+            "display": "10.1 Cr",
+            "share_of_year_pct": 8.82,
+            "seasonal_index": 105.8,
+            "is_synthetic": true
+          },
+          {
+            "month": 12,
+            "month_name": "Dec",
+            "value": 127862445.0,
+            "display": "12.8 Cr",
+            "share_of_year_pct": 11.22,
+            "seasonal_index": 134.6,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "tourism_type": "heritage",
+        "n_states": 22,
+        "state_codes": [
+          "AP",
+          "AS",
+          "BR",
+          "CH",
+          "DD",
+          "DL",
+          "GA",
+          "GJ",
+          "HR",
+          "KA",
+          "MH",
+          "MP",
+          "NL",
+          "OD",
+          "PB",
+          "PY",
+          "RJ",
+          "TN",
+          "TR",
+          "TS",
+          "UP",
+          "WB"
+        ],
+        "peak_month": 12,
+        "low_month": 6,
+        "months": [
+          {
+            "month": 1,
+            "month_name": "Jan",
+            "value": 234506735.0,
+            "display": "23.5 Cr",
+            "share_of_year_pct": 9.9,
+            "seasonal_index": 118.8,
+            "is_synthetic": true
+          },
+          {
+            "month": 2,
+            "month_name": "Feb",
+            "value": 234155131.0,
+            "display": "23.4 Cr",
+            "share_of_year_pct": 9.89,
+            "seasonal_index": 118.6,
+            "is_synthetic": true
+          },
+          {
+            "month": 3,
+            "month_name": "Mar",
+            "value": 213125411.0,
+            "display": "21.3 Cr",
+            "share_of_year_pct": 9.0,
+            "seasonal_index": 108.0,
+            "is_synthetic": true
+          },
+          {
+            "month": 4,
+            "month_name": "Apr",
+            "value": 183102599.0,
+            "display": "18.3 Cr",
+            "share_of_year_pct": 7.73,
+            "seasonal_index": 92.8,
+            "is_synthetic": true
+          },
+          {
+            "month": 5,
+            "month_name": "May",
+            "value": 188744762.0,
+            "display": "18.9 Cr",
+            "share_of_year_pct": 7.97,
+            "seasonal_index": 95.6,
+            "is_synthetic": true
+          },
+          {
+            "month": 6,
+            "month_name": "Jun",
+            "value": 140196440.0,
+            "display": "14.0 Cr",
+            "share_of_year_pct": 5.92,
+            "seasonal_index": 71.0,
+            "is_synthetic": true
+          },
+          {
+            "month": 7,
+            "month_name": "Jul",
+            "value": 142754612.0,
+            "display": "14.3 Cr",
+            "share_of_year_pct": 6.03,
+            "seasonal_index": 72.3,
+            "is_synthetic": true
+          },
+          {
+            "month": 8,
+            "month_name": "Aug",
+            "value": 146620408.0,
+            "display": "14.7 Cr",
+            "share_of_year_pct": 6.19,
+            "seasonal_index": 74.3,
+            "is_synthetic": true
+          },
+          {
+            "month": 9,
+            "month_name": "Sep",
+            "value": 183718593.0,
+            "display": "18.4 Cr",
+            "share_of_year_pct": 7.76,
+            "seasonal_index": 93.1,
+            "is_synthetic": true
+          },
+          {
+            "month": 10,
+            "month_name": "Oct",
+            "value": 225302804.0,
+            "display": "22.5 Cr",
+            "share_of_year_pct": 9.51,
+            "seasonal_index": 114.1,
+            "is_synthetic": true
+          },
+          {
+            "month": 11,
+            "month_name": "Nov",
+            "value": 224011277.0,
+            "display": "22.4 Cr",
+            "share_of_year_pct": 9.46,
+            "seasonal_index": 113.5,
+            "is_synthetic": true
+          },
+          {
+            "month": 12,
+            "month_name": "Dec",
+            "value": 252521055.0,
+            "display": "25.3 Cr",
+            "share_of_year_pct": 10.66,
+            "seasonal_index": 127.9,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "tourism_type": "hill",
+        "n_states": 13,
+        "state_codes": [
+          "AR",
+          "HP",
+          "JK",
+          "KA",
+          "KL",
+          "LA",
+          "ML",
+          "MN",
+          "MZ",
+          "SK",
+          "TN",
+          "UT",
+          "WB"
+        ],
+        "peak_month": 12,
+        "low_month": 8,
+        "months": [
+          {
+            "month": 1,
+            "month_name": "Jan",
+            "value": 100174834.0,
+            "display": "10.0 Cr",
+            "share_of_year_pct": 9.18,
+            "seasonal_index": 110.2,
+            "is_synthetic": true
+          },
+          {
+            "month": 2,
+            "month_name": "Feb",
+            "value": 91202094.0,
+            "display": "9.12 Cr",
+            "share_of_year_pct": 8.36,
+            "seasonal_index": 100.3,
+            "is_synthetic": true
+          },
+          {
+            "month": 3,
+            "month_name": "Mar",
+            "value": 95437797.0,
+            "display": "9.54 Cr",
+            "share_of_year_pct": 8.75,
+            "seasonal_index": 105.0,
+            "is_synthetic": true
+          },
+          {
+            "month": 4,
+            "month_name": "Apr",
+            "value": 93839178.0,
+            "display": "9.38 Cr",
+            "share_of_year_pct": 8.6,
+            "seasonal_index": 103.2,
+            "is_synthetic": true
+          },
+          {
+            "month": 5,
+            "month_name": "May",
+            "value": 108732415.0,
+            "display": "10.9 Cr",
+            "share_of_year_pct": 9.96,
+            "seasonal_index": 119.6,
+            "is_synthetic": true
+          },
+          {
+            "month": 6,
+            "month_name": "Jun",
+            "value": 77982999.0,
+            "display": "7.80 Cr",
+            "share_of_year_pct": 7.15,
+            "seasonal_index": 85.8,
+            "is_synthetic": true
+          },
+          {
+            "month": 7,
+            "month_name": "Jul",
+            "value": 78325719.0,
+            "display": "7.83 Cr",
+            "share_of_year_pct": 7.18,
+            "seasonal_index": 86.1,
+            "is_synthetic": true
+          },
+          {
+            "month": 8,
+            "month_name": "Aug",
+            "value": 73545369.0,
+            "display": "7.35 Cr",
+            "share_of_year_pct": 6.74,
+            "seasonal_index": 80.9,
+            "is_synthetic": true
+          },
+          {
+            "month": 9,
+            "month_name": "Sep",
+            "value": 84120271.0,
+            "display": "8.41 Cr",
+            "share_of_year_pct": 7.71,
+            "seasonal_index": 92.5,
+            "is_synthetic": true
+          },
+          {
+            "month": 10,
+            "month_name": "Oct",
+            "value": 92726914.0,
+            "display": "9.27 Cr",
+            "share_of_year_pct": 8.5,
+            "seasonal_index": 102.0,
+            "is_synthetic": true
+          },
+          {
+            "month": 11,
+            "month_name": "Nov",
+            "value": 86184508.0,
+            "display": "8.62 Cr",
+            "share_of_year_pct": 7.9,
+            "seasonal_index": 94.8,
+            "is_synthetic": true
+          },
+          {
+            "month": 12,
+            "month_name": "Dec",
+            "value": 108946369.0,
+            "display": "10.9 Cr",
+            "share_of_year_pct": 9.98,
+            "seasonal_index": 119.8,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "tourism_type": "medical",
+        "n_states": 6,
+        "state_codes": [
+          "DL",
+          "KA",
+          "KL",
+          "MH",
+          "TN",
+          "TS"
+        ],
+        "peak_month": 12,
+        "low_month": 6,
+        "months": [
+          {
+            "month": 1,
+            "month_name": "Jan",
+            "value": 111410278.0,
+            "display": "11.1 Cr",
+            "share_of_year_pct": 9.68,
+            "seasonal_index": 116.2,
+            "is_synthetic": true
+          },
+          {
+            "month": 2,
+            "month_name": "Feb",
+            "value": 99902003.0,
+            "display": "9.99 Cr",
+            "share_of_year_pct": 8.68,
+            "seasonal_index": 104.2,
+            "is_synthetic": true
+          },
+          {
+            "month": 3,
+            "month_name": "Mar",
+            "value": 101792382.0,
+            "display": "10.2 Cr",
+            "share_of_year_pct": 8.85,
+            "seasonal_index": 106.1,
+            "is_synthetic": true
+          },
+          {
+            "month": 4,
+            "month_name": "Apr",
+            "value": 92708392.0,
+            "display": "9.27 Cr",
+            "share_of_year_pct": 8.06,
+            "seasonal_index": 96.7,
+            "is_synthetic": true
+          },
+          {
+            "month": 5,
+            "month_name": "May",
+            "value": 107174671.0,
+            "display": "10.7 Cr",
+            "share_of_year_pct": 9.31,
+            "seasonal_index": 111.8,
+            "is_synthetic": true
+          },
+          {
+            "month": 6,
+            "month_name": "Jun",
+            "value": 75383364.0,
+            "display": "7.54 Cr",
+            "share_of_year_pct": 6.55,
+            "seasonal_index": 78.6,
+            "is_synthetic": true
+          },
+          {
+            "month": 7,
+            "month_name": "Jul",
+            "value": 79807953.0,
+            "display": "7.98 Cr",
+            "share_of_year_pct": 6.93,
+            "seasonal_index": 83.2,
+            "is_synthetic": true
+          },
+          {
+            "month": 8,
+            "month_name": "Aug",
+            "value": 78038100.0,
+            "display": "7.80 Cr",
+            "share_of_year_pct": 6.78,
+            "seasonal_index": 81.4,
+            "is_synthetic": true
+          },
+          {
+            "month": 9,
+            "month_name": "Sep",
+            "value": 87156884.0,
+            "display": "8.72 Cr",
+            "share_of_year_pct": 7.57,
+            "seasonal_index": 90.9,
+            "is_synthetic": true
+          },
+          {
+            "month": 10,
+            "month_name": "Oct",
+            "value": 99651227.0,
+            "display": "9.97 Cr",
+            "share_of_year_pct": 8.66,
+            "seasonal_index": 103.9,
+            "is_synthetic": true
+          },
+          {
+            "month": 11,
+            "month_name": "Nov",
+            "value": 96005751.0,
+            "display": "9.60 Cr",
+            "share_of_year_pct": 8.34,
+            "seasonal_index": 100.1,
+            "is_synthetic": true
+          },
+          {
+            "month": 12,
+            "month_name": "Dec",
+            "value": 121773379.0,
+            "display": "12.2 Cr",
+            "share_of_year_pct": 10.58,
+            "seasonal_index": 127.0,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "tourism_type": "religious",
+        "n_states": 24,
+        "state_codes": [
+          "AP",
+          "AS",
+          "BR",
+          "DL",
+          "GA",
+          "GJ",
+          "HP",
+          "HR",
+          "JH",
+          "JK",
+          "LA",
+          "MH",
+          "MP",
+          "OD",
+          "PB",
+          "PY",
+          "RJ",
+          "SK",
+          "TN",
+          "TR",
+          "TS",
+          "UP",
+          "UT",
+          "WB"
+        ],
+        "peak_month": 12,
+        "low_month": 7,
+        "months": [
+          {
+            "month": 1,
+            "month_name": "Jan",
+            "value": 205745738.0,
+            "display": "20.6 Cr",
+            "share_of_year_pct": 9.47,
+            "seasonal_index": 113.7,
+            "is_synthetic": true
+          },
+          {
+            "month": 2,
+            "month_name": "Feb",
+            "value": 213099744.0,
+            "display": "21.3 Cr",
+            "share_of_year_pct": 9.81,
+            "seasonal_index": 117.7,
+            "is_synthetic": true
+          },
+          {
+            "month": 3,
+            "month_name": "Mar",
+            "value": 194273766.0,
+            "display": "19.4 Cr",
+            "share_of_year_pct": 8.94,
+            "seasonal_index": 107.3,
+            "is_synthetic": true
+          },
+          {
+            "month": 4,
+            "month_name": "Apr",
+            "value": 171569261.0,
+            "display": "17.2 Cr",
+            "share_of_year_pct": 7.9,
+            "seasonal_index": 94.8,
+            "is_synthetic": true
+          },
+          {
+            "month": 5,
+            "month_name": "May",
+            "value": 175842499.0,
+            "display": "17.6 Cr",
+            "share_of_year_pct": 8.1,
+            "seasonal_index": 97.2,
+            "is_synthetic": true
+          },
+          {
+            "month": 6,
+            "month_name": "Jun",
+            "value": 132908221.0,
+            "display": "13.3 Cr",
+            "share_of_year_pct": 6.12,
+            "seasonal_index": 73.4,
+            "is_synthetic": true
+          },
+          {
+            "month": 7,
+            "month_name": "Jul",
+            "value": 128505161.0,
+            "display": "12.9 Cr",
+            "share_of_year_pct": 5.92,
+            "seasonal_index": 71.0,
+            "is_synthetic": true
+          },
+          {
+            "month": 8,
+            "month_name": "Aug",
+            "value": 131648794.0,
+            "display": "13.2 Cr",
+            "share_of_year_pct": 6.06,
+            "seasonal_index": 72.7,
+            "is_synthetic": true
+          },
+          {
+            "month": 9,
+            "month_name": "Sep",
+            "value": 171062849.0,
+            "display": "17.1 Cr",
+            "share_of_year_pct": 7.88,
+            "seasonal_index": 94.5,
+            "is_synthetic": true
+          },
+          {
+            "month": 10,
+            "month_name": "Oct",
+            "value": 212191960.0,
+            "display": "21.2 Cr",
+            "share_of_year_pct": 9.77,
+            "seasonal_index": 117.2,
+            "is_synthetic": true
+          },
+          {
+            "month": 11,
+            "month_name": "Nov",
+            "value": 206395064.0,
+            "display": "20.6 Cr",
+            "share_of_year_pct": 9.5,
+            "seasonal_index": 114.0,
+            "is_synthetic": true
+          },
+          {
+            "month": 12,
+            "month_name": "Dec",
+            "value": 228668175.0,
+            "display": "22.9 Cr",
+            "share_of_year_pct": 10.53,
+            "seasonal_index": 126.3,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "tourism_type": "wildlife",
+        "n_states": 13,
+        "state_codes": [
+          "AR",
+          "AS",
+          "CG",
+          "GJ",
+          "JH",
+          "KA",
+          "KL",
+          "MP",
+          "OD",
+          "RJ",
+          "UP",
+          "UT",
+          "WB"
+        ],
+        "peak_month": 10,
+        "low_month": 7,
+        "months": [
+          {
+            "month": 1,
+            "month_name": "Jan",
+            "value": 131006443.0,
+            "display": "13.1 Cr",
+            "share_of_year_pct": 10.23,
+            "seasonal_index": 122.7,
+            "is_synthetic": true
+          },
+          {
+            "month": 2,
+            "month_name": "Feb",
+            "value": 130701167.0,
+            "display": "13.1 Cr",
+            "share_of_year_pct": 10.2,
+            "seasonal_index": 122.4,
+            "is_synthetic": true
+          },
+          {
+            "month": 3,
+            "month_name": "Mar",
+            "value": 118753453.0,
+            "display": "11.9 Cr",
+            "share_of_year_pct": 9.27,
+            "seasonal_index": 111.2,
+            "is_synthetic": true
+          },
+          {
+            "month": 4,
+            "month_name": "Apr",
+            "value": 96971203.0,
+            "display": "9.70 Cr",
+            "share_of_year_pct": 7.57,
+            "seasonal_index": 90.8,
+            "is_synthetic": true
+          },
+          {
+            "month": 5,
+            "month_name": "May",
+            "value": 92343604.0,
+            "display": "9.23 Cr",
+            "share_of_year_pct": 7.21,
+            "seasonal_index": 86.5,
+            "is_synthetic": true
+          },
+          {
+            "month": 6,
+            "month_name": "Jun",
+            "value": 72028267.0,
+            "display": "7.20 Cr",
+            "share_of_year_pct": 5.62,
+            "seasonal_index": 67.5,
+            "is_synthetic": true
+          },
+          {
+            "month": 7,
+            "month_name": "Jul",
+            "value": 69798387.0,
+            "display": "6.98 Cr",
+            "share_of_year_pct": 5.45,
+            "seasonal_index": 65.4,
+            "is_synthetic": true
+          },
+          {
+            "month": 8,
+            "month_name": "Aug",
+            "value": 74338802.0,
+            "display": "7.43 Cr",
+            "share_of_year_pct": 5.8,
+            "seasonal_index": 69.6,
+            "is_synthetic": true
+          },
+          {
+            "month": 9,
+            "month_name": "Sep",
+            "value": 100830978.0,
+            "display": "10.1 Cr",
+            "share_of_year_pct": 7.87,
+            "seasonal_index": 94.4,
+            "is_synthetic": true
+          },
+          {
+            "month": 10,
+            "month_name": "Oct",
+            "value": 132060969.0,
+            "display": "13.2 Cr",
+            "share_of_year_pct": 10.31,
+            "seasonal_index": 123.7,
+            "is_synthetic": true
+          },
+          {
+            "month": 11,
+            "month_name": "Nov",
+            "value": 130794021.0,
+            "display": "13.1 Cr",
+            "share_of_year_pct": 10.21,
+            "seasonal_index": 122.5,
+            "is_synthetic": true
+          },
+          {
+            "month": 12,
+            "month_name": "Dec",
+            "value": 131463012.0,
+            "display": "13.1 Cr",
+            "share_of_year_pct": 10.26,
+            "seasonal_index": 123.1,
+            "is_synthetic": true
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "filters": {
+      "year": 2023,
+      "year_from": null,
+      "year_to": null,
+      "states": [],
+      "region": null,
+      "tourism_type": null,
+      "visitor_type": "all",
+      "include_synthetic": true,
+      "resolved": {
+        "year": 2023
+      }
+    },
+    "data_sources": [
+      "SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source); population = Census 2011 (approx.)",
+      "SYNTHETIC: generated by src/synthesize.py (seed=42); illustrative values, not government statistics"
+    ],
+    "synthetic_share": 100.0,
+    "record_count": 84,
+    "notes": [
+      "Types come from states.tourism_type_tags; a state with several tags is counted in each of its types, so curves overlap and must not be summed.",
+      "Dataset has no tourism type on visit rows; this is an aggregation of tagged states."
+    ]
+  }
+}

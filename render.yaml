@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: india-tourism-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: DATABASE_PATH
+        value: data/india_tourism.db
+      - key: CORS_ORIGINS          # comma-separated; add the deployed front-end URL in the Render dashboard
+        sync: false
+      - key: ANTHROPIC_API_KEY     # optional: enables Claude phrasing in /api/insights and /api/ask
+        sync: false

@@ -1,0 +1,2735 @@
+{
+  "data": {
+    "national": [
+      {
+        "year": 2015,
+        "weighted_occupancy_rate": 44.86,
+        "mean_occupancy_rate": 45.09,
+        "hotel_rooms": 1431674,
+        "n_states": 35,
+        "is_synthetic": true
+      },
+      {
+        "year": 2016,
+        "weighted_occupancy_rate": 47.66,
+        "mean_occupancy_rate": 47.59,
+        "hotel_rooms": 1491005,
+        "n_states": 35,
+        "is_synthetic": true
+      },
+      {
+        "year": 2017,
+        "weighted_occupancy_rate": 47.84,
+        "mean_occupancy_rate": 47.73,
+        "hotel_rooms": 1529347,
+        "n_states": 35,
+        "is_synthetic": true
+      },
+      {
+        "year": 2018,
+        "weighted_occupancy_rate": 51.69,
+        "mean_occupancy_rate": 51.79,
+        "hotel_rooms": 1585205,
+        "n_states": 35,
+        "is_synthetic": true
+      },
+      {
+        "year": 2019,
+        "weighted_occupancy_rate": 58.0,
+        "mean_occupancy_rate": 58.16,
+        "hotel_rooms": 1653347,
+        "n_states": 36,
+        "is_synthetic": true
+      },
+      {
+        "year": 2020,
+        "weighted_occupancy_rate": 28.45,
+        "mean_occupancy_rate": 29.01,
+        "hotel_rooms": 1605656,
+        "n_states": 36,
+        "is_synthetic": true
+      },
+      {
+        "year": 2021,
+        "weighted_occupancy_rate": 30.18,
+        "mean_occupancy_rate": 30.37,
+        "hotel_rooms": 1584681,
+        "n_states": 36,
+        "is_synthetic": true
+      },
+      {
+        "year": 2022,
+        "weighted_occupancy_rate": 50.76,
+        "mean_occupancy_rate": 50.79,
+        "hotel_rooms": 1600890,
+        "n_states": 36,
+        "is_synthetic": true
+      },
+      {
+        "year": 2023,
+        "weighted_occupancy_rate": 59.86,
+        "mean_occupancy_rate": 59.57,
+        "hotel_rooms": 1691745,
+        "n_states": 36,
+        "is_synthetic": true
+      },
+      {
+        "year": 2024,
+        "weighted_occupancy_rate": 63.76,
+        "mean_occupancy_rate": 63.92,
+        "hotel_rooms": 1758844,
+        "n_states": 36,
+        "is_synthetic": true
+      },
+      {
+        "year": 2025,
+        "weighted_occupancy_rate": 64.3,
+        "mean_occupancy_rate": 64.24,
+        "hotel_rooms": 1815982,
+        "n_states": 36,
+        "is_synthetic": true
+      }
+    ],
+    "states": [
+      {
+        "state_code": "AN",
+        "state_name": "Andaman and Nicobar Islands",
+        "region": "Islands",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 39.1,
+            "hotel_rooms": 15946,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 41.9,
+            "hotel_rooms": 15516,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 42.0,
+            "hotel_rooms": 17441,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 49.0,
+            "hotel_rooms": 16744,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 54.0,
+            "hotel_rooms": 18217,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 23.3,
+            "hotel_rooms": 16660,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 24.4,
+            "hotel_rooms": 15202,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 43.5,
+            "hotel_rooms": 17286,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 53.9,
+            "hotel_rooms": 19546,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 60.4,
+            "hotel_rooms": 18369,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 58.8,
+            "hotel_rooms": 18033,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "AP",
+        "state_name": "Andhra Pradesh",
+        "region": "South",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 49.9,
+            "hotel_rooms": 67011,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 54.7,
+            "hotel_rooms": 66873,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 52.8,
+            "hotel_rooms": 67382,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 56.5,
+            "hotel_rooms": 76766,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 63.4,
+            "hotel_rooms": 71130,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 29.1,
+            "hotel_rooms": 73720,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 29.9,
+            "hotel_rooms": 74667,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 58.6,
+            "hotel_rooms": 75621,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 66.0,
+            "hotel_rooms": 80097,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 74.6,
+            "hotel_rooms": 77944,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 71.3,
+            "hotel_rooms": 82879,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "AR",
+        "state_name": "Arunachal Pradesh",
+        "region": "North-East",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 45.8,
+            "hotel_rooms": 14763,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 47.7,
+            "hotel_rooms": 16163,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 43.1,
+            "hotel_rooms": 17678,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 49.5,
+            "hotel_rooms": 16600,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 54.0,
+            "hotel_rooms": 17818,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 27.7,
+            "hotel_rooms": 16289,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 28.5,
+            "hotel_rooms": 16139,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 46.4,
+            "hotel_rooms": 16009,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 50.8,
+            "hotel_rooms": 17902,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 55.5,
+            "hotel_rooms": 18396,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 58.1,
+            "hotel_rooms": 17942,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "AS",
+        "state_name": "Assam",
+        "region": "North-East",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 40.8,
+            "hotel_rooms": 23720,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 41.9,
+            "hotel_rooms": 25521,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 42.5,
+            "hotel_rooms": 27515,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 48.4,
+            "hotel_rooms": 26343,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 53.4,
+            "hotel_rooms": 30362,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 26.9,
+            "hotel_rooms": 27806,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 30.4,
+            "hotel_rooms": 27520,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 48.4,
+            "hotel_rooms": 29112,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 54.7,
+            "hotel_rooms": 30372,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 60.5,
+            "hotel_rooms": 30139,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 63.0,
+            "hotel_rooms": 30102,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "BR",
+        "state_name": "Bihar",
+        "region": "East",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 50.6,
+            "hotel_rooms": 42883,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 49.5,
+            "hotel_rooms": 48956,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 54.4,
+            "hotel_rooms": 52989,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 55.0,
+            "hotel_rooms": 50720,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 66.8,
+            "hotel_rooms": 52976,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 36.1,
+            "hotel_rooms": 49642,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 38.2,
+            "hotel_rooms": 53361,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 61.4,
+            "hotel_rooms": 50783,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 64.9,
+            "hotel_rooms": 53262,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 75.2,
+            "hotel_rooms": 56549,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 75.6,
+            "hotel_rooms": 57749,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "CG",
+        "state_name": "Chhattisgarh",
+        "region": "Central",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 42.6,
+            "hotel_rooms": 22988,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 52.9,
+            "hotel_rooms": 25305,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 44.7,
+            "hotel_rooms": 25852,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 49.1,
+            "hotel_rooms": 26843,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 56.2,
+            "hotel_rooms": 27134,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 26.6,
+            "hotel_rooms": 25284,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 24.6,
+            "hotel_rooms": 23174,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 42.5,
+            "hotel_rooms": 25516,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 54.9,
+            "hotel_rooms": 29519,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 54.3,
+            "hotel_rooms": 29585,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 58.2,
+            "hotel_rooms": 30090,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "CH",
+        "state_name": "Chandigarh",
+        "region": "North",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 54.4,
+            "hotel_rooms": 17241,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 56.9,
+            "hotel_rooms": 15647,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 58.2,
+            "hotel_rooms": 16753,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 59.9,
+            "hotel_rooms": 17590,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 63.8,
+            "hotel_rooms": 17129,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 39.6,
+            "hotel_rooms": 18574,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 40.0,
+            "hotel_rooms": 17961,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 61.2,
+            "hotel_rooms": 19000,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 68.5,
+            "hotel_rooms": 18602,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 73.9,
+            "hotel_rooms": 19762,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 73.5,
+            "hotel_rooms": 19999,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "DD",
+        "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+        "region": "West",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 33.5,
+            "hotel_rooms": 17435,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 38.7,
+            "hotel_rooms": 19335,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 40.0,
+            "hotel_rooms": 18046,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 43.5,
+            "hotel_rooms": 19529,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 53.7,
+            "hotel_rooms": 20008,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 27.0,
+            "hotel_rooms": 20157,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 27.1,
+            "hotel_rooms": 18831,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 46.3,
+            "hotel_rooms": 19086,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 56.9,
+            "hotel_rooms": 19918,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 60.6,
+            "hotel_rooms": 20732,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 59.1,
+            "hotel_rooms": 22070,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "DL",
+        "state_name": "Delhi",
+        "region": "North",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 51.9,
+            "hotel_rooms": 60046,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 57.0,
+            "hotel_rooms": 64788,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 54.2,
+            "hotel_rooms": 67103,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 56.8,
+            "hotel_rooms": 77440,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 65.5,
+            "hotel_rooms": 76601,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 37.6,
+            "hotel_rooms": 68882,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 35.6,
+            "hotel_rooms": 66349,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 54.0,
+            "hotel_rooms": 79529,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 63.0,
+            "hotel_rooms": 79244,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 65.9,
+            "hotel_rooms": 78857,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 69.7,
+            "hotel_rooms": 82506,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "GA",
+        "state_name": "Goa",
+        "region": "West",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 42.0,
+            "hotel_rooms": 42111,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 44.9,
+            "hotel_rooms": 46819,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 45.3,
+            "hotel_rooms": 47557,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 47.8,
+            "hotel_rooms": 49306,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 57.9,
+            "hotel_rooms": 50846,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 26.8,
+            "hotel_rooms": 49809,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 24.8,
+            "hotel_rooms": 51363,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 45.0,
+            "hotel_rooms": 52074,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 49.0,
+            "hotel_rooms": 51921,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 59.5,
+            "hotel_rooms": 53165,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 54.6,
+            "hotel_rooms": 56602,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "GJ",
+        "state_name": "Gujarat",
+        "region": "West",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 45.3,
+            "hotel_rooms": 40632,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 43.4,
+            "hotel_rooms": 42315,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 43.8,
+            "hotel_rooms": 41102,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 48.4,
+            "hotel_rooms": 42305,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 53.3,
+            "hotel_rooms": 43283,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 27.3,
+            "hotel_rooms": 44375,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 30.8,
+            "hotel_rooms": 41533,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 45.5,
+            "hotel_rooms": 40567,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 52.3,
+            "hotel_rooms": 45595,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 59.0,
+            "hotel_rooms": 44620,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 58.9,
+            "hotel_rooms": 50997,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "HP",
+        "state_name": "Himachal Pradesh",
+        "region": "North",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 42.3,
+            "hotel_rooms": 34374,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 45.6,
+            "hotel_rooms": 38306,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 47.8,
+            "hotel_rooms": 39406,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 49.1,
+            "hotel_rooms": 41024,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 51.4,
+            "hotel_rooms": 43096,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 30.1,
+            "hotel_rooms": 39623,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 29.8,
+            "hotel_rooms": 39947,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 47.9,
+            "hotel_rooms": 39742,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 59.4,
+            "hotel_rooms": 41566,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 58.3,
+            "hotel_rooms": 46755,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 59.0,
+            "hotel_rooms": 47121,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "HR",
+        "state_name": "Haryana",
+        "region": "North",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 43.5,
+            "hotel_rooms": 27257,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 42.8,
+            "hotel_rooms": 27485,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 44.2,
+            "hotel_rooms": 29634,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 54.0,
+            "hotel_rooms": 30415,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 53.9,
+            "hotel_rooms": 28656,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 26.9,
+            "hotel_rooms": 29542,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 25.8,
+            "hotel_rooms": 27753,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 46.8,
+            "hotel_rooms": 29161,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 55.9,
+            "hotel_rooms": 32136,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 59.3,
+            "hotel_rooms": 31624,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 62.2,
+            "hotel_rooms": 34525,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "JH",
+        "state_name": "Jharkhand",
+        "region": "East",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 39.9,
+            "hotel_rooms": 24177,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 44.4,
+            "hotel_rooms": 23612,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 44.3,
+            "hotel_rooms": 22887,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 47.3,
+            "hotel_rooms": 22986,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 53.0,
+            "hotel_rooms": 24792,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 26.6,
+            "hotel_rooms": 26741,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 22.4,
+            "hotel_rooms": 22505,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 44.4,
+            "hotel_rooms": 25966,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 48.3,
+            "hotel_rooms": 27452,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 56.0,
+            "hotel_rooms": 28830,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 59.2,
+            "hotel_rooms": 29871,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "JK",
+        "state_name": "Jammu and Kashmir",
+        "region": "North",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 39.5,
+            "hotel_rooms": 36360,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 44.5,
+            "hotel_rooms": 34983,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 43.4,
+            "hotel_rooms": 34051,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 43.5,
+            "hotel_rooms": 39464,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 53.9,
+            "hotel_rooms": 38164,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 26.3,
+            "hotel_rooms": 36292,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 26.6,
+            "hotel_rooms": 33538,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 46.1,
+            "hotel_rooms": 35084,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 52.9,
+            "hotel_rooms": 40817,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 57.8,
+            "hotel_rooms": 37982,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 52.9,
+            "hotel_rooms": 40118,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "KA",
+        "state_name": "Karnataka",
+        "region": "South",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 42.7,
+            "hotel_rooms": 92831,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 45.6,
+            "hotel_rooms": 100126,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 44.7,
+            "hotel_rooms": 99677,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 49.9,
+            "hotel_rooms": 99912,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 54.4,
+            "hotel_rooms": 109489,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 26.6,
+            "hotel_rooms": 101849,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 29.2,
+            "hotel_rooms": 103708,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 50.7,
+            "hotel_rooms": 100465,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 57.7,
+            "hotel_rooms": 107541,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 60.7,
+            "hotel_rooms": 111710,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 59.9,
+            "hotel_rooms": 113904,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "KL",
+        "state_name": "Kerala",
+        "region": "South",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 42.0,
+            "hotel_rooms": 51065,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 45.8,
+            "hotel_rooms": 50094,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 42.9,
+            "hotel_rooms": 48923,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 48.5,
+            "hotel_rooms": 53154,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 53.0,
+            "hotel_rooms": 59400,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 26.2,
+            "hotel_rooms": 55810,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 28.6,
+            "hotel_rooms": 53122,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 48.9,
+            "hotel_rooms": 58098,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 57.0,
+            "hotel_rooms": 54773,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 63.1,
+            "hotel_rooms": 58485,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 59.1,
+            "hotel_rooms": 62400,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "LA",
+        "state_name": "Ladakh",
+        "region": "North",
+        "points": [
+          {
+            "year": 2019,
+            "occupancy_rate": 65.4,
+            "hotel_rooms": 18861,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 29.9,
+            "hotel_rooms": 17906,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 31.3,
+            "hotel_rooms": 17568,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 52.4,
+            "hotel_rooms": 17258,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 62.3,
+            "hotel_rooms": 18805,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 64.8,
+            "hotel_rooms": 18781,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 66.8,
+            "hotel_rooms": 20630,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "LD",
+        "state_name": "Lakshadweep",
+        "region": "Islands",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 51.8,
+            "hotel_rooms": 11520,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 52.1,
+            "hotel_rooms": 12361,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 53.7,
+            "hotel_rooms": 12167,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 55.4,
+            "hotel_rooms": 12542,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 65.3,
+            "hotel_rooms": 13074,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 31.6,
+            "hotel_rooms": 12510,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 33.7,
+            "hotel_rooms": 12186,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 53.1,
+            "hotel_rooms": 13314,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 71.4,
+            "hotel_rooms": 13535,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 76.0,
+            "hotel_rooms": 14344,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 69.6,
+            "hotel_rooms": 14199,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "MH",
+        "state_name": "Maharashtra",
+        "region": "West",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 46.1,
+            "hotel_rooms": 113451,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 50.4,
+            "hotel_rooms": 101614,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 51.9,
+            "hotel_rooms": 106046,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 56.4,
+            "hotel_rooms": 106609,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 62.8,
+            "hotel_rooms": 120312,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 31.1,
+            "hotel_rooms": 111659,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 37.4,
+            "hotel_rooms": 112123,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 57.7,
+            "hotel_rooms": 112984,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 66.8,
+            "hotel_rooms": 114276,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 69.9,
+            "hotel_rooms": 126937,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 71.3,
+            "hotel_rooms": 124736,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "ML",
+        "state_name": "Meghalaya",
+        "region": "North-East",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 46.1,
+            "hotel_rooms": 16063,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 49.6,
+            "hotel_rooms": 18471,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 49.9,
+            "hotel_rooms": 19330,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 55.6,
+            "hotel_rooms": 20235,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 55.6,
+            "hotel_rooms": 20411,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 29.4,
+            "hotel_rooms": 20528,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 32.1,
+            "hotel_rooms": 19957,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 48.1,
+            "hotel_rooms": 19767,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 59.6,
+            "hotel_rooms": 20116,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 58.5,
+            "hotel_rooms": 22752,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 59.0,
+            "hotel_rooms": 21817,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "MN",
+        "state_name": "Manipur",
+        "region": "North-East",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 43.3,
+            "hotel_rooms": 15392,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 43.2,
+            "hotel_rooms": 13587,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 44.3,
+            "hotel_rooms": 15536,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 51.2,
+            "hotel_rooms": 16343,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 54.4,
+            "hotel_rooms": 15661,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 27.7,
+            "hotel_rooms": 14843,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 27.2,
+            "hotel_rooms": 15572,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 52.1,
+            "hotel_rooms": 15923,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 57.5,
+            "hotel_rooms": 15722,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 66.2,
+            "hotel_rooms": 17442,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 65.3,
+            "hotel_rooms": 18635,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "MP",
+        "state_name": "Madhya Pradesh",
+        "region": "Central",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 49.6,
+            "hotel_rooms": 51574,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 51.9,
+            "hotel_rooms": 52506,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 54.2,
+            "hotel_rooms": 54939,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 53.8,
+            "hotel_rooms": 58339,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 63.1,
+            "hotel_rooms": 55545,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 28.4,
+            "hotel_rooms": 56526,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 27.5,
+            "hotel_rooms": 54040,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 52.7,
+            "hotel_rooms": 54143,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 65.0,
+            "hotel_rooms": 57506,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 67.6,
+            "hotel_rooms": 57932,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 72.1,
+            "hotel_rooms": 65869,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "MZ",
+        "state_name": "Mizoram",
+        "region": "North-East",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 44.2,
+            "hotel_rooms": 13010,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 48.2,
+            "hotel_rooms": 14354,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 48.0,
+            "hotel_rooms": 14438,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 52.4,
+            "hotel_rooms": 14913,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 58.4,
+            "hotel_rooms": 14709,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 33.2,
+            "hotel_rooms": 14314,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 33.9,
+            "hotel_rooms": 13481,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 57.9,
+            "hotel_rooms": 15512,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 66.0,
+            "hotel_rooms": 14656,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 68.5,
+            "hotel_rooms": 15984,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 68.8,
+            "hotel_rooms": 16663,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "NL",
+        "state_name": "Nagaland",
+        "region": "North-East",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 50.9,
+            "hotel_rooms": 14397,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 51.7,
+            "hotel_rooms": 13655,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 54.1,
+            "hotel_rooms": 15003,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 55.4,
+            "hotel_rooms": 15201,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 63.8,
+            "hotel_rooms": 15595,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 35.0,
+            "hotel_rooms": 15097,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 35.0,
+            "hotel_rooms": 15208,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 59.5,
+            "hotel_rooms": 15083,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 62.9,
+            "hotel_rooms": 15448,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 69.1,
+            "hotel_rooms": 16961,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 69.3,
+            "hotel_rooms": 16760,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "OD",
+        "state_name": "Odisha",
+        "region": "East",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 49.3,
+            "hotel_rooms": 28978,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 52.3,
+            "hotel_rooms": 29357,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 52.0,
+            "hotel_rooms": 31181,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 55.3,
+            "hotel_rooms": 34883,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 63.5,
+            "hotel_rooms": 31008,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 31.4,
+            "hotel_rooms": 33479,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 37.5,
+            "hotel_rooms": 32255,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 61.5,
+            "hotel_rooms": 32512,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 67.8,
+            "hotel_rooms": 32034,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 74.0,
+            "hotel_rooms": 32747,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 74.3,
+            "hotel_rooms": 39424,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "PB",
+        "state_name": "Punjab",
+        "region": "North",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 39.8,
+            "hotel_rooms": 39968,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 45.5,
+            "hotel_rooms": 40563,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 44.4,
+            "hotel_rooms": 41897,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 49.6,
+            "hotel_rooms": 42741,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 51.0,
+            "hotel_rooms": 44553,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 27.2,
+            "hotel_rooms": 41001,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 32.0,
+            "hotel_rooms": 43177,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 50.4,
+            "hotel_rooms": 43834,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 55.6,
+            "hotel_rooms": 44511,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 57.7,
+            "hotel_rooms": 45641,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 56.5,
+            "hotel_rooms": 45179,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "PY",
+        "state_name": "Puducherry",
+        "region": "South",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 51.7,
+            "hotel_rooms": 26254,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 51.0,
+            "hotel_rooms": 25282,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 53.0,
+            "hotel_rooms": 26221,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 56.5,
+            "hotel_rooms": 26942,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 69.3,
+            "hotel_rooms": 27940,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 34.2,
+            "hotel_rooms": 28909,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 33.8,
+            "hotel_rooms": 28708,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 58.2,
+            "hotel_rooms": 30401,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 72.0,
+            "hotel_rooms": 32338,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 76.2,
+            "hotel_rooms": 29918,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 77.2,
+            "hotel_rooms": 32210,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "RJ",
+        "state_name": "Rajasthan",
+        "region": "North",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 42.7,
+            "hotel_rooms": 61343,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 48.0,
+            "hotel_rooms": 68747,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 46.5,
+            "hotel_rooms": 69127,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 47.7,
+            "hotel_rooms": 67316,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 56.1,
+            "hotel_rooms": 75972,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 25.5,
+            "hotel_rooms": 77650,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 28.6,
+            "hotel_rooms": 76528,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 47.3,
+            "hotel_rooms": 66520,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 53.6,
+            "hotel_rooms": 68970,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 57.3,
+            "hotel_rooms": 78308,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 63.0,
+            "hotel_rooms": 78898,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "SK",
+        "state_name": "Sikkim",
+        "region": "North-East",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 47.1,
+            "hotel_rooms": 14059,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 44.4,
+            "hotel_rooms": 16795,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 48.1,
+            "hotel_rooms": 15660,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 54.8,
+            "hotel_rooms": 15808,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 55.4,
+            "hotel_rooms": 15130,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 27.2,
+            "hotel_rooms": 15858,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 32.9,
+            "hotel_rooms": 15378,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 46.5,
+            "hotel_rooms": 15976,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 58.0,
+            "hotel_rooms": 16850,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 60.1,
+            "hotel_rooms": 16760,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 63.7,
+            "hotel_rooms": 17799,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "TN",
+        "state_name": "Tamil Nadu",
+        "region": "South",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 43.3,
+            "hotel_rooms": 133027,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 46.9,
+            "hotel_rooms": 145693,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 48.5,
+            "hotel_rooms": 141730,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 50.6,
+            "hotel_rooms": 145470,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 55.6,
+            "hotel_rooms": 147080,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 25.6,
+            "hotel_rooms": 147992,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 27.8,
+            "hotel_rooms": 146107,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 46.7,
+            "hotel_rooms": 133947,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 64.4,
+            "hotel_rooms": 158464,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 64.1,
+            "hotel_rooms": 167005,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 63.4,
+            "hotel_rooms": 170682,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "TR",
+        "state_name": "Tripura",
+        "region": "North-East",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 45.4,
+            "hotel_rooms": 14128,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 45.5,
+            "hotel_rooms": 15753,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 46.5,
+            "hotel_rooms": 15378,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 50.4,
+            "hotel_rooms": 15975,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 59.9,
+            "hotel_rooms": 18168,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 25.6,
+            "hotel_rooms": 15784,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 27.9,
+            "hotel_rooms": 15649,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 44.0,
+            "hotel_rooms": 17413,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 53.7,
+            "hotel_rooms": 16745,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 61.5,
+            "hotel_rooms": 18136,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 59.8,
+            "hotel_rooms": 18405,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "TS",
+        "state_name": "Telangana",
+        "region": "South",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 43.3,
+            "hotel_rooms": 54274,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 49.0,
+            "hotel_rooms": 54238,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 48.0,
+            "hotel_rooms": 55498,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 53.1,
+            "hotel_rooms": 59729,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 64.4,
+            "hotel_rooms": 58419,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 26.4,
+            "hotel_rooms": 57260,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 29.0,
+            "hotel_rooms": 54829,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 50.8,
+            "hotel_rooms": 58155,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 62.3,
+            "hotel_rooms": 59679,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 67.8,
+            "hotel_rooms": 64932,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 68.4,
+            "hotel_rooms": 68316,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "UP",
+        "state_name": "Uttar Pradesh",
+        "region": "Central",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 39.6,
+            "hotel_rooms": 104707,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 42.0,
+            "hotel_rooms": 112405,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 41.5,
+            "hotel_rooms": 120880,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 46.4,
+            "hotel_rooms": 125666,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 52.2,
+            "hotel_rooms": 119665,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 24.7,
+            "hotel_rooms": 123858,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 24.9,
+            "hotel_rooms": 126820,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 42.8,
+            "hotel_rooms": 121036,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 51.5,
+            "hotel_rooms": 128808,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 54.1,
+            "hotel_rooms": 137454,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 54.7,
+            "hotel_rooms": 125316,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "UT",
+        "state_name": "Uttarakhand",
+        "region": "North",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 46.7,
+            "hotel_rooms": 33602,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 49.4,
+            "hotel_rooms": 33892,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 46.8,
+            "hotel_rooms": 34039,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 54.6,
+            "hotel_rooms": 36205,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 56.9,
+            "hotel_rooms": 38149,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 32.3,
+            "hotel_rooms": 35531,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 33.4,
+            "hotel_rooms": 37087,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 55.8,
+            "hotel_rooms": 36216,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 64.9,
+            "hotel_rooms": 39789,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 64.7,
+            "hotel_rooms": 42189,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 67.4,
+            "hotel_rooms": 42574,
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "state_code": "WB",
+        "state_name": "West Bengal",
+        "region": "East",
+        "points": [
+          {
+            "year": 2015,
+            "occupancy_rate": 51.6,
+            "hotel_rooms": 55087,
+            "is_synthetic": true
+          },
+          {
+            "year": 2016,
+            "occupancy_rate": 46.4,
+            "hotel_rooms": 59888,
+            "is_synthetic": true
+          },
+          {
+            "year": 2017,
+            "occupancy_rate": 51.0,
+            "hotel_rooms": 66281,
+            "is_synthetic": true
+          },
+          {
+            "year": 2018,
+            "occupancy_rate": 57.3,
+            "hotel_rooms": 63147,
+            "is_synthetic": true
+          },
+          {
+            "year": 2019,
+            "occupancy_rate": 59.1,
+            "hotel_rooms": 73994,
+            "is_synthetic": true
+          },
+          {
+            "year": 2020,
+            "occupancy_rate": 27.2,
+            "hotel_rooms": 63896,
+            "is_synthetic": true
+          },
+          {
+            "year": 2021,
+            "occupancy_rate": 30.7,
+            "hotel_rooms": 61335,
+            "is_synthetic": true
+          },
+          {
+            "year": 2022,
+            "occupancy_rate": 53.3,
+            "hotel_rooms": 67797,
+            "is_synthetic": true
+          },
+          {
+            "year": 2023,
+            "occupancy_rate": 63.3,
+            "hotel_rooms": 73230,
+            "is_synthetic": true
+          },
+          {
+            "year": 2024,
+            "occupancy_rate": 68.3,
+            "hotel_rooms": 71117,
+            "is_synthetic": true
+          },
+          {
+            "year": 2025,
+            "occupancy_rate": 69.0,
+            "hotel_rooms": 80962,
+            "is_synthetic": true
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "filters": {
+      "year": null,
+      "year_from": null,
+      "year_to": null,
+      "states": [],
+      "region": null,
+      "tourism_type": null,
+      "visitor_type": "all",
+      "include_synthetic": true,
+      "resolved": {
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      }
+    },
+    "data_sources": [
+      "SYNTHETIC: generated by src/synthesize.py (seed=42); illustrative values, not government statistics"
+    ],
+    "synthetic_share": 100.0,
+    "record_count": 403,
+    "notes": [
+      "National occupancy is weighted by hotel rooms (derived)."
+    ]
+  }
+}

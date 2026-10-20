@@ -1,0 +1,878 @@
+{
+  "data": {
+    "year": 2024,
+    "profile": {
+      "state_code": "GA",
+      "state_name": "Goa",
+      "region": "West",
+      "capital": "Panaji",
+      "area_km2": 3702,
+      "population": 1458545,
+      "population_display": "14.6 L",
+      "tourism_types": [
+        "beach",
+        "heritage",
+        "religious"
+      ],
+      "unesco_sites": [
+        {
+          "name": "Churches and Convents of Goa",
+          "type": "heritage",
+          "annual_footfall": 433477,
+          "is_synthetic": true
+        }
+      ],
+      "unesco_count": 1,
+      "airports": 3,
+      "international_airports": 2,
+      "first_year": 2015,
+      "boundary_note": null,
+      "is_synthetic": true
+    },
+    "kpis": [
+      {
+        "key": "total_visits",
+        "label": "Total visits",
+        "unit": "visits",
+        "value": 9481363.0,
+        "display": "94.8 L",
+        "previous_value": 7415556.0,
+        "previous_display": "74.2 L",
+        "change_abs": 2065807.0,
+        "change_pct": 27.86,
+        "change_display": "+27.9%",
+        "direction": "up",
+        "is_synthetic": true,
+        "state_code": null,
+        "state_name": null,
+        "previous_state_code": null,
+        "share_pct": null,
+        "note": null
+      },
+      {
+        "key": "domestic_visits",
+        "label": "Domestic visits",
+        "unit": "visits",
+        "value": 9029918.0,
+        "display": "90.3 L",
+        "previous_value": 7022939.0,
+        "previous_display": "70.2 L",
+        "change_abs": 2006979.0,
+        "change_pct": 28.58,
+        "change_display": "+28.6%",
+        "direction": "up",
+        "is_synthetic": true,
+        "state_code": null,
+        "state_name": null,
+        "previous_state_code": null,
+        "share_pct": null,
+        "note": null
+      },
+      {
+        "key": "foreign_visits",
+        "label": "Foreign visits",
+        "unit": "visits",
+        "value": 451445.0,
+        "display": "4.51 L",
+        "previous_value": 392617.0,
+        "previous_display": "3.93 L",
+        "change_abs": 58828.0,
+        "change_pct": 14.98,
+        "change_display": "+15.0%",
+        "direction": "up",
+        "is_synthetic": true,
+        "state_code": null,
+        "state_name": null,
+        "previous_state_code": null,
+        "share_pct": null,
+        "note": null
+      },
+      {
+        "key": "revenue",
+        "label": "Tourism revenue",
+        "unit": "INR crore",
+        "value": 11048.88,
+        "display": "₹11,049 Cr",
+        "previous_value": 8886.94,
+        "previous_display": "₹8,887 Cr",
+        "change_abs": 2161.94,
+        "change_pct": 24.33,
+        "change_display": "+24.3%",
+        "direction": "up",
+        "is_synthetic": true,
+        "state_code": null,
+        "state_name": null,
+        "previous_state_code": null,
+        "share_pct": null,
+        "note": null
+      },
+      {
+        "key": "forex_earnings",
+        "label": "Forex earnings",
+        "unit": "INR crore",
+        "value": 8813.95,
+        "display": "₹8,814 Cr",
+        "previous_value": 7231.51,
+        "previous_display": "₹7,232 Cr",
+        "change_abs": 1582.44,
+        "change_pct": 21.88,
+        "change_display": "+21.9%",
+        "direction": "up",
+        "is_synthetic": true,
+        "state_code": null,
+        "state_name": null,
+        "previous_state_code": null,
+        "share_pct": null,
+        "note": null
+      },
+      {
+        "key": "revenue_per_tourist",
+        "label": "Revenue per tourist",
+        "unit": "INR",
+        "value": 11653.261245245012,
+        "display": "₹11,653",
+        "previous_value": 11984.185676704485,
+        "previous_display": "₹11,984",
+        "change_abs": -330.92,
+        "change_pct": -2.76,
+        "change_display": "-2.8%",
+        "direction": "down",
+        "is_synthetic": true,
+        "state_code": null,
+        "state_name": null,
+        "previous_state_code": null,
+        "share_pct": null,
+        "note": null
+      },
+      {
+        "key": "visits_per_1000_people",
+        "label": "Visits per 1,000 people",
+        "unit": "per 1,000",
+        "value": 6500.562546921761,
+        "display": "6,501",
+        "previous_value": 5084.2147482593955,
+        "previous_display": "5,084",
+        "change_abs": 1416.35,
+        "change_pct": 27.86,
+        "change_display": "+27.9%",
+        "direction": "up",
+        "is_synthetic": true,
+        "state_code": null,
+        "state_name": null,
+        "previous_state_code": null,
+        "share_pct": null,
+        "note": null
+      },
+      {
+        "key": "share_of_india_total",
+        "label": "Share of India total",
+        "unit": "%",
+        "value": 0.3292,
+        "display": "0.33%",
+        "previous_value": 0.2945,
+        "previous_display": "0.29%",
+        "change_abs": 0.03,
+        "change_pct": 11.78,
+        "change_display": "+11.8%",
+        "direction": "up",
+        "is_synthetic": true,
+        "state_code": null,
+        "state_name": null,
+        "previous_state_code": null,
+        "share_pct": null,
+        "note": null
+      },
+      {
+        "key": "tourism_share_of_gsdp",
+        "label": "Tourism share of GSDP",
+        "unit": "%",
+        "value": 6.9957,
+        "display": "7.00%",
+        "previous_value": 5.9926,
+        "previous_display": "5.99%",
+        "change_abs": 1.0,
+        "change_pct": 16.74,
+        "change_display": "+16.7%",
+        "direction": "up",
+        "is_synthetic": true,
+        "state_code": null,
+        "state_name": null,
+        "previous_state_code": null,
+        "share_pct": null,
+        "note": null
+      },
+      {
+        "key": "tourism_employment",
+        "label": "Tourism employment",
+        "unit": "persons",
+        "value": 254494.0,
+        "display": "2.54 L",
+        "previous_value": 209203.0,
+        "previous_display": "2.09 L",
+        "change_abs": 45291.0,
+        "change_pct": 21.65,
+        "change_display": "+21.6%",
+        "direction": "up",
+        "is_synthetic": true,
+        "state_code": null,
+        "state_name": null,
+        "previous_state_code": null,
+        "share_pct": null,
+        "note": null
+      },
+      {
+        "key": "yoy_growth",
+        "label": "YoY growth of visits",
+        "unit": "%",
+        "value": 27.86,
+        "display": "+27.9%",
+        "previous_value": 19.65,
+        "previous_display": "+19.6%",
+        "change_abs": 8.21,
+        "change_pct": 8.21,
+        "change_display": "+8.2 pp",
+        "direction": "up",
+        "is_synthetic": true,
+        "state_code": null,
+        "state_name": null,
+        "previous_state_code": null,
+        "share_pct": null,
+        "note": null
+      },
+      {
+        "key": "rank_total_visits",
+        "label": "Rank by total visits",
+        "unit": "rank",
+        "value": 23.0,
+        "display": "#23",
+        "previous_value": 24.0,
+        "previous_display": "#24",
+        "change_abs": -1.0,
+        "change_pct": null,
+        "change_display": "+1 places",
+        "direction": "up",
+        "is_synthetic": true,
+        "state_code": null,
+        "state_name": null,
+        "previous_state_code": null,
+        "share_pct": null,
+        "note": null
+      }
+    ],
+    "trend": [
+      {
+        "year": 2015,
+        "domestic_visits": 5059721.0,
+        "foreign_visits": 312847.0,
+        "total_visits": 5372568.0,
+        "domestic_display": "50.6 L",
+        "foreign_display": "3.13 L",
+        "yoy_domestic_pct": null,
+        "yoy_foreign_pct": null,
+        "is_synthetic": true
+      },
+      {
+        "year": 2016,
+        "domestic_visits": 6154812.0,
+        "foreign_visits": 329022.0,
+        "total_visits": 6483834.0,
+        "domestic_display": "61.5 L",
+        "foreign_display": "3.29 L",
+        "yoy_domestic_pct": 21.64,
+        "yoy_foreign_pct": 5.17,
+        "is_synthetic": true
+      },
+      {
+        "year": 2017,
+        "domestic_visits": 6013838.0,
+        "foreign_visits": 327626.0,
+        "total_visits": 6341464.0,
+        "domestic_display": "60.1 L",
+        "foreign_display": "3.28 L",
+        "yoy_domestic_pct": -2.29,
+        "yoy_foreign_pct": -0.42,
+        "is_synthetic": true
+      },
+      {
+        "year": 2018,
+        "domestic_visits": 6810278.0,
+        "foreign_visits": 347232.0,
+        "total_visits": 7157510.0,
+        "domestic_display": "68.1 L",
+        "foreign_display": "3.47 L",
+        "yoy_domestic_pct": 13.24,
+        "yoy_foreign_pct": 5.98,
+        "is_synthetic": true
+      },
+      {
+        "year": 2019,
+        "domestic_visits": 8744536.0,
+        "foreign_visits": 435784.0,
+        "total_visits": 9180320.0,
+        "domestic_display": "87.4 L",
+        "foreign_display": "4.36 L",
+        "yoy_domestic_pct": 28.4,
+        "yoy_foreign_pct": 25.5,
+        "is_synthetic": true
+      },
+      {
+        "year": 2020,
+        "domestic_visits": 2124956.0,
+        "foreign_visits": 70600.0,
+        "total_visits": 2195556.0,
+        "domestic_display": "21.2 L",
+        "foreign_display": "70,600",
+        "yoy_domestic_pct": -75.7,
+        "yoy_foreign_pct": -83.8,
+        "is_synthetic": true
+      },
+      {
+        "year": 2021,
+        "domestic_visits": 2423159.0,
+        "foreign_visits": 33216.0,
+        "total_visits": 2456375.0,
+        "domestic_display": "24.2 L",
+        "foreign_display": "33,216",
+        "yoy_domestic_pct": 14.03,
+        "yoy_foreign_pct": -52.95,
+        "is_synthetic": true
+      },
+      {
+        "year": 2022,
+        "domestic_visits": 6024779.0,
+        "foreign_visits": 172945.0,
+        "total_visits": 6197724.0,
+        "domestic_display": "60.2 L",
+        "foreign_display": "1.73 L",
+        "yoy_domestic_pct": 148.63,
+        "yoy_foreign_pct": 420.67,
+        "is_synthetic": true
+      },
+      {
+        "year": 2023,
+        "domestic_visits": 7022939.0,
+        "foreign_visits": 392617.0,
+        "total_visits": 7415556.0,
+        "domestic_display": "70.2 L",
+        "foreign_display": "3.93 L",
+        "yoy_domestic_pct": 16.57,
+        "yoy_foreign_pct": 127.02,
+        "is_synthetic": true
+      },
+      {
+        "year": 2024,
+        "domestic_visits": 9029918.0,
+        "foreign_visits": 451445.0,
+        "total_visits": 9481363.0,
+        "domestic_display": "90.3 L",
+        "foreign_display": "4.51 L",
+        "yoy_domestic_pct": 28.58,
+        "yoy_foreign_pct": 14.98,
+        "is_synthetic": true
+      },
+      {
+        "year": 2025,
+        "domestic_visits": 8701292.0,
+        "foreign_visits": 507154.0,
+        "total_visits": 9208446.0,
+        "domestic_display": "87.0 L",
+        "foreign_display": "5.07 L",
+        "yoy_domestic_pct": -3.64,
+        "yoy_foreign_pct": 12.34,
+        "is_synthetic": true
+      }
+    ],
+    "source_countries": [
+      {
+        "country": "United Kingdom",
+        "foreign_visits": 83881,
+        "display": "83,881",
+        "share_pct": 18.58,
+        "is_other": false,
+        "is_synthetic": true
+      },
+      {
+        "country": "Bangladesh",
+        "foreign_visits": 65357,
+        "display": "65,357",
+        "share_pct": 14.48,
+        "is_other": false,
+        "is_synthetic": true
+      },
+      {
+        "country": "United States",
+        "foreign_visits": 62152,
+        "display": "62,152",
+        "share_pct": 13.77,
+        "is_other": false,
+        "is_synthetic": true
+      },
+      {
+        "country": "Russia",
+        "foreign_visits": 40492,
+        "display": "40,492",
+        "share_pct": 8.97,
+        "is_other": false,
+        "is_synthetic": true
+      },
+      {
+        "country": "Germany",
+        "foreign_visits": 18004,
+        "display": "18,004",
+        "share_pct": 3.99,
+        "is_other": false,
+        "is_synthetic": true
+      },
+      {
+        "country": "Canada",
+        "foreign_visits": 16954,
+        "display": "16,954",
+        "share_pct": 3.76,
+        "is_other": false,
+        "is_synthetic": true
+      },
+      {
+        "country": "France",
+        "foreign_visits": 15947,
+        "display": "15,947",
+        "share_pct": 3.53,
+        "is_other": false,
+        "is_synthetic": true
+      },
+      {
+        "country": "Australia",
+        "foreign_visits": 15363,
+        "display": "15,363",
+        "share_pct": 3.4,
+        "is_other": false,
+        "is_synthetic": true
+      },
+      {
+        "country": "Others",
+        "foreign_visits": 102171,
+        "display": "1.02 L",
+        "share_pct": 22.63,
+        "is_other": true,
+        "is_synthetic": true
+      }
+    ],
+    "top_attractions": [
+      {
+        "name": "Baga Beach",
+        "type": "beach",
+        "annual_footfall": 2509802,
+        "footfall_display": "25.1 L",
+        "footfall_year": 2024,
+        "is_unesco": false,
+        "is_asi_protected": false,
+        "is_synthetic": true
+      },
+      {
+        "name": "Calangute Beach",
+        "type": "beach",
+        "annual_footfall": 2013139,
+        "footfall_display": "20.1 L",
+        "footfall_year": 2024,
+        "is_unesco": false,
+        "is_asi_protected": false,
+        "is_synthetic": true
+      },
+      {
+        "name": "Dudhsagar Falls",
+        "type": "nature",
+        "annual_footfall": 893361,
+        "footfall_display": "8.93 L",
+        "footfall_year": 2024,
+        "is_unesco": false,
+        "is_asi_protected": false,
+        "is_synthetic": true
+      },
+      {
+        "name": "Churches and Convents of Goa",
+        "type": "heritage",
+        "annual_footfall": 433477,
+        "footfall_display": "4.33 L",
+        "footfall_year": 2024,
+        "is_unesco": true,
+        "is_asi_protected": true,
+        "is_synthetic": true
+      }
+    ],
+    "hotel_infrastructure": {
+      "year": 2024,
+      "hotels_total": 690,
+      "hotel_rooms": 53165,
+      "hotel_rooms_display": "53,165",
+      "occupancy_rate": 59.5,
+      "star_mix": [
+        {
+          "class": "1-star",
+          "hotels": 43,
+          "share_pct": 6.23
+        },
+        {
+          "class": "2-star",
+          "hotels": 88,
+          "share_pct": 12.75
+        },
+        {
+          "class": "3-star",
+          "hotels": 182,
+          "share_pct": 26.38
+        },
+        {
+          "class": "4-star",
+          "hotels": 182,
+          "share_pct": 26.38
+        },
+        {
+          "class": "5-star",
+          "hotels": 157,
+          "share_pct": 22.75
+        },
+        {
+          "class": "Heritage",
+          "hotels": 38,
+          "share_pct": 5.51
+        }
+      ],
+      "registered_homestays": 845,
+      "registered_tour_operators": 407,
+      "occupancy_history": [
+        {
+          "year": 2015,
+          "occupancy_rate": 42.0
+        },
+        {
+          "year": 2016,
+          "occupancy_rate": 44.9
+        },
+        {
+          "year": 2017,
+          "occupancy_rate": 45.3
+        },
+        {
+          "year": 2018,
+          "occupancy_rate": 47.8
+        },
+        {
+          "year": 2019,
+          "occupancy_rate": 57.9
+        },
+        {
+          "year": 2020,
+          "occupancy_rate": 26.8
+        },
+        {
+          "year": 2021,
+          "occupancy_rate": 24.8
+        },
+        {
+          "year": 2022,
+          "occupancy_rate": 45.0
+        },
+        {
+          "year": 2023,
+          "occupancy_rate": 49.0
+        },
+        {
+          "year": 2024,
+          "occupancy_rate": 59.5
+        },
+        {
+          "year": 2025,
+          "occupancy_rate": 54.6
+        }
+      ],
+      "is_synthetic": true
+    },
+    "seasonality": {
+      "year": 2024,
+      "months": [
+        {
+          "month": 1,
+          "month_name": "Jan",
+          "domestic_visits": 1164743,
+          "foreign_visits": 89266,
+          "total_visits": 1254009,
+          "share_of_year_pct": 13.23,
+          "seasonal_index": 158.7,
+          "avg_temp_c": 26.2,
+          "season": "Winter",
+          "is_synthetic": true
+        },
+        {
+          "month": 2,
+          "month_name": "Feb",
+          "domestic_visits": 938264,
+          "foreign_visits": 69445,
+          "total_visits": 1007709,
+          "share_of_year_pct": 10.63,
+          "seasonal_index": 127.5,
+          "avg_temp_c": 28.2,
+          "season": "Winter",
+          "is_synthetic": true
+        },
+        {
+          "month": 3,
+          "month_name": "Mar",
+          "domestic_visits": 680661,
+          "foreign_visits": 34634,
+          "total_visits": 715295,
+          "share_of_year_pct": 7.54,
+          "seasonal_index": 90.5,
+          "avg_temp_c": 29.9,
+          "season": "Summer",
+          "is_synthetic": true
+        },
+        {
+          "month": 4,
+          "month_name": "Apr",
+          "domestic_visits": 522568,
+          "foreign_visits": 19836,
+          "total_visits": 542404,
+          "share_of_year_pct": 5.72,
+          "seasonal_index": 68.6,
+          "avg_temp_c": 29.7,
+          "season": "Summer",
+          "is_synthetic": true
+        },
+        {
+          "month": 5,
+          "month_name": "May",
+          "domestic_visits": 495803,
+          "foreign_visits": 14097,
+          "total_visits": 509900,
+          "share_of_year_pct": 5.38,
+          "seasonal_index": 64.5,
+          "avg_temp_c": 29.6,
+          "season": "Summer",
+          "is_synthetic": true
+        },
+        {
+          "month": 6,
+          "month_name": "Jun",
+          "domestic_visits": 361913,
+          "foreign_visits": 8486,
+          "total_visits": 370399,
+          "share_of_year_pct": 3.91,
+          "seasonal_index": 46.9,
+          "avg_temp_c": 28.8,
+          "season": "Monsoon",
+          "is_synthetic": true
+        },
+        {
+          "month": 7,
+          "month_name": "Jul",
+          "domestic_visits": 375908,
+          "foreign_visits": 7176,
+          "total_visits": 383084,
+          "share_of_year_pct": 4.04,
+          "seasonal_index": 48.5,
+          "avg_temp_c": 27.9,
+          "season": "Monsoon",
+          "is_synthetic": true
+        },
+        {
+          "month": 8,
+          "month_name": "Aug",
+          "domestic_visits": 415352,
+          "foreign_visits": 15718,
+          "total_visits": 431070,
+          "share_of_year_pct": 4.55,
+          "seasonal_index": 54.6,
+          "avg_temp_c": 26.4,
+          "season": "Monsoon",
+          "is_synthetic": true
+        },
+        {
+          "month": 9,
+          "month_name": "Sep",
+          "domestic_visits": 539739,
+          "foreign_visits": 18238,
+          "total_visits": 557977,
+          "share_of_year_pct": 5.88,
+          "seasonal_index": 70.6,
+          "avg_temp_c": 25.2,
+          "season": "Monsoon",
+          "is_synthetic": true
+        },
+        {
+          "month": 10,
+          "month_name": "Oct",
+          "domestic_visits": 916509,
+          "foreign_visits": 40355,
+          "total_visits": 956864,
+          "share_of_year_pct": 10.09,
+          "seasonal_index": 121.1,
+          "avg_temp_c": 25.5,
+          "season": "Post-monsoon",
+          "is_synthetic": true
+        },
+        {
+          "month": 11,
+          "month_name": "Nov",
+          "domestic_visits": 1053714,
+          "foreign_visits": 59637,
+          "total_visits": 1113351,
+          "share_of_year_pct": 11.74,
+          "seasonal_index": 140.9,
+          "avg_temp_c": 25.3,
+          "season": "Post-monsoon",
+          "is_synthetic": true
+        },
+        {
+          "month": 12,
+          "month_name": "Dec",
+          "domestic_visits": 1564744,
+          "foreign_visits": 74557,
+          "total_visits": 1639301,
+          "share_of_year_pct": 17.29,
+          "seasonal_index": 207.5,
+          "avg_temp_c": 25.5,
+          "season": "Winter",
+          "is_synthetic": true
+        }
+      ],
+      "peak_month": 12,
+      "low_month": 6
+    },
+    "festivals": [
+      {
+        "name": "Goa Carnival",
+        "month": 2,
+        "month_name": "Feb",
+        "type": "cultural",
+        "is_synthetic": true
+      },
+      {
+        "name": "Shigmo",
+        "month": 3,
+        "month_name": "Mar",
+        "type": "cultural",
+        "is_synthetic": true
+      },
+      {
+        "name": "Feast of St Francis Xavier",
+        "month": 12,
+        "month_name": "Dec",
+        "type": "religious",
+        "is_synthetic": true
+      },
+      {
+        "name": "Sunburn Festival",
+        "month": 12,
+        "month_name": "Dec",
+        "type": "music_dance",
+        "is_synthetic": true
+      }
+    ],
+    "rank_history": [
+      {
+        "year": 2015,
+        "rank_total_visits": 22,
+        "total_visits": 5372568.0,
+        "rank_revenue": 15,
+        "is_synthetic": true
+      },
+      {
+        "year": 2016,
+        "rank_total_visits": 21,
+        "total_visits": 6483834.0,
+        "rank_revenue": 15,
+        "is_synthetic": true
+      },
+      {
+        "year": 2017,
+        "rank_total_visits": 22,
+        "total_visits": 6341464.0,
+        "rank_revenue": 15,
+        "is_synthetic": true
+      },
+      {
+        "year": 2018,
+        "rank_total_visits": 22,
+        "total_visits": 7157510.0,
+        "rank_revenue": 15,
+        "is_synthetic": true
+      },
+      {
+        "year": 2019,
+        "rank_total_visits": 21,
+        "total_visits": 9180320.0,
+        "rank_revenue": 15,
+        "is_synthetic": true
+      },
+      {
+        "year": 2020,
+        "rank_total_visits": 23,
+        "total_visits": 2195556.0,
+        "rank_revenue": 19,
+        "is_synthetic": true
+      },
+      {
+        "year": 2021,
+        "rank_total_visits": 24,
+        "total_visits": 2456375.0,
+        "rank_revenue": 19,
+        "is_synthetic": true
+      },
+      {
+        "year": 2022,
+        "rank_total_visits": 23,
+        "total_visits": 6197724.0,
+        "rank_revenue": 18,
+        "is_synthetic": true
+      },
+      {
+        "year": 2023,
+        "rank_total_visits": 24,
+        "total_visits": 7415556.0,
+        "rank_revenue": 16,
+        "is_synthetic": true
+      },
+      {
+        "year": 2024,
+        "rank_total_visits": 23,
+        "total_visits": 9481363.0,
+        "rank_revenue": 16,
+        "is_synthetic": true
+      },
+      {
+        "year": 2025,
+        "rank_total_visits": 24,
+        "total_visits": 9208446.0,
+        "rank_revenue": 16,
+        "is_synthetic": true
+      }
+    ],
+    "notes": []
+  },
+  "meta": {
+    "filters": {
+      "year": 2024,
+      "year_from": null,
+      "year_to": null,
+      "states": [],
+      "region": null,
+      "tourism_type": null,
+      "visitor_type": "all",
+      "include_synthetic": true,
+      "resolved": {
+        "year": 2024,
+        "state": "GA"
+      }
+    },
+    "data_sources": [
+      "SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",
+      "SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source); population = Census 2011 (approx.)",
+      "SYNTHETIC: generated by src/synthesize.py (seed=42); illustrative values, not government statistics"
+    ],
+    "synthetic_share": 100.0,
+    "record_count": 65,
+    "notes": [
+      "Only year and include_synthetic apply; other filters are ignored for a single-state view.",
+      "Attraction footfall is a single 2024 snapshot."
+    ]
+  }
+}

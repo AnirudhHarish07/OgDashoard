@@ -1,0 +1,1520 @@
+{
+  "data": {
+    "baseline_year": 2019,
+    "covid_years": [
+      2020,
+      2021
+    ],
+    "latest_year": 2025,
+    "summary": {
+      "baseline_visits": 2332930000.0,
+      "latest_visits": 3060400000.0,
+      "recovery_pct": 131.18,
+      "states_recovered": 35,
+      "n_states": 36,
+      "is_synthetic": true
+    },
+    "states": [
+      {
+        "rank": 1,
+        "state_code": "TN",
+        "state_name": "Tamil Nadu",
+        "region": "South",
+        "baseline_year": 2019,
+        "baseline_visits": 463322523.0,
+        "baseline_display": "46.3 Cr",
+        "covid_visits": {
+          "2020": 110543175.0,
+          "2021": 128646038.0
+        },
+        "drop_pct": {
+          "2020": -76.14,
+          "2021": -72.23
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -76.14,
+        "latest_year": 2025,
+        "latest_visits": 736429827.0,
+        "latest_display": "73.6 Cr",
+        "recovery_pct": 158.95,
+        "recovery_display": "158.9%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 461696141.0,
+          "trough": 110216044.0,
+          "latest": 734915379.0,
+          "trough_drop_pct": -76.13,
+          "recovery_pct": 159.18
+        },
+        "foreign": {
+          "baseline": 1626382.0,
+          "trough": 327131.0,
+          "latest": 1514448.0,
+          "trough_drop_pct": -79.89,
+          "recovery_pct": 93.12
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 2,
+        "state_code": "KL",
+        "state_name": "Kerala",
+        "region": "South",
+        "baseline_year": 2019,
+        "baseline_visits": 15381637.0,
+        "baseline_display": "1.54 Cr",
+        "covid_visits": {
+          "2020": 4115397.0,
+          "2021": 4884818.0
+        },
+        "drop_pct": {
+          "2020": -73.24,
+          "2021": -68.24
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -73.24,
+        "latest_year": 2025,
+        "latest_visits": 23585834.0,
+        "latest_display": "2.36 Cr",
+        "recovery_pct": 153.34,
+        "recovery_display": "153.3%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 14979108.0,
+          "trough": 4030688.0,
+          "latest": 23156101.0,
+          "trough_drop_pct": -73.09,
+          "recovery_pct": 154.59
+        },
+        "foreign": {
+          "baseline": 402529.0,
+          "trough": 84709.0,
+          "latest": 429733.0,
+          "trough_drop_pct": -78.96,
+          "recovery_pct": 106.76
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 3,
+        "state_code": "WB",
+        "state_name": "West Bengal",
+        "region": "East",
+        "baseline_year": 2019,
+        "baseline_visits": 76690834.0,
+        "baseline_display": "7.67 Cr",
+        "covid_visits": {
+          "2020": 20034257.0,
+          "2021": 23078622.0
+        },
+        "drop_pct": {
+          "2020": -73.88,
+          "2021": -69.91
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -73.88,
+        "latest_year": 2025,
+        "latest_visits": 114985429.0,
+        "latest_display": "11.5 Cr",
+        "recovery_pct": 149.93,
+        "recovery_display": "149.9%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 76048620.0,
+          "trough": 19913032.0,
+          "latest": 114299081.0,
+          "trough_drop_pct": -73.82,
+          "recovery_pct": 150.3
+        },
+        "foreign": {
+          "baseline": 642214.0,
+          "trough": 121225.0,
+          "latest": 686348.0,
+          "trough_drop_pct": -81.12,
+          "recovery_pct": 106.87
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 4,
+        "state_code": "DD",
+        "state_name": "Dadra and Nagar Haveli and Daman and Diu",
+        "region": "West",
+        "baseline_year": 2019,
+        "baseline_visits": 3725267.0,
+        "baseline_display": "37.3 L",
+        "covid_visits": {
+          "2020": 983415.0,
+          "2021": 1140293.0
+        },
+        "drop_pct": {
+          "2020": -73.6,
+          "2021": -69.39
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -73.6,
+        "latest_year": 2025,
+        "latest_visits": 5397559.0,
+        "latest_display": "54.0 L",
+        "recovery_pct": 144.89,
+        "recovery_display": "144.9%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 3716861.0,
+          "trough": 979452.0,
+          "latest": 5388906.0,
+          "trough_drop_pct": -73.65,
+          "recovery_pct": 144.99
+        },
+        "foreign": {
+          "baseline": 8406.0,
+          "trough": 3963.0,
+          "latest": 8653.0,
+          "trough_drop_pct": -52.86,
+          "recovery_pct": 102.94
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 5,
+        "state_code": "MP",
+        "state_name": "Madhya Pradesh",
+        "region": "Central",
+        "baseline_year": 2019,
+        "baseline_visits": 110636998.0,
+        "baseline_display": "11.1 Cr",
+        "covid_visits": {
+          "2020": 27428370.0,
+          "2021": 28556139.0
+        },
+        "drop_pct": {
+          "2020": -75.21,
+          "2021": -74.19
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -75.21,
+        "latest_year": 2025,
+        "latest_visits": 156863727.0,
+        "latest_display": "15.7 Cr",
+        "recovery_pct": 141.78,
+        "recovery_display": "141.8%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 110499240.0,
+          "trough": 27403210.0,
+          "latest": 156732012.0,
+          "trough_drop_pct": -75.2,
+          "recovery_pct": 141.84
+        },
+        "foreign": {
+          "baseline": 137758.0,
+          "trough": 25160.0,
+          "latest": 131715.0,
+          "trough_drop_pct": -81.74,
+          "recovery_pct": 95.61
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 6,
+        "state_code": "PY",
+        "state_name": "Puducherry",
+        "region": "South",
+        "baseline_year": 2019,
+        "baseline_visits": 7297528.0,
+        "baseline_display": "73.0 L",
+        "covid_visits": {
+          "2020": 2023375.0,
+          "2021": 2476859.0
+        },
+        "drop_pct": {
+          "2020": -72.27,
+          "2021": -66.06
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -72.27,
+        "latest_year": 2025,
+        "latest_visits": 10291745.0,
+        "latest_display": "1.03 Cr",
+        "recovery_pct": 141.03,
+        "recovery_display": "141.0%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 7208481.0,
+          "trough": 2002140.0,
+          "latest": 10211147.0,
+          "trough_drop_pct": -72.23,
+          "recovery_pct": 141.65
+        },
+        "foreign": {
+          "baseline": 89047.0,
+          "trough": 21235.0,
+          "latest": 80598.0,
+          "trough_drop_pct": -76.15,
+          "recovery_pct": 90.51
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 7,
+        "state_code": "KA",
+        "state_name": "Karnataka",
+        "region": "South",
+        "baseline_year": 2019,
+        "baseline_visits": 267411503.0,
+        "baseline_display": "26.7 Cr",
+        "covid_visits": {
+          "2020": 77522830.0,
+          "2021": 87309895.0
+        },
+        "drop_pct": {
+          "2020": -71.01,
+          "2021": -67.35
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -71.01,
+        "latest_year": 2025,
+        "latest_visits": 375996622.0,
+        "latest_display": "37.6 Cr",
+        "recovery_pct": 140.61,
+        "recovery_display": "140.6%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 266963949.0,
+          "trough": 77327801.0,
+          "latest": 375508008.0,
+          "trough_drop_pct": -71.03,
+          "recovery_pct": 140.66
+        },
+        "foreign": {
+          "baseline": 447554.0,
+          "trough": 195029.0,
+          "latest": 488614.0,
+          "trough_drop_pct": -56.42,
+          "recovery_pct": 109.17
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 8,
+        "state_code": "OD",
+        "state_name": "Odisha",
+        "region": "East",
+        "baseline_year": 2019,
+        "baseline_visits": 21232981.0,
+        "baseline_display": "2.12 Cr",
+        "covid_visits": {
+          "2020": 6558796.0,
+          "2021": 7820790.0
+        },
+        "drop_pct": {
+          "2020": -69.11,
+          "2021": -63.17
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -69.11,
+        "latest_year": 2025,
+        "latest_visits": 29228584.0,
+        "latest_display": "2.92 Cr",
+        "recovery_pct": 137.66,
+        "recovery_display": "137.7%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 21191395.0,
+          "trough": 6543270.0,
+          "latest": 29191837.0,
+          "trough_drop_pct": -69.12,
+          "recovery_pct": 137.75
+        },
+        "foreign": {
+          "baseline": 41586.0,
+          "trough": 15526.0,
+          "latest": 36747.0,
+          "trough_drop_pct": -62.67,
+          "recovery_pct": 88.36
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 9,
+        "state_code": "MH",
+        "state_name": "Maharashtra",
+        "region": "West",
+        "baseline_year": 2019,
+        "baseline_visits": 116633728.0,
+        "baseline_display": "11.7 Cr",
+        "covid_visits": {
+          "2020": 34291229.0,
+          "2021": 43522825.0
+        },
+        "drop_pct": {
+          "2020": -70.6,
+          "2021": -62.68
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -70.6,
+        "latest_year": 2025,
+        "latest_visits": 159988417.0,
+        "latest_display": "16.0 Cr",
+        "recovery_pct": 137.17,
+        "recovery_display": "137.2%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 114471309.0,
+          "trough": 33868348.0,
+          "latest": 158084551.0,
+          "trough_drop_pct": -70.41,
+          "recovery_pct": 138.1
+        },
+        "foreign": {
+          "baseline": 2162419.0,
+          "trough": 422881.0,
+          "latest": 1903866.0,
+          "trough_drop_pct": -80.44,
+          "recovery_pct": 88.04
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 10,
+        "state_code": "CH",
+        "state_name": "Chandigarh",
+        "region": "North",
+        "baseline_year": 2019,
+        "baseline_visits": 2127249.0,
+        "baseline_display": "21.3 L",
+        "covid_visits": {
+          "2020": 852390.0,
+          "2021": 862874.0
+        },
+        "drop_pct": {
+          "2020": -59.93,
+          "2021": -59.44
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -59.93,
+        "latest_year": 2025,
+        "latest_visits": 2895677.0,
+        "latest_display": "29.0 L",
+        "recovery_pct": 136.12,
+        "recovery_display": "136.1%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 2118219.0,
+          "trough": 849434.0,
+          "latest": 2886142.0,
+          "trough_drop_pct": -59.9,
+          "recovery_pct": 136.25
+        },
+        "foreign": {
+          "baseline": 9030.0,
+          "trough": 2956.0,
+          "latest": 9535.0,
+          "trough_drop_pct": -67.26,
+          "recovery_pct": 105.59
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 11,
+        "state_code": "UT",
+        "state_name": "Uttarakhand",
+        "region": "North",
+        "baseline_year": 2019,
+        "baseline_visits": 32195802.0,
+        "baseline_display": "3.22 Cr",
+        "covid_visits": {
+          "2020": 11618838.0,
+          "2021": 12708306.0
+        },
+        "drop_pct": {
+          "2020": -63.91,
+          "2021": -60.53
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -63.91,
+        "latest_year": 2025,
+        "latest_visits": 43117009.0,
+        "latest_display": "4.31 Cr",
+        "recovery_pct": 133.92,
+        "recovery_display": "133.9%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 32142033.0,
+          "trough": 11610203.0,
+          "latest": 43062914.0,
+          "trough_drop_pct": -63.88,
+          "recovery_pct": 133.98
+        },
+        "foreign": {
+          "baseline": 53769.0,
+          "trough": 8635.0,
+          "latest": 54095.0,
+          "trough_drop_pct": -83.94,
+          "recovery_pct": 100.61
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 12,
+        "state_code": "AP",
+        "state_name": "Andhra Pradesh",
+        "region": "South",
+        "baseline_year": 2019,
+        "baseline_visits": 252271940.0,
+        "baseline_display": "25.2 Cr",
+        "covid_visits": {
+          "2020": 64259713.0,
+          "2021": 71721031.0
+        },
+        "drop_pct": {
+          "2020": -74.53,
+          "2021": -71.57
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -74.53,
+        "latest_year": 2025,
+        "latest_visits": 328549809.0,
+        "latest_display": "32.9 Cr",
+        "recovery_pct": 130.24,
+        "recovery_display": "130.2%",
+        "recovered": true,
+        "recovery_year": 2024,
+        "domestic": {
+          "baseline": 252184635.0,
+          "trough": 64230006.0,
+          "latest": 328463025.0,
+          "trough_drop_pct": -74.53,
+          "recovery_pct": 130.25
+        },
+        "foreign": {
+          "baseline": 87305.0,
+          "trough": 29707.0,
+          "latest": 86784.0,
+          "trough_drop_pct": -65.97,
+          "recovery_pct": 99.4
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 13,
+        "state_code": "MZ",
+        "state_name": "Mizoram",
+        "region": "North-East",
+        "baseline_year": 2019,
+        "baseline_visits": 454527.0,
+        "baseline_display": "4.55 L",
+        "covid_visits": {
+          "2020": 145305.0,
+          "2021": 177005.0
+        },
+        "drop_pct": {
+          "2020": -68.03,
+          "2021": -61.06
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -68.03,
+        "latest_year": 2025,
+        "latest_visits": 587874.0,
+        "latest_display": "5.88 L",
+        "recovery_pct": 129.34,
+        "recovery_display": "129.3%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 450446.0,
+          "trough": 143963.0,
+          "latest": 584505.0,
+          "trough_drop_pct": -68.04,
+          "recovery_pct": 129.76
+        },
+        "foreign": {
+          "baseline": 4081.0,
+          "trough": 1342.0,
+          "latest": 3369.0,
+          "trough_drop_pct": -67.12,
+          "recovery_pct": 82.55
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 14,
+        "state_code": "HR",
+        "state_name": "Haryana",
+        "region": "North",
+        "baseline_year": 2019,
+        "baseline_visits": 8905271.0,
+        "baseline_display": "89.1 L",
+        "covid_visits": {
+          "2020": 2461741.0,
+          "2021": 2796774.0
+        },
+        "drop_pct": {
+          "2020": -72.36,
+          "2021": -68.59
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -72.36,
+        "latest_year": 2025,
+        "latest_visits": 11491504.0,
+        "latest_display": "1.15 Cr",
+        "recovery_pct": 129.04,
+        "recovery_display": "129.0%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 8881500.0,
+          "trough": 2456819.0,
+          "latest": 11470026.0,
+          "trough_drop_pct": -72.34,
+          "recovery_pct": 129.15
+        },
+        "foreign": {
+          "baseline": 23771.0,
+          "trough": 4922.0,
+          "latest": 21478.0,
+          "trough_drop_pct": -79.29,
+          "recovery_pct": 90.35
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 15,
+        "state_code": "SK",
+        "state_name": "Sikkim",
+        "region": "North-East",
+        "baseline_year": 2019,
+        "baseline_visits": 668592.0,
+        "baseline_display": "6.69 L",
+        "covid_visits": {
+          "2020": 190516.0,
+          "2021": 227308.0
+        },
+        "drop_pct": {
+          "2020": -71.5,
+          "2021": -66.0
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -71.5,
+        "latest_year": 2025,
+        "latest_visits": 860313.0,
+        "latest_display": "8.60 L",
+        "recovery_pct": 128.68,
+        "recovery_display": "128.7%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 658609.0,
+          "trough": 188714.0,
+          "latest": 848420.0,
+          "trough_drop_pct": -71.35,
+          "recovery_pct": 128.82
+        },
+        "foreign": {
+          "baseline": 9983.0,
+          "trough": 1802.0,
+          "latest": 11893.0,
+          "trough_drop_pct": -81.95,
+          "recovery_pct": 119.13
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 16,
+        "state_code": "HP",
+        "state_name": "Himachal Pradesh",
+        "region": "North",
+        "baseline_year": 2019,
+        "baseline_visits": 25216233.0,
+        "baseline_display": "2.52 Cr",
+        "covid_visits": {
+          "2020": 9437839.0,
+          "2021": 9233605.0
+        },
+        "drop_pct": {
+          "2020": -62.57,
+          "2021": -63.38
+        },
+        "trough_year": 2021,
+        "trough_drop_pct": -63.38,
+        "latest_year": 2025,
+        "latest_visits": 32268163.0,
+        "latest_display": "3.23 Cr",
+        "recovery_pct": 127.97,
+        "recovery_display": "128.0%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 25017763.0,
+          "trough": 9207665.0,
+          "latest": 32100140.0,
+          "trough_drop_pct": -63.2,
+          "recovery_pct": 128.31
+        },
+        "foreign": {
+          "baseline": 198470.0,
+          "trough": 25940.0,
+          "latest": 168023.0,
+          "trough_drop_pct": -86.93,
+          "recovery_pct": 84.66
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 17,
+        "state_code": "AS",
+        "state_name": "Assam",
+        "region": "North-East",
+        "baseline_year": 2019,
+        "baseline_visits": 8315131.0,
+        "baseline_display": "83.2 L",
+        "covid_visits": {
+          "2020": 2689769.0,
+          "2021": 2772932.0
+        },
+        "drop_pct": {
+          "2020": -67.65,
+          "2021": -66.65
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -67.65,
+        "latest_year": 2025,
+        "latest_visits": 10612147.0,
+        "latest_display": "1.06 Cr",
+        "recovery_pct": 127.62,
+        "recovery_display": "127.6%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 8244719.0,
+          "trough": 2671780.0,
+          "latest": 10553929.0,
+          "trough_drop_pct": -67.59,
+          "recovery_pct": 128.01
+        },
+        "foreign": {
+          "baseline": 70412.0,
+          "trough": 17989.0,
+          "latest": 58218.0,
+          "trough_drop_pct": -74.45,
+          "recovery_pct": 82.68
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 18,
+        "state_code": "GJ",
+        "state_name": "Gujarat",
+        "region": "West",
+        "baseline_year": 2019,
+        "baseline_visits": 46762039.0,
+        "baseline_display": "4.68 Cr",
+        "covid_visits": {
+          "2020": 15063860.0,
+          "2021": 16438026.0
+        },
+        "drop_pct": {
+          "2020": -67.79,
+          "2021": -64.85
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -67.79,
+        "latest_year": 2025,
+        "latest_visits": 59201561.0,
+        "latest_display": "5.92 Cr",
+        "recovery_pct": 126.6,
+        "recovery_display": "126.6%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 46629422.0,
+          "trough": 15033186.0,
+          "latest": 59074246.0,
+          "trough_drop_pct": -67.76,
+          "recovery_pct": 126.69
+        },
+        "foreign": {
+          "baseline": 132617.0,
+          "trough": 30674.0,
+          "latest": 127315.0,
+          "trough_drop_pct": -76.87,
+          "recovery_pct": 96.0
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 19,
+        "state_code": "MN",
+        "state_name": "Manipur",
+        "region": "North-East",
+        "baseline_year": 2019,
+        "baseline_visits": 747355.0,
+        "baseline_display": "7.47 L",
+        "covid_visits": {
+          "2020": 189865.0,
+          "2021": 195395.0
+        },
+        "drop_pct": {
+          "2020": -74.6,
+          "2021": -73.86
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -74.6,
+        "latest_year": 2025,
+        "latest_visits": 932716.0,
+        "latest_display": "9.33 L",
+        "recovery_pct": 124.8,
+        "recovery_display": "124.8%",
+        "recovered": true,
+        "recovery_year": 2024,
+        "domestic": {
+          "baseline": 738537.0,
+          "trough": 187166.0,
+          "latest": 922977.0,
+          "trough_drop_pct": -74.66,
+          "recovery_pct": 124.97
+        },
+        "foreign": {
+          "baseline": 8818.0,
+          "trough": 2699.0,
+          "latest": 9739.0,
+          "trough_drop_pct": -69.39,
+          "recovery_pct": 110.44
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 20,
+        "state_code": "TS",
+        "state_name": "Telangana",
+        "region": "South",
+        "baseline_year": 2019,
+        "baseline_visits": 93617101.0,
+        "baseline_display": "9.36 Cr",
+        "covid_visits": {
+          "2020": 21507212.0,
+          "2021": 23201644.0
+        },
+        "drop_pct": {
+          "2020": -77.03,
+          "2021": -75.22
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -77.03,
+        "latest_year": 2025,
+        "latest_visits": 116402737.0,
+        "latest_display": "11.6 Cr",
+        "recovery_pct": 124.34,
+        "recovery_display": "124.3%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 93327825.0,
+          "trough": 21459623.0,
+          "latest": 116074316.0,
+          "trough_drop_pct": -77.01,
+          "recovery_pct": 124.37
+        },
+        "foreign": {
+          "baseline": 289276.0,
+          "trough": 47589.0,
+          "latest": 328421.0,
+          "trough_drop_pct": -83.55,
+          "recovery_pct": 113.53
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 21,
+        "state_code": "BR",
+        "state_name": "Bihar",
+        "region": "East",
+        "baseline_year": 2019,
+        "baseline_visits": 32249575.0,
+        "baseline_display": "3.22 Cr",
+        "covid_visits": {
+          "2020": 10414101.0,
+          "2021": 12101566.0
+        },
+        "drop_pct": {
+          "2020": -67.71,
+          "2021": -62.48
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -67.71,
+        "latest_year": 2025,
+        "latest_visits": 39686810.0,
+        "latest_display": "3.97 Cr",
+        "recovery_pct": 123.06,
+        "recovery_display": "123.1%",
+        "recovered": true,
+        "recovery_year": 2024,
+        "domestic": {
+          "baseline": 31765070.0,
+          "trough": 10291202.0,
+          "latest": 39164433.0,
+          "trough_drop_pct": -67.6,
+          "recovery_pct": 123.29
+        },
+        "foreign": {
+          "baseline": 484505.0,
+          "trough": 122899.0,
+          "latest": 522377.0,
+          "trough_drop_pct": -74.63,
+          "recovery_pct": 107.82
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 22,
+        "state_code": "AN",
+        "state_name": "Andaman and Nicobar Islands",
+        "region": "Islands",
+        "baseline_year": 2019,
+        "baseline_visits": 974864.0,
+        "baseline_display": "9.75 L",
+        "covid_visits": {
+          "2020": 263872.0,
+          "2021": 260013.0
+        },
+        "drop_pct": {
+          "2020": -72.93,
+          "2021": -73.33
+        },
+        "trough_year": 2021,
+        "trough_drop_pct": -73.33,
+        "latest_year": 2025,
+        "latest_visits": 1178587.0,
+        "latest_display": "11.8 L",
+        "recovery_pct": 120.9,
+        "recovery_display": "120.9%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 960016.0,
+          "trough": 257926.0,
+          "latest": 1162311.0,
+          "trough_drop_pct": -73.13,
+          "recovery_pct": 121.07
+        },
+        "foreign": {
+          "baseline": 14848.0,
+          "trough": 2087.0,
+          "latest": 16276.0,
+          "trough_drop_pct": -85.94,
+          "recovery_pct": 109.62
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 23,
+        "state_code": "RJ",
+        "state_name": "Rajasthan",
+        "region": "North",
+        "baseline_year": 2019,
+        "baseline_visits": 59906040.0,
+        "baseline_display": "5.99 Cr",
+        "covid_visits": {
+          "2020": 14744751.0,
+          "2021": 16911275.0
+        },
+        "drop_pct": {
+          "2020": -75.39,
+          "2021": -71.77
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -75.39,
+        "latest_year": 2025,
+        "latest_visits": 71779225.0,
+        "latest_display": "7.18 Cr",
+        "recovery_pct": 119.82,
+        "recovery_display": "119.8%",
+        "recovered": true,
+        "recovery_year": 2024,
+        "domestic": {
+          "baseline": 58967437.0,
+          "trough": 14585799.0,
+          "latest": 70985586.0,
+          "trough_drop_pct": -75.26,
+          "recovery_pct": 120.38
+        },
+        "foreign": {
+          "baseline": 938603.0,
+          "trough": 158952.0,
+          "latest": 793639.0,
+          "trough_drop_pct": -83.07,
+          "recovery_pct": 84.56
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 24,
+        "state_code": "LD",
+        "state_name": "Lakshadweep",
+        "region": "Islands",
+        "baseline_year": 2019,
+        "baseline_visits": 227468.0,
+        "baseline_display": "2.27 L",
+        "covid_visits": {
+          "2020": 59097.0,
+          "2021": 59935.0
+        },
+        "drop_pct": {
+          "2020": -74.02,
+          "2021": -73.65
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -74.02,
+        "latest_year": 2025,
+        "latest_visits": 270978.0,
+        "latest_display": "2.71 L",
+        "recovery_pct": 119.13,
+        "recovery_display": "119.1%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 226537.0,
+          "trough": 58987.0,
+          "latest": 270265.0,
+          "trough_drop_pct": -73.96,
+          "recovery_pct": 119.3
+        },
+        "foreign": {
+          "baseline": 931.0,
+          "trough": 110.0,
+          "latest": 713.0,
+          "trough_drop_pct": -88.18,
+          "recovery_pct": 76.58
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 25,
+        "state_code": "PB",
+        "state_name": "Punjab",
+        "region": "North",
+        "baseline_year": 2019,
+        "baseline_visits": 31424585.0,
+        "baseline_display": "3.14 Cr",
+        "covid_visits": {
+          "2020": 9267964.0,
+          "2021": 11595634.0
+        },
+        "drop_pct": {
+          "2020": -70.51,
+          "2021": -63.1
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -70.51,
+        "latest_year": 2025,
+        "latest_visits": 36809448.0,
+        "latest_display": "3.68 Cr",
+        "recovery_pct": 117.14,
+        "recovery_display": "117.1%",
+        "recovered": true,
+        "recovery_year": 2023,
+        "domestic": {
+          "baseline": 31292084.0,
+          "trough": 9243664.0,
+          "latest": 36685621.0,
+          "trough_drop_pct": -70.46,
+          "recovery_pct": 117.24
+        },
+        "foreign": {
+          "baseline": 132501.0,
+          "trough": 24300.0,
+          "latest": 123827.0,
+          "trough_drop_pct": -81.66,
+          "recovery_pct": 93.45
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 26,
+        "state_code": "JH",
+        "state_name": "Jharkhand",
+        "region": "East",
+        "baseline_year": 2019,
+        "baseline_visits": 11696230.0,
+        "baseline_display": "1.17 Cr",
+        "covid_visits": {
+          "2020": 2801271.0,
+          "2021": 2861448.0
+        },
+        "drop_pct": {
+          "2020": -76.05,
+          "2021": -75.54
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -76.05,
+        "latest_year": 2025,
+        "latest_visits": 13352752.0,
+        "latest_display": "1.34 Cr",
+        "recovery_pct": 114.16,
+        "recovery_display": "114.2%",
+        "recovered": true,
+        "recovery_year": 2024,
+        "domestic": {
+          "baseline": 11682677.0,
+          "trough": 2797881.0,
+          "latest": 13339407.0,
+          "trough_drop_pct": -76.05,
+          "recovery_pct": 114.18
+        },
+        "foreign": {
+          "baseline": 13553.0,
+          "trough": 3390.0,
+          "latest": 13345.0,
+          "trough_drop_pct": -74.99,
+          "recovery_pct": 98.47
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 27,
+        "state_code": "ML",
+        "state_name": "Meghalaya",
+        "region": "North-East",
+        "baseline_year": 2019,
+        "baseline_visits": 2334495.0,
+        "baseline_display": "23.3 L",
+        "covid_visits": {
+          "2020": 677837.0,
+          "2021": 754301.0
+        },
+        "drop_pct": {
+          "2020": -70.96,
+          "2021": -67.69
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -70.96,
+        "latest_year": 2025,
+        "latest_visits": 2640499.0,
+        "latest_display": "26.4 L",
+        "recovery_pct": 113.11,
+        "recovery_display": "113.1%",
+        "recovered": true,
+        "recovery_year": 2024,
+        "domestic": {
+          "baseline": 2312489.0,
+          "trough": 669724.0,
+          "latest": 2614656.0,
+          "trough_drop_pct": -71.04,
+          "recovery_pct": 113.07
+        },
+        "foreign": {
+          "baseline": 22006.0,
+          "trough": 8113.0,
+          "latest": 25843.0,
+          "trough_drop_pct": -63.13,
+          "recovery_pct": 117.44
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 28,
+        "state_code": "LA",
+        "state_name": "Ladakh",
+        "region": "North",
+        "baseline_year": 2019,
+        "baseline_visits": 1858779.0,
+        "baseline_display": "18.6 L",
+        "covid_visits": {
+          "2020": 451370.0,
+          "2021": 523764.0
+        },
+        "drop_pct": {
+          "2020": -75.72,
+          "2021": -71.82
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -75.72,
+        "latest_year": 2025,
+        "latest_visits": 2038457.0,
+        "latest_display": "20.4 L",
+        "recovery_pct": 109.67,
+        "recovery_display": "109.7%",
+        "recovered": true,
+        "recovery_year": 2024,
+        "domestic": {
+          "baseline": 1846113.0,
+          "trough": 448865.0,
+          "latest": 2026597.0,
+          "trough_drop_pct": -75.69,
+          "recovery_pct": 109.78
+        },
+        "foreign": {
+          "baseline": 12666.0,
+          "trough": 2505.0,
+          "latest": 11860.0,
+          "trough_drop_pct": -80.22,
+          "recovery_pct": 93.64
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 29,
+        "state_code": "DL",
+        "state_name": "Delhi",
+        "region": "North",
+        "baseline_year": 2019,
+        "baseline_visits": 25907853.0,
+        "baseline_display": "2.59 Cr",
+        "covid_visits": {
+          "2020": 9113946.0,
+          "2021": 8231170.0
+        },
+        "drop_pct": {
+          "2020": -64.82,
+          "2021": -68.23
+        },
+        "trough_year": 2021,
+        "trough_drop_pct": -68.23,
+        "latest_year": 2025,
+        "latest_visits": 27880877.0,
+        "latest_display": "2.79 Cr",
+        "recovery_pct": 107.62,
+        "recovery_display": "107.6%",
+        "recovered": true,
+        "recovery_year": 2024,
+        "domestic": {
+          "baseline": 24977802.0,
+          "trough": 7899999.0,
+          "latest": 26920049.0,
+          "trough_drop_pct": -68.37,
+          "recovery_pct": 107.78
+        },
+        "foreign": {
+          "baseline": 930051.0,
+          "trough": 331171.0,
+          "latest": 960828.0,
+          "trough_drop_pct": -64.39,
+          "recovery_pct": 103.31
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 30,
+        "state_code": "CG",
+        "state_name": "Chhattisgarh",
+        "region": "Central",
+        "baseline_year": 2019,
+        "baseline_visits": 10973806.0,
+        "baseline_display": "1.10 Cr",
+        "covid_visits": {
+          "2020": 3052519.0,
+          "2021": 2996723.0
+        },
+        "drop_pct": {
+          "2020": -72.18,
+          "2021": -72.69
+        },
+        "trough_year": 2021,
+        "trough_drop_pct": -72.69,
+        "latest_year": 2025,
+        "latest_visits": 11664373.0,
+        "latest_display": "1.17 Cr",
+        "recovery_pct": 106.29,
+        "recovery_display": "106.3%",
+        "recovered": true,
+        "recovery_year": 2024,
+        "domestic": {
+          "baseline": 10952937.0,
+          "trough": 2994122.0,
+          "latest": 11638331.0,
+          "trough_drop_pct": -72.66,
+          "recovery_pct": 106.26
+        },
+        "foreign": {
+          "baseline": 20869.0,
+          "trough": 2601.0,
+          "latest": 26042.0,
+          "trough_drop_pct": -87.54,
+          "recovery_pct": 124.79
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 31,
+        "state_code": "UP",
+        "state_name": "Uttar Pradesh",
+        "region": "Central",
+        "baseline_year": 2019,
+        "baseline_visits": 555847380.0,
+        "baseline_display": "55.6 Cr",
+        "covid_visits": {
+          "2020": 137953133.0,
+          "2021": 142250777.0
+        },
+        "drop_pct": {
+          "2020": -75.18,
+          "2021": -74.41
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -75.18,
+        "latest_year": 2025,
+        "latest_visits": 586375849.0,
+        "latest_display": "58.6 Cr",
+        "recovery_pct": 105.49,
+        "recovery_display": "105.5%",
+        "recovered": true,
+        "recovery_year": 2024,
+        "domestic": {
+          "baseline": 554431954.0,
+          "trough": 137666314.0,
+          "latest": 585209064.0,
+          "trough_drop_pct": -75.17,
+          "recovery_pct": 105.55
+        },
+        "foreign": {
+          "baseline": 1415426.0,
+          "trough": 286819.0,
+          "latest": 1166785.0,
+          "trough_drop_pct": -79.74,
+          "recovery_pct": 82.43
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 32,
+        "state_code": "NL",
+        "state_name": "Nagaland",
+        "region": "North-East",
+        "baseline_year": 2019,
+        "baseline_visits": 733863.0,
+        "baseline_display": "7.34 L",
+        "covid_visits": {
+          "2020": 201730.0,
+          "2021": 227100.0
+        },
+        "drop_pct": {
+          "2020": -72.51,
+          "2021": -69.05
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -72.51,
+        "latest_year": 2025,
+        "latest_visits": 770731.0,
+        "latest_display": "7.71 L",
+        "recovery_pct": 105.02,
+        "recovery_display": "105.0%",
+        "recovered": true,
+        "recovery_year": 2024,
+        "domestic": {
+          "baseline": 729114.0,
+          "trough": 200517.0,
+          "latest": 766508.0,
+          "trough_drop_pct": -72.5,
+          "recovery_pct": 105.13
+        },
+        "foreign": {
+          "baseline": 4749.0,
+          "trough": 1213.0,
+          "latest": 4223.0,
+          "trough_drop_pct": -74.46,
+          "recovery_pct": 88.92
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 33,
+        "state_code": "JK",
+        "state_name": "Jammu and Kashmir",
+        "region": "North",
+        "baseline_year": 2019,
+        "baseline_visits": 33453996.0,
+        "baseline_display": "3.35 Cr",
+        "covid_visits": {
+          "2020": 9018802.0,
+          "2021": 8829796.0
+        },
+        "drop_pct": {
+          "2020": -73.04,
+          "2021": -73.61
+        },
+        "trough_year": 2021,
+        "trough_drop_pct": -73.61,
+        "latest_year": 2025,
+        "latest_visits": 34506333.0,
+        "latest_display": "3.45 Cr",
+        "recovery_pct": 103.15,
+        "recovery_display": "103.2%",
+        "recovered": true,
+        "recovery_year": 2024,
+        "domestic": {
+          "baseline": 33410583.0,
+          "trough": 8822394.0,
+          "latest": 34453372.0,
+          "trough_drop_pct": -73.59,
+          "recovery_pct": 103.12
+        },
+        "foreign": {
+          "baseline": 43413.0,
+          "trough": 7402.0,
+          "latest": 52961.0,
+          "trough_drop_pct": -82.95,
+          "recovery_pct": 121.99
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 34,
+        "state_code": "TR",
+        "state_name": "Tripura",
+        "region": "North-East",
+        "baseline_year": 2019,
+        "baseline_visits": 1282651.0,
+        "baseline_display": "12.8 L",
+        "covid_visits": {
+          "2020": 275296.0,
+          "2021": 292501.0
+        },
+        "drop_pct": {
+          "2020": -78.54,
+          "2021": -77.2
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -78.54,
+        "latest_year": 2025,
+        "latest_visits": 1303694.0,
+        "latest_display": "13.0 L",
+        "recovery_pct": 101.64,
+        "recovery_display": "101.6%",
+        "recovered": true,
+        "recovery_year": 2025,
+        "domestic": {
+          "baseline": 1275658.0,
+          "trough": 273061.0,
+          "latest": 1296367.0,
+          "trough_drop_pct": -78.59,
+          "recovery_pct": 101.62
+        },
+        "foreign": {
+          "baseline": 6993.0,
+          "trough": 2235.0,
+          "latest": 7327.0,
+          "trough_drop_pct": -68.04,
+          "recovery_pct": 104.78
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 35,
+        "state_code": "GA",
+        "state_name": "Goa",
+        "region": "West",
+        "baseline_year": 2019,
+        "baseline_visits": 9180320.0,
+        "baseline_display": "91.8 L",
+        "covid_visits": {
+          "2020": 2195556.0,
+          "2021": 2456375.0
+        },
+        "drop_pct": {
+          "2020": -76.08,
+          "2021": -73.24
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -76.08,
+        "latest_year": 2025,
+        "latest_visits": 9208446.0,
+        "latest_display": "92.1 L",
+        "recovery_pct": 100.31,
+        "recovery_display": "100.3%",
+        "recovered": true,
+        "recovery_year": 2024,
+        "domestic": {
+          "baseline": 8744536.0,
+          "trough": 2124956.0,
+          "latest": 8701292.0,
+          "trough_drop_pct": -75.7,
+          "recovery_pct": 99.51
+        },
+        "foreign": {
+          "baseline": 435784.0,
+          "trough": 70600.0,
+          "latest": 507154.0,
+          "trough_drop_pct": -83.8,
+          "recovery_pct": 116.38
+        },
+        "is_synthetic": true
+      },
+      {
+        "rank": 36,
+        "state_code": "AR",
+        "state_name": "Arunachal Pradesh",
+        "region": "North-East",
+        "baseline_year": 2019,
+        "baseline_visits": 1263856.0,
+        "baseline_display": "12.6 L",
+        "covid_visits": {
+          "2020": 330863.0,
+          "2021": 396443.0
+        },
+        "drop_pct": {
+          "2020": -73.82,
+          "2021": -68.63
+        },
+        "trough_year": 2020,
+        "trough_drop_pct": -73.82,
+        "latest_year": 2025,
+        "latest_visits": 1245687.0,
+        "latest_display": "12.5 L",
+        "recovery_pct": 98.56,
+        "recovery_display": "98.6%",
+        "recovered": false,
+        "recovery_year": null,
+        "domestic": {
+          "baseline": 1256181.0,
+          "trough": 329673.0,
+          "latest": 1238479.0,
+          "trough_drop_pct": -73.76,
+          "recovery_pct": 98.59
+        },
+        "foreign": {
+          "baseline": 7675.0,
+          "trough": 1190.0,
+          "latest": 7208.0,
+          "trough_drop_pct": -84.5,
+          "recovery_pct": 93.92
+        },
+        "is_synthetic": true
+      }
+    ]
+  },
+  "meta": {
+    "filters": {
+      "year": 2025,
+      "year_from": null,
+      "year_to": null,
+      "states": [],
+      "region": null,
+      "tourism_type": null,
+      "visitor_type": "all",
+      "include_synthetic": true,
+      "resolved": {
+        "year": 2025
+      }
+    },
+    "data_sources": [
+      "SYNTHETIC: generated by src/synthesize.py (seed=42); illustrative values, not government statistics"
+    ],
+    "synthetic_share": 100.0,
+    "record_count": 36,
+    "notes": [
+      "recovery_pct = visits in the chosen year / 2019 visits x 100; ranked high to low.",
+      "drop is measured against 2019 for each of 2020 and 2021."
+    ]
+  }
+}

@@ -1,0 +1,658 @@
+{
+  "data": {
+    "year": 2024,
+    "states": [
+      {
+        "state_code": "KL",
+        "state_name": "Kerala"
+      },
+      {
+        "state_code": "GA",
+        "state_name": "Goa"
+      },
+      {
+        "state_code": "RJ",
+        "state_name": "Rajasthan"
+      }
+    ],
+    "metrics": [
+      {
+        "key": "total_visits",
+        "label": "Total visits",
+        "unit": "visits",
+        "higher_is_better": true,
+        "leader": "RJ",
+        "values": {
+          "KL": {
+            "value": 21246066.0,
+            "display": "2.12 Cr",
+            "is_synthetic": true
+          },
+          "GA": {
+            "value": 9481363.0,
+            "display": "94.8 L",
+            "is_synthetic": true
+          },
+          "RJ": {
+            "value": 70405015.0,
+            "display": "7.04 Cr",
+            "is_synthetic": true
+          }
+        }
+      },
+      {
+        "key": "domestic_visits",
+        "label": "Domestic visits",
+        "unit": "visits",
+        "higher_is_better": true,
+        "leader": "RJ",
+        "values": {
+          "KL": {
+            "value": 20858878.0,
+            "display": "2.09 Cr",
+            "is_synthetic": true
+          },
+          "GA": {
+            "value": 9029918.0,
+            "display": "90.3 L",
+            "is_synthetic": true
+          },
+          "RJ": {
+            "value": 69695149.0,
+            "display": "6.97 Cr",
+            "is_synthetic": true
+          }
+        }
+      },
+      {
+        "key": "foreign_visits",
+        "label": "Foreign visits",
+        "unit": "visits",
+        "higher_is_better": true,
+        "leader": "RJ",
+        "values": {
+          "KL": {
+            "value": 387188.0,
+            "display": "3.87 L",
+            "is_synthetic": true
+          },
+          "GA": {
+            "value": 451445.0,
+            "display": "4.51 L",
+            "is_synthetic": true
+          },
+          "RJ": {
+            "value": 709866.0,
+            "display": "7.10 L",
+            "is_synthetic": true
+          }
+        }
+      },
+      {
+        "key": "revenue",
+        "label": "Tourism revenue",
+        "unit": "INR crore",
+        "higher_is_better": true,
+        "leader": "RJ",
+        "values": {
+          "KL": {
+            "value": 13479.55,
+            "display": "₹13,480 Cr",
+            "is_synthetic": true
+          },
+          "GA": {
+            "value": 11048.88,
+            "display": "₹11,049 Cr",
+            "is_synthetic": true
+          },
+          "RJ": {
+            "value": 32399.7,
+            "display": "₹32,400 Cr",
+            "is_synthetic": true
+          }
+        }
+      },
+      {
+        "key": "forex_earnings",
+        "label": "Forex earnings",
+        "unit": "INR crore",
+        "higher_is_better": true,
+        "leader": "RJ",
+        "values": {
+          "KL": {
+            "value": 5364.15,
+            "display": "₹5,364 Cr",
+            "is_synthetic": true
+          },
+          "GA": {
+            "value": 8813.95,
+            "display": "₹8,814 Cr",
+            "is_synthetic": true
+          },
+          "RJ": {
+            "value": 10906.1,
+            "display": "₹10,906 Cr",
+            "is_synthetic": true
+          }
+        }
+      },
+      {
+        "key": "revenue_per_tourist",
+        "label": "Revenue per tourist",
+        "unit": "INR",
+        "higher_is_better": true,
+        "leader": "GA",
+        "values": {
+          "KL": {
+            "value": 6344.492199167601,
+            "display": "₹6,344",
+            "is_synthetic": true
+          },
+          "GA": {
+            "value": 11653.261245245012,
+            "display": "₹11,653",
+            "is_synthetic": true
+          },
+          "RJ": {
+            "value": 4601.902293465884,
+            "display": "₹4,602",
+            "is_synthetic": true
+          }
+        }
+      },
+      {
+        "key": "yoy_growth_total",
+        "label": "YoY growth of visits",
+        "unit": "%",
+        "higher_is_better": true,
+        "leader": "GA",
+        "values": {
+          "KL": {
+            "value": 17.58,
+            "display": "+17.6%",
+            "is_synthetic": true
+          },
+          "GA": {
+            "value": 27.86,
+            "display": "+27.9%",
+            "is_synthetic": true
+          },
+          "RJ": {
+            "value": 17.8,
+            "display": "+17.8%",
+            "is_synthetic": true
+          }
+        }
+      },
+      {
+        "key": "share_of_india_total",
+        "label": "Share of India total",
+        "unit": "%",
+        "higher_is_better": true,
+        "leader": "RJ",
+        "values": {
+          "KL": {
+            "value": 0.7377,
+            "display": "0.74%",
+            "is_synthetic": true
+          },
+          "GA": {
+            "value": 0.3292,
+            "display": "0.33%",
+            "is_synthetic": true
+          },
+          "RJ": {
+            "value": 2.4447,
+            "display": "2.44%",
+            "is_synthetic": true
+          }
+        }
+      },
+      {
+        "key": "visits_per_1000_people",
+        "label": "Visits per 1,000 people",
+        "unit": "per 1,000",
+        "higher_is_better": true,
+        "leader": "GA",
+        "values": {
+          "KL": {
+            "value": 635.9943484507198,
+            "display": "636",
+            "is_synthetic": true
+          },
+          "GA": {
+            "value": 6500.562546921761,
+            "display": "6,501",
+            "is_synthetic": true
+          },
+          "RJ": {
+            "value": 1027.0841769886015,
+            "display": "1,027",
+            "is_synthetic": true
+          }
+        }
+      },
+      {
+        "key": "tourism_share_of_gsdp",
+        "label": "Tourism share of GSDP",
+        "unit": "%",
+        "higher_is_better": true,
+        "leader": "GA",
+        "values": {
+          "KL": {
+            "value": 1.049,
+            "display": "1.05%",
+            "is_synthetic": true
+          },
+          "GA": {
+            "value": 6.9957,
+            "display": "7.00%",
+            "is_synthetic": true
+          },
+          "RJ": {
+            "value": 2.403,
+            "display": "2.40%",
+            "is_synthetic": true
+          }
+        }
+      },
+      {
+        "key": "tourism_employment",
+        "label": "Tourism employment",
+        "unit": "persons",
+        "higher_is_better": true,
+        "leader": "KL",
+        "values": {
+          "KL": {
+            "value": 457980.0,
+            "display": "4.58 L",
+            "is_synthetic": true
+          },
+          "GA": {
+            "value": 254494.0,
+            "display": "2.54 L",
+            "is_synthetic": true
+          },
+          "RJ": {
+            "value": 368732.0,
+            "display": "3.69 L",
+            "is_synthetic": true
+          }
+        }
+      },
+      {
+        "key": "hotel_rooms",
+        "label": "Hotel rooms",
+        "unit": "rooms",
+        "higher_is_better": true,
+        "leader": "RJ",
+        "values": {
+          "KL": {
+            "value": 58485.0,
+            "display": "58,485",
+            "is_synthetic": true
+          },
+          "GA": {
+            "value": 53165.0,
+            "display": "53,165",
+            "is_synthetic": true
+          },
+          "RJ": {
+            "value": 78308.0,
+            "display": "78,308",
+            "is_synthetic": true
+          }
+        }
+      },
+      {
+        "key": "occupancy_rate",
+        "label": "Hotel occupancy",
+        "unit": "%",
+        "higher_is_better": true,
+        "leader": "KL",
+        "values": {
+          "KL": {
+            "value": 63.1,
+            "display": "63.1%",
+            "is_synthetic": true
+          },
+          "GA": {
+            "value": 59.5,
+            "display": "59.5%",
+            "is_synthetic": true
+          },
+          "RJ": {
+            "value": 57.3,
+            "display": "57.3%",
+            "is_synthetic": true
+          }
+        }
+      },
+      {
+        "key": "rank_total_visits",
+        "label": "Rank by total visits",
+        "unit": "rank",
+        "higher_is_better": false,
+        "leader": "RJ",
+        "values": {
+          "KL": {
+            "value": 18.0,
+            "display": "#18",
+            "is_synthetic": true
+          },
+          "GA": {
+            "value": 23.0,
+            "display": "#23",
+            "is_synthetic": true
+          },
+          "RJ": {
+            "value": 9.0,
+            "display": "#9",
+            "is_synthetic": true
+          }
+        }
+      }
+    ],
+    "series": {
+      "KL": [
+        {
+          "year": 2015,
+          "total_visits": 9867344.0,
+          "domestic_visits": 9551976.0,
+          "foreign_visits": 315368.0,
+          "revenue": 4981.66,
+          "is_synthetic": true
+        },
+        {
+          "year": 2016,
+          "total_visits": 11483109.0,
+          "domestic_visits": 11154475.0,
+          "foreign_visits": 328634.0,
+          "revenue": 5793.91,
+          "is_synthetic": true
+        },
+        {
+          "year": 2017,
+          "total_visits": 10391075.0,
+          "domestic_visits": 9981733.0,
+          "foreign_visits": 409342.0,
+          "revenue": 6531.53,
+          "is_synthetic": true
+        },
+        {
+          "year": 2018,
+          "total_visits": 12437813.0,
+          "domestic_visits": 11994672.0,
+          "foreign_visits": 443141.0,
+          "revenue": 7810.33,
+          "is_synthetic": true
+        },
+        {
+          "year": 2019,
+          "total_visits": 15381637.0,
+          "domestic_visits": 14979108.0,
+          "foreign_visits": 402529.0,
+          "revenue": 8733.46,
+          "is_synthetic": true
+        },
+        {
+          "year": 2020,
+          "total_visits": 4115397.0,
+          "domestic_visits": 4030688.0,
+          "foreign_visits": 84709.0,
+          "revenue": 1879.0,
+          "is_synthetic": true
+        },
+        {
+          "year": 2021,
+          "total_visits": 4884818.0,
+          "domestic_visits": 4835663.0,
+          "foreign_visits": 49155.0,
+          "revenue": 1981.2,
+          "is_synthetic": true
+        },
+        {
+          "year": 2022,
+          "total_visits": 13446305.0,
+          "domestic_visits": 13213404.0,
+          "foreign_visits": 232901.0,
+          "revenue": 7251.12,
+          "is_synthetic": true
+        },
+        {
+          "year": 2023,
+          "total_visits": 18069922.0,
+          "domestic_visits": 17699956.0,
+          "foreign_visits": 369966.0,
+          "revenue": 11393.89,
+          "is_synthetic": true
+        },
+        {
+          "year": 2024,
+          "total_visits": 21246066.0,
+          "domestic_visits": 20858878.0,
+          "foreign_visits": 387188.0,
+          "revenue": 13479.55,
+          "is_synthetic": true
+        },
+        {
+          "year": 2025,
+          "total_visits": 23585834.0,
+          "domestic_visits": 23156101.0,
+          "foreign_visits": 429733.0,
+          "revenue": 15770.41,
+          "is_synthetic": true
+        }
+      ],
+      "GA": [
+        {
+          "year": 2015,
+          "total_visits": 5372568.0,
+          "domestic_visits": 5059721.0,
+          "foreign_visits": 312847.0,
+          "revenue": 4422.55,
+          "is_synthetic": true
+        },
+        {
+          "year": 2016,
+          "total_visits": 6483834.0,
+          "domestic_visits": 6154812.0,
+          "foreign_visits": 329022.0,
+          "revenue": 5061.41,
+          "is_synthetic": true
+        },
+        {
+          "year": 2017,
+          "total_visits": 6341464.0,
+          "domestic_visits": 6013838.0,
+          "foreign_visits": 327626.0,
+          "revenue": 5311.86,
+          "is_synthetic": true
+        },
+        {
+          "year": 2018,
+          "total_visits": 7157510.0,
+          "domestic_visits": 6810278.0,
+          "foreign_visits": 347232.0,
+          "revenue": 6036.94,
+          "is_synthetic": true
+        },
+        {
+          "year": 2019,
+          "total_visits": 9180320.0,
+          "domestic_visits": 8744536.0,
+          "foreign_visits": 435784.0,
+          "revenue": 8053.6,
+          "is_synthetic": true
+        },
+        {
+          "year": 2020,
+          "total_visits": 2195556.0,
+          "domestic_visits": 2124956.0,
+          "foreign_visits": 70600.0,
+          "revenue": 1254.21,
+          "is_synthetic": true
+        },
+        {
+          "year": 2021,
+          "total_visits": 2456375.0,
+          "domestic_visits": 2423159.0,
+          "foreign_visits": 33216.0,
+          "revenue": 939.45,
+          "is_synthetic": true
+        },
+        {
+          "year": 2022,
+          "total_visits": 6197724.0,
+          "domestic_visits": 6024779.0,
+          "foreign_visits": 172945.0,
+          "revenue": 4166.81,
+          "is_synthetic": true
+        },
+        {
+          "year": 2023,
+          "total_visits": 7415556.0,
+          "domestic_visits": 7022939.0,
+          "foreign_visits": 392617.0,
+          "revenue": 8886.94,
+          "is_synthetic": true
+        },
+        {
+          "year": 2024,
+          "total_visits": 9481363.0,
+          "domestic_visits": 9029918.0,
+          "foreign_visits": 451445.0,
+          "revenue": 11048.88,
+          "is_synthetic": true
+        },
+        {
+          "year": 2025,
+          "total_visits": 9208446.0,
+          "domestic_visits": 8701292.0,
+          "foreign_visits": 507154.0,
+          "revenue": 12756.98,
+          "is_synthetic": true
+        }
+      ],
+      "RJ": [
+        {
+          "year": 2015,
+          "total_visits": 36727195.0,
+          "domestic_visits": 36068808.0,
+          "foreign_visits": 658387.0,
+          "revenue": 13157.42,
+          "is_synthetic": true
+        },
+        {
+          "year": 2016,
+          "total_visits": 46363113.0,
+          "domestic_visits": 45700556.0,
+          "foreign_visits": 662557.0,
+          "revenue": 15925.83,
+          "is_synthetic": true
+        },
+        {
+          "year": 2017,
+          "total_visits": 42692016.0,
+          "domestic_visits": 41830505.0,
+          "foreign_visits": 861511.0,
+          "revenue": 17970.64,
+          "is_synthetic": true
+        },
+        {
+          "year": 2018,
+          "total_visits": 46107404.0,
+          "domestic_visits": 45309934.0,
+          "foreign_visits": 797470.0,
+          "revenue": 19064.3,
+          "is_synthetic": true
+        },
+        {
+          "year": 2019,
+          "total_visits": 59906040.0,
+          "domestic_visits": 58967437.0,
+          "foreign_visits": 938603.0,
+          "revenue": 25024.31,
+          "is_synthetic": true
+        },
+        {
+          "year": 2020,
+          "total_visits": 14744751.0,
+          "domestic_visits": 14585799.0,
+          "foreign_visits": 158952.0,
+          "revenue": 4804.07,
+          "is_synthetic": true
+        },
+        {
+          "year": 2021,
+          "total_visits": 16911275.0,
+          "domestic_visits": 16832150.0,
+          "foreign_visits": 79125.0,
+          "revenue": 4992.98,
+          "is_synthetic": true
+        },
+        {
+          "year": 2022,
+          "total_visits": 43398895.0,
+          "domestic_visits": 42983802.0,
+          "foreign_visits": 415093.0,
+          "revenue": 17054.85,
+          "is_synthetic": true
+        },
+        {
+          "year": 2023,
+          "total_visits": 59768802.0,
+          "domestic_visits": 59113224.0,
+          "foreign_visits": 655578.0,
+          "revenue": 26864.01,
+          "is_synthetic": true
+        },
+        {
+          "year": 2024,
+          "total_visits": 70405015.0,
+          "domestic_visits": 69695149.0,
+          "foreign_visits": 709866.0,
+          "revenue": 32399.7,
+          "is_synthetic": true
+        },
+        {
+          "year": 2025,
+          "total_visits": 71779225.0,
+          "domestic_visits": 70985586.0,
+          "foreign_visits": 793639.0,
+          "revenue": 35910.88,
+          "is_synthetic": true
+        }
+      ]
+    }
+  },
+  "meta": {
+    "filters": {
+      "year": 2024,
+      "year_from": null,
+      "year_to": null,
+      "states": [
+        "KL",
+        "GA",
+        "RJ"
+      ],
+      "region": null,
+      "tourism_type": null,
+      "visitor_type": "all",
+      "include_synthetic": true,
+      "resolved": {
+        "year": 2024
+      }
+    },
+    "data_sources": [
+      "SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source); population = Census 2011 (approx.)",
+      "SYNTHETIC: generated by src/synthesize.py (seed=42); illustrative values, not government statistics"
+    ],
+    "synthetic_share": 100.0,
+    "record_count": 42,
+    "notes": [
+      "visitor_type is ignored here: domestic, foreign and total are all shown.",
+      "YoY is null where the J&K/Ladakh boundary basis changes (2019)."
+    ]
+  }
+}

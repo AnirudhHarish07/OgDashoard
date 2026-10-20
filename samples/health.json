@@ -1,0 +1,37 @@
+{
+  "data": {
+    "status": "ok",
+    "database": "ok",
+    "database_path": "india_tourism.db",
+    "row_counts": {
+      "states": 36,
+      "tourism_annual": 392,
+      "tourism_monthly": 4704,
+      "infrastructure": 392,
+      "attractions": 177,
+      "ftv_source_countries": 4704,
+      "festivals_events": 108,
+      "national_annual": 11,
+      "state_boundary_mapping": 9,
+      "state_name_aliases": 54
+    },
+    "geo_file": "present",
+    "anthropic_configured": false
+  },
+  "meta": {
+    "filters": {
+      "year": null,
+      "year_from": null,
+      "year_to": null,
+      "states": [],
+      "region": null,
+      "tourism_type": null,
+      "visitor_type": "all",
+      "include_synthetic": true
+    },
+    "data_sources": [],
+    "synthetic_share": 0.0,
+    "record_count": 0,
+    "notes": []
+  }
+}

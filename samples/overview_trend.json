@@ -1,0 +1,186 @@
+{
+  "data": {
+    "series": [
+      {
+        "year": 2015,
+        "domestic_visits": 1432000000.0,
+        "foreign_visits": 8030000.0,
+        "total_visits": 1440030000.0,
+        "revenue_cr": 314555.69,
+        "forex_cr": 72758.35,
+        "total_display": "144.0 Cr",
+        "revenue_display": "₹3.15 L Cr",
+        "yoy_total_pct": null,
+        "yoy_note": null,
+        "is_synthetic": true
+      },
+      {
+        "year": 2016,
+        "domestic_visits": 1615000000.0,
+        "foreign_visits": 8800000.0,
+        "total_visits": 1623800000.0,
+        "revenue_cr": 371785.89,
+        "forex_cr": 84836.88,
+        "total_display": "162.4 Cr",
+        "revenue_display": "₹3.72 L Cr",
+        "yoy_total_pct": 12.76,
+        "yoy_note": null,
+        "is_synthetic": true
+      },
+      {
+        "year": 2017,
+        "domestic_visits": 1657000000.0,
+        "foreign_visits": 10040000.0,
+        "total_visits": 1667040000.0,
+        "revenue_cr": 413443.96,
+        "forex_cr": 103080.03,
+        "total_display": "166.7 Cr",
+        "revenue_display": "₹4.13 L Cr",
+        "yoy_total_pct": 2.66,
+        "yoy_note": null,
+        "is_synthetic": true
+      },
+      {
+        "year": 2018,
+        "domestic_visits": 1854000000.0,
+        "foreign_visits": 10560000.0,
+        "total_visits": 1864560000.0,
+        "revenue_cr": 478882.21,
+        "forex_cr": 114881.21,
+        "total_display": "186.5 Cr",
+        "revenue_display": "₹4.79 L Cr",
+        "yoy_total_pct": 11.85,
+        "yoy_note": null,
+        "is_synthetic": true
+      },
+      {
+        "year": 2019,
+        "domestic_visits": 2322000000.0,
+        "foreign_visits": 10930000.0,
+        "total_visits": 2332930000.0,
+        "revenue_cr": 605312.01,
+        "forex_cr": 127133.5,
+        "total_display": "233.3 Cr",
+        "revenue_display": "₹6.05 L Cr",
+        "yoy_total_pct": 25.12,
+        "yoy_note": null,
+        "is_synthetic": true
+      },
+      {
+        "year": 2020,
+        "domestic_visits": 610000000.0,
+        "foreign_visits": 2740000.0,
+        "total_visits": 612740000.0,
+        "revenue_cr": 141478.54,
+        "forex_cr": 26050.65,
+        "total_display": "61.3 Cr",
+        "revenue_display": "₹1.41 L Cr",
+        "yoy_total_pct": -73.74,
+        "yoy_note": null,
+        "is_synthetic": true
+      },
+      {
+        "year": 2021,
+        "domestic_visits": 677000000.0,
+        "foreign_visits": 1520000.0,
+        "total_visits": 678520000.0,
+        "revenue_cr": 158005.44,
+        "forex_cr": 16472.98,
+        "total_display": "67.9 Cr",
+        "revenue_display": "₹1.58 L Cr",
+        "yoy_total_pct": 10.74,
+        "yoy_note": null,
+        "is_synthetic": true
+      },
+      {
+        "year": 2022,
+        "domestic_visits": 1731000000.0,
+        "foreign_visits": 6440000.0,
+        "total_visits": 1737440000.0,
+        "revenue_cr": 483596.6,
+        "forex_cr": 84041.99,
+        "total_display": "173.7 Cr",
+        "revenue_display": "₹4.84 L Cr",
+        "yoy_total_pct": 156.06,
+        "yoy_note": null,
+        "is_synthetic": true
+      },
+      {
+        "year": 2023,
+        "domestic_visits": 2509000000.0,
+        "foreign_visits": 9240000.0,
+        "total_visits": 2518240000.0,
+        "revenue_cr": 770591.06,
+        "forex_cr": 134639.39,
+        "total_display": "251.8 Cr",
+        "revenue_display": "₹7.71 L Cr",
+        "yoy_total_pct": 44.94,
+        "yoy_note": null,
+        "is_synthetic": true
+      },
+      {
+        "year": 2024,
+        "domestic_visits": 2870000000.0,
+        "foreign_visits": 9900000.0,
+        "total_visits": 2879900000.0,
+        "revenue_cr": 914431.88,
+        "forex_cr": 153698.69,
+        "total_display": "288.0 Cr",
+        "revenue_display": "₹9.14 L Cr",
+        "yoy_total_pct": 14.36,
+        "yoy_note": null,
+        "is_synthetic": true
+      },
+      {
+        "year": 2025,
+        "domestic_visits": 3050000000.0,
+        "foreign_visits": 10400000.0,
+        "total_visits": 3060400000.0,
+        "revenue_cr": 1027314.87,
+        "forex_cr": 171500.83,
+        "total_display": "306.0 Cr",
+        "revenue_display": "₹10.3 L Cr",
+        "yoy_total_pct": 6.27,
+        "yoy_note": null,
+        "is_synthetic": true
+      }
+    ],
+    "annotations": [
+      {
+        "id": "covid_dip",
+        "type": "covid",
+        "label": "COVID-19 dip",
+        "year_from": 2020,
+        "year_to": 2021,
+        "baseline_year": 2019,
+        "baseline_value": 2332930000.0,
+        "trough_year": 2020,
+        "trough_value": 612740000.0,
+        "drop_pct": -73.74,
+        "recovery_year": 2023,
+        "description": "Visits fell 73.7% from 2019 (233.3 Cr) to 2020 (61.3 Cr). They regained the 2019 level in 2023.",
+        "is_synthetic": true
+      }
+    ]
+  },
+  "meta": {
+    "filters": {
+      "year": null,
+      "year_from": null,
+      "year_to": null,
+      "states": [],
+      "region": null,
+      "tourism_type": null,
+      "visitor_type": "all",
+      "include_synthetic": true
+    },
+    "data_sources": [
+      "SYNTHETIC: generated by src/synthesize.py (seed=42); illustrative values, not government statistics"
+    ],
+    "synthetic_share": 100.0,
+    "record_count": 11,
+    "notes": [
+      "Year filters are ignored: the series covers all years in the dataset."
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "state_not_found",
+    "message": "Unknown state code 'ZZ'",
+    "details": null
+  }
+}

@@ -1,0 +1,1032 @@
+{
+  "data": {
+    "metric": "total_visits",
+    "label": "Total visits",
+    "unit": "visits",
+    "max_value": 736429827.0,
+    "states": [
+      {
+        "state_code": "AP",
+        "state_name": "Andhra Pradesh",
+        "region": "South"
+      },
+      {
+        "state_code": "GJ",
+        "state_name": "Gujarat",
+        "region": "West"
+      },
+      {
+        "state_code": "KA",
+        "state_name": "Karnataka",
+        "region": "South"
+      },
+      {
+        "state_code": "MH",
+        "state_name": "Maharashtra",
+        "region": "West"
+      },
+      {
+        "state_code": "MP",
+        "state_name": "Madhya Pradesh",
+        "region": "Central"
+      },
+      {
+        "state_code": "RJ",
+        "state_name": "Rajasthan",
+        "region": "North"
+      },
+      {
+        "state_code": "TN",
+        "state_name": "Tamil Nadu",
+        "region": "South"
+      },
+      {
+        "state_code": "TS",
+        "state_name": "Telangana",
+        "region": "South"
+      },
+      {
+        "state_code": "UP",
+        "state_name": "Uttar Pradesh",
+        "region": "Central"
+      },
+      {
+        "state_code": "WB",
+        "state_name": "West Bengal",
+        "region": "East"
+      }
+    ],
+    "frames": [
+      {
+        "year": 2015,
+        "items": [
+          {
+            "rank": 1,
+            "state_code": "UP",
+            "state_name": "Uttar Pradesh",
+            "value": 345338585.0,
+            "display": "34.5 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 2,
+            "state_code": "TN",
+            "state_name": "Tamil Nadu",
+            "value": 281318556.0,
+            "display": "28.1 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 3,
+            "state_code": "KA",
+            "state_name": "Karnataka",
+            "value": 164803084.0,
+            "display": "16.5 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 4,
+            "state_code": "AP",
+            "state_name": "Andhra Pradesh",
+            "value": 153231676.0,
+            "display": "15.3 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 5,
+            "state_code": "MP",
+            "state_name": "Madhya Pradesh",
+            "value": 77732280.0,
+            "display": "7.77 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 6,
+            "state_code": "MH",
+            "state_name": "Maharashtra",
+            "value": 63628150.0,
+            "display": "6.36 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 7,
+            "state_code": "TS",
+            "state_name": "Telangana",
+            "value": 52673642.0,
+            "display": "5.27 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 8,
+            "state_code": "WB",
+            "state_name": "West Bengal",
+            "value": 49343795.0,
+            "display": "4.93 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 9,
+            "state_code": "RJ",
+            "state_name": "Rajasthan",
+            "value": 36727195.0,
+            "display": "3.67 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 10,
+            "state_code": "GJ",
+            "state_name": "Gujarat",
+            "value": 30286098.0,
+            "display": "3.03 Cr",
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "items": [
+          {
+            "rank": 1,
+            "state_code": "UP",
+            "state_name": "Uttar Pradesh",
+            "value": 383845664.0,
+            "display": "38.4 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 2,
+            "state_code": "TN",
+            "state_name": "Tamil Nadu",
+            "value": 318004205.0,
+            "display": "31.8 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 3,
+            "state_code": "KA",
+            "state_name": "Karnataka",
+            "value": 189746811.0,
+            "display": "19.0 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 4,
+            "state_code": "AP",
+            "state_name": "Andhra Pradesh",
+            "value": 175381174.0,
+            "display": "17.5 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 5,
+            "state_code": "MP",
+            "state_name": "Madhya Pradesh",
+            "value": 79595555.0,
+            "display": "7.96 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 6,
+            "state_code": "MH",
+            "state_name": "Maharashtra",
+            "value": 77926485.0,
+            "display": "7.79 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 7,
+            "state_code": "TS",
+            "state_name": "Telangana",
+            "value": 62382434.0,
+            "display": "6.24 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 8,
+            "state_code": "WB",
+            "state_name": "West Bengal",
+            "value": 52481083.0,
+            "display": "5.25 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 9,
+            "state_code": "RJ",
+            "state_name": "Rajasthan",
+            "value": 46363113.0,
+            "display": "4.64 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 10,
+            "state_code": "GJ",
+            "state_name": "Gujarat",
+            "value": 31008905.0,
+            "display": "3.10 Cr",
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "items": [
+          {
+            "rank": 1,
+            "state_code": "UP",
+            "state_name": "Uttar Pradesh",
+            "value": 381264758.0,
+            "display": "38.1 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 2,
+            "state_code": "TN",
+            "state_name": "Tamil Nadu",
+            "value": 353216625.0,
+            "display": "35.3 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 3,
+            "state_code": "KA",
+            "state_name": "Karnataka",
+            "value": 190860508.0,
+            "display": "19.1 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 4,
+            "state_code": "AP",
+            "state_name": "Andhra Pradesh",
+            "value": 177148459.0,
+            "display": "17.7 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 5,
+            "state_code": "MP",
+            "state_name": "Madhya Pradesh",
+            "value": 86842950.0,
+            "display": "8.68 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 6,
+            "state_code": "MH",
+            "state_name": "Maharashtra",
+            "value": 75587917.0,
+            "display": "7.56 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 7,
+            "state_code": "TS",
+            "state_name": "Telangana",
+            "value": 60340382.0,
+            "display": "6.03 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 8,
+            "state_code": "WB",
+            "state_name": "West Bengal",
+            "value": 58682075.0,
+            "display": "5.87 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 9,
+            "state_code": "RJ",
+            "state_name": "Rajasthan",
+            "value": 42692016.0,
+            "display": "4.27 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 10,
+            "state_code": "GJ",
+            "state_name": "Gujarat",
+            "value": 33804022.0,
+            "display": "3.38 Cr",
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "items": [
+          {
+            "rank": 1,
+            "state_code": "UP",
+            "state_name": "Uttar Pradesh",
+            "value": 415298861.0,
+            "display": "41.5 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 2,
+            "state_code": "TN",
+            "state_name": "Tamil Nadu",
+            "value": 375346603.0,
+            "display": "37.5 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 3,
+            "state_code": "KA",
+            "state_name": "Karnataka",
+            "value": 225223270.0,
+            "display": "22.5 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 4,
+            "state_code": "AP",
+            "state_name": "Andhra Pradesh",
+            "value": 200167746.0,
+            "display": "20.0 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 5,
+            "state_code": "MH",
+            "state_name": "Maharashtra",
+            "value": 94956531.0,
+            "display": "9.50 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 6,
+            "state_code": "MP",
+            "state_name": "Madhya Pradesh",
+            "value": 93283914.0,
+            "display": "9.33 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 7,
+            "state_code": "WB",
+            "state_name": "West Bengal",
+            "value": 71862879.0,
+            "display": "7.19 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 8,
+            "state_code": "TS",
+            "state_name": "Telangana",
+            "value": 71758198.0,
+            "display": "7.18 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 9,
+            "state_code": "RJ",
+            "state_name": "Rajasthan",
+            "value": 46107404.0,
+            "display": "4.61 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 10,
+            "state_code": "GJ",
+            "state_name": "Gujarat",
+            "value": 39217453.0,
+            "display": "3.92 Cr",
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "items": [
+          {
+            "rank": 1,
+            "state_code": "UP",
+            "state_name": "Uttar Pradesh",
+            "value": 555847380.0,
+            "display": "55.6 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 2,
+            "state_code": "TN",
+            "state_name": "Tamil Nadu",
+            "value": 463322523.0,
+            "display": "46.3 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 3,
+            "state_code": "KA",
+            "state_name": "Karnataka",
+            "value": 267411503.0,
+            "display": "26.7 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 4,
+            "state_code": "AP",
+            "state_name": "Andhra Pradesh",
+            "value": 252271940.0,
+            "display": "25.2 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 5,
+            "state_code": "MH",
+            "state_name": "Maharashtra",
+            "value": 116633728.0,
+            "display": "11.7 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 6,
+            "state_code": "MP",
+            "state_name": "Madhya Pradesh",
+            "value": 110636998.0,
+            "display": "11.1 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 7,
+            "state_code": "TS",
+            "state_name": "Telangana",
+            "value": 93617101.0,
+            "display": "9.36 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 8,
+            "state_code": "WB",
+            "state_name": "West Bengal",
+            "value": 76690834.0,
+            "display": "7.67 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 9,
+            "state_code": "RJ",
+            "state_name": "Rajasthan",
+            "value": 59906040.0,
+            "display": "5.99 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 10,
+            "state_code": "GJ",
+            "state_name": "Gujarat",
+            "value": 46762039.0,
+            "display": "4.68 Cr",
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "items": [
+          {
+            "rank": 1,
+            "state_code": "UP",
+            "state_name": "Uttar Pradesh",
+            "value": 137953133.0,
+            "display": "13.8 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 2,
+            "state_code": "TN",
+            "state_name": "Tamil Nadu",
+            "value": 110543175.0,
+            "display": "11.1 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 3,
+            "state_code": "KA",
+            "state_name": "Karnataka",
+            "value": 77522830.0,
+            "display": "7.75 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 4,
+            "state_code": "AP",
+            "state_name": "Andhra Pradesh",
+            "value": 64259713.0,
+            "display": "6.43 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 5,
+            "state_code": "MH",
+            "state_name": "Maharashtra",
+            "value": 34291229.0,
+            "display": "3.43 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 6,
+            "state_code": "MP",
+            "state_name": "Madhya Pradesh",
+            "value": 27428370.0,
+            "display": "2.74 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 7,
+            "state_code": "TS",
+            "state_name": "Telangana",
+            "value": 21507212.0,
+            "display": "2.15 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 8,
+            "state_code": "WB",
+            "state_name": "West Bengal",
+            "value": 20034257.0,
+            "display": "2.00 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 9,
+            "state_code": "GJ",
+            "state_name": "Gujarat",
+            "value": 15063860.0,
+            "display": "1.51 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 10,
+            "state_code": "RJ",
+            "state_name": "Rajasthan",
+            "value": 14744751.0,
+            "display": "1.47 Cr",
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "items": [
+          {
+            "rank": 1,
+            "state_code": "UP",
+            "state_name": "Uttar Pradesh",
+            "value": 142250777.0,
+            "display": "14.2 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 2,
+            "state_code": "TN",
+            "state_name": "Tamil Nadu",
+            "value": 128646038.0,
+            "display": "12.9 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 3,
+            "state_code": "KA",
+            "state_name": "Karnataka",
+            "value": 87309895.0,
+            "display": "8.73 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 4,
+            "state_code": "AP",
+            "state_name": "Andhra Pradesh",
+            "value": 71721031.0,
+            "display": "7.17 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 5,
+            "state_code": "MH",
+            "state_name": "Maharashtra",
+            "value": 43522825.0,
+            "display": "4.35 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 6,
+            "state_code": "MP",
+            "state_name": "Madhya Pradesh",
+            "value": 28556139.0,
+            "display": "2.86 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 7,
+            "state_code": "TS",
+            "state_name": "Telangana",
+            "value": 23201644.0,
+            "display": "2.32 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 8,
+            "state_code": "WB",
+            "state_name": "West Bengal",
+            "value": 23078622.0,
+            "display": "2.31 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 9,
+            "state_code": "RJ",
+            "state_name": "Rajasthan",
+            "value": 16911275.0,
+            "display": "1.69 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 10,
+            "state_code": "GJ",
+            "state_name": "Gujarat",
+            "value": 16438026.0,
+            "display": "1.64 Cr",
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "items": [
+          {
+            "rank": 1,
+            "state_code": "UP",
+            "state_name": "Uttar Pradesh",
+            "value": 361836523.0,
+            "display": "36.2 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 2,
+            "state_code": "TN",
+            "state_name": "Tamil Nadu",
+            "value": 329586119.0,
+            "display": "33.0 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 3,
+            "state_code": "KA",
+            "state_name": "Karnataka",
+            "value": 229415545.0,
+            "display": "22.9 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 4,
+            "state_code": "AP",
+            "state_name": "Andhra Pradesh",
+            "value": 201033576.0,
+            "display": "20.1 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 5,
+            "state_code": "MH",
+            "state_name": "Maharashtra",
+            "value": 97447476.0,
+            "display": "9.74 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 6,
+            "state_code": "MP",
+            "state_name": "Madhya Pradesh",
+            "value": 78458990.0,
+            "display": "7.85 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 7,
+            "state_code": "WB",
+            "state_name": "West Bengal",
+            "value": 65041115.0,
+            "display": "6.50 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 8,
+            "state_code": "TS",
+            "state_name": "Telangana",
+            "value": 63133665.0,
+            "display": "6.31 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 9,
+            "state_code": "RJ",
+            "state_name": "Rajasthan",
+            "value": 43398895.0,
+            "display": "4.34 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 10,
+            "state_code": "GJ",
+            "state_name": "Gujarat",
+            "value": 36208163.0,
+            "display": "3.62 Cr",
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "items": [
+          {
+            "rank": 1,
+            "state_code": "TN",
+            "state_name": "Tamil Nadu",
+            "value": 577522637.0,
+            "display": "57.8 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 2,
+            "state_code": "UP",
+            "state_name": "Uttar Pradesh",
+            "value": 554999374.0,
+            "display": "55.5 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 3,
+            "state_code": "KA",
+            "state_name": "Karnataka",
+            "value": 304695670.0,
+            "display": "30.5 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 4,
+            "state_code": "AP",
+            "state_name": "Andhra Pradesh",
+            "value": 239014191.0,
+            "display": "23.9 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 5,
+            "state_code": "MH",
+            "state_name": "Maharashtra",
+            "value": 130067611.0,
+            "display": "13.0 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 6,
+            "state_code": "MP",
+            "state_name": "Madhya Pradesh",
+            "value": 119140615.0,
+            "display": "11.9 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 7,
+            "state_code": "TS",
+            "state_name": "Telangana",
+            "value": 96476369.0,
+            "display": "9.65 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 8,
+            "state_code": "WB",
+            "state_name": "West Bengal",
+            "value": 82259425.0,
+            "display": "8.23 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 9,
+            "state_code": "RJ",
+            "state_name": "Rajasthan",
+            "value": 59768802.0,
+            "display": "5.98 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 10,
+            "state_code": "GJ",
+            "state_name": "Gujarat",
+            "value": 48461559.0,
+            "display": "4.85 Cr",
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "items": [
+          {
+            "rank": 1,
+            "state_code": "TN",
+            "state_name": "Tamil Nadu",
+            "value": 632014518.0,
+            "display": "63.2 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 2,
+            "state_code": "UP",
+            "state_name": "Uttar Pradesh",
+            "value": 612885139.0,
+            "display": "61.3 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 3,
+            "state_code": "KA",
+            "state_name": "Karnataka",
+            "value": 367586045.0,
+            "display": "36.8 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 4,
+            "state_code": "AP",
+            "state_name": "Andhra Pradesh",
+            "value": 306003010.0,
+            "display": "30.6 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 5,
+            "state_code": "MH",
+            "state_name": "Maharashtra",
+            "value": 146690423.0,
+            "display": "14.7 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 6,
+            "state_code": "MP",
+            "state_name": "Madhya Pradesh",
+            "value": 143155746.0,
+            "display": "14.3 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 7,
+            "state_code": "TS",
+            "state_name": "Telangana",
+            "value": 102554368.0,
+            "display": "10.3 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 8,
+            "state_code": "WB",
+            "state_name": "West Bengal",
+            "value": 101015799.0,
+            "display": "10.1 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 9,
+            "state_code": "RJ",
+            "state_name": "Rajasthan",
+            "value": 70405015.0,
+            "display": "7.04 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 10,
+            "state_code": "GJ",
+            "state_name": "Gujarat",
+            "value": 54987087.0,
+            "display": "5.50 Cr",
+            "is_synthetic": true
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "items": [
+          {
+            "rank": 1,
+            "state_code": "TN",
+            "state_name": "Tamil Nadu",
+            "value": 736429827.0,
+            "display": "73.6 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 2,
+            "state_code": "UP",
+            "state_name": "Uttar Pradesh",
+            "value": 586375849.0,
+            "display": "58.6 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 3,
+            "state_code": "KA",
+            "state_name": "Karnataka",
+            "value": 375996622.0,
+            "display": "37.6 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 4,
+            "state_code": "AP",
+            "state_name": "Andhra Pradesh",
+            "value": 328549809.0,
+            "display": "32.9 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 5,
+            "state_code": "MH",
+            "state_name": "Maharashtra",
+            "value": 159988417.0,
+            "display": "16.0 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 6,
+            "state_code": "MP",
+            "state_name": "Madhya Pradesh",
+            "value": 156863727.0,
+            "display": "15.7 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 7,
+            "state_code": "TS",
+            "state_name": "Telangana",
+            "value": 116402737.0,
+            "display": "11.6 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 8,
+            "state_code": "WB",
+            "state_name": "West Bengal",
+            "value": 114985429.0,
+            "display": "11.5 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 9,
+            "state_code": "RJ",
+            "state_name": "Rajasthan",
+            "value": 71779225.0,
+            "display": "7.18 Cr",
+            "is_synthetic": true
+          },
+          {
+            "rank": 10,
+            "state_code": "GJ",
+            "state_name": "Gujarat",
+            "value": 59201561.0,
+            "display": "5.92 Cr",
+            "is_synthetic": true
+          }
+        ]
+      }
+    ]
+  },
+  "meta": {
+    "filters": {
+      "year": null,
+      "year_from": null,
+      "year_to": null,
+      "states": [],
+      "region": null,
+      "tourism_type": null,
+      "visitor_type": "all",
+      "include_synthetic": true,
+      "resolved": {
+        "years": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ]
+      }
+    },
+    "data_sources": [
+      "SYNTHETIC: generated by src/synthesize.py (seed=42); illustrative values, not government statistics"
+    ],
+    "synthetic_share": 100.0,
+    "record_count": 110,
+    "notes": [
+      "Each frame ranks the states in scope for that year; only the top n are included."
+    ]
+  }
+}

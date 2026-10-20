@@ -1,0 +1,178 @@
+[
+  {
+    "file": "health.json",
+    "method": "GET",
+    "request": "/api/health",
+    "feature": "Status / row counts"
+  },
+  {
+    "file": "filters.json",
+    "method": "GET",
+    "request": "/api/filters",
+    "feature": "Filter controls (years, states, regions, types, metrics)"
+  },
+  {
+    "file": "sources.json",
+    "method": "GET",
+    "request": "/api/sources",
+    "feature": "Data sources and synthetic share"
+  },
+  {
+    "file": "geo_states.json",
+    "method": "GET",
+    "request": "/api/geo/states",
+    "feature": "Map geometry, labels, fitBounds"
+  },
+  {
+    "file": "map_total_visits.json",
+    "method": "GET",
+    "request": "/api/map?metric=total_visits&year=2024",
+    "feature": "Choropleth / 3D extrusion"
+  },
+  {
+    "file": "map_growth_pct.json",
+    "method": "GET",
+    "request": "/api/map?metric=growth_pct&year=2019",
+    "feature": "Choropleth with null growth at the J&K/Ladakh boundary"
+  },
+  {
+    "file": "overview_kpis.json",
+    "method": "GET",
+    "request": "/api/overview/kpis?year=2024",
+    "feature": "KPI cards and count-ups"
+  },
+  {
+    "file": "overview_trend.json",
+    "method": "GET",
+    "request": "/api/overview/trend",
+    "feature": "National trend with COVID annotation"
+  },
+  {
+    "file": "rankings_top10_foreign.json",
+    "method": "GET",
+    "request": "/api/rankings?metric=foreign_visits&year=2023&order=top&n=10",
+    "feature": "Top / bottom bar chart"
+  },
+  {
+    "file": "rankings_race.json",
+    "method": "GET",
+    "request": "/api/rankings/race?metric=total_visits&n=10",
+    "feature": "Bar chart race"
+  },
+  {
+    "file": "compare_kl_ga_rj.json",
+    "method": "GET",
+    "request": "/api/compare?states=KL,GA,RJ&year=2024",
+    "feature": "Side-by-side state comparison"
+  },
+  {
+    "file": "scatter.json",
+    "method": "GET",
+    "request": "/api/scatter?year=2024",
+    "feature": "Bubble chart: visits vs revenue per tourist"
+  },
+  {
+    "file": "state_detail_ga.json",
+    "method": "GET",
+    "request": "/api/states/GA?year=2024",
+    "feature": "Fly-in detail panel"
+  },
+  {
+    "file": "state_detail_la_2018_no_data.json",
+    "method": "GET",
+    "request": "/api/states/LA?year=2018",
+    "feature": "Detail panel for a state with no data in that year"
+  },
+  {
+    "file": "seasonality_heatmap.json",
+    "method": "GET",
+    "request": "/api/seasonality/heatmap?year=2023",
+    "feature": "State x month heatmap"
+  },
+  {
+    "file": "seasonality_by_type.json",
+    "method": "GET",
+    "request": "/api/seasonality/by-type?year=2023",
+    "feature": "Monthly curves by tourism type"
+  },
+  {
+    "file": "festivals_october.json",
+    "method": "GET",
+    "request": "/api/festivals?month=10",
+    "feature": "Festival calendar overlay"
+  },
+  {
+    "file": "economy.json",
+    "method": "GET",
+    "request": "/api/economy?year=2024",
+    "feature": "GSDP share, revenue per tourist, forex"
+  },
+  {
+    "file": "infrastructure_demand_capacity.json",
+    "method": "GET",
+    "request": "/api/infrastructure/demand-capacity?year=2024",
+    "feature": "Under-served states"
+  },
+  {
+    "file": "infrastructure_occupancy_trend.json",
+    "method": "GET",
+    "request": "/api/infrastructure/occupancy-trend",
+    "feature": "Hotel occupancy over time"
+  },
+  {
+    "file": "covid_recovery.json",
+    "method": "GET",
+    "request": "/api/covid/recovery?year=2025",
+    "feature": "COVID recovery ranking"
+  },
+  {
+    "file": "forecast_national.json",
+    "method": "GET",
+    "request": "/api/forecast?metric=total_visits&years=3",
+    "feature": "National forecast with confidence band"
+  },
+  {
+    "file": "forecast_kerala_revenue.json",
+    "method": "GET",
+    "request": "/api/forecast?state=KL&metric=revenue&years=3",
+    "feature": "State forecast"
+  },
+  {
+    "file": "anomalies.json",
+    "method": "GET",
+    "request": "/api/anomalies?metric=total_visits&limit=15",
+    "feature": "Anomaly flags"
+  },
+  {
+    "file": "insights_national.json",
+    "method": "GET",
+    "request": "/api/insights?year=2024",
+    "feature": "Insight cards"
+  },
+  {
+    "file": "insights_state_kl.json",
+    "method": "GET",
+    "request": "/api/insights?year=2024&state=KL",
+    "feature": "Insight cards for a state"
+  },
+  {
+    "file": "error_unknown_state.json",
+    "method": "GET",
+    "request": "/api/states/ZZ",
+    "feature": "Error response shape",
+    "note": "HTTP 404"
+  },
+  {
+    "file": "export_rankings.csv",
+    "method": "GET",
+    "request": "/api/export?view=rankings&metric=foreign_visits&year=2023&n=10",
+    "feature": "CSV download"
+  },
+  {
+    "file": "ask_top5_foreign.json",
+    "method": "POST",
+    "request": "/api/ask {\"question\": \"top 5 states for foreign tourists in 2023\"}",
+    "feature": "Natural-language query",
+    "note": "SQL step stubbed (no API key at generation time); shape is real"
+  }
+]

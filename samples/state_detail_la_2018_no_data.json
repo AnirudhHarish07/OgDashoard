@@ -1,0 +1,261 @@
+{
+  "data": {
+    "year": 2018,
+    "profile": {
+      "state_code": "LA",
+      "state_name": "Ladakh",
+      "region": "North",
+      "capital": "Leh",
+      "area_km2": 59146,
+      "population": 274289,
+      "population_display": "2.74 L",
+      "tourism_types": [
+        "adventure",
+        "religious",
+        "hill"
+      ],
+      "unesco_sites": [],
+      "unesco_count": 0,
+      "airports": null,
+      "international_airports": null,
+      "first_year": 2019,
+      "boundary_note": "Ladakh carved out as a separate UT; indicative share of undivided J&K domestic visits",
+      "is_synthetic": true
+    },
+    "kpis": [],
+    "trend": [
+      {
+        "year": 2019,
+        "domestic_visits": 1846113.0,
+        "foreign_visits": 12666.0,
+        "total_visits": 1858779.0,
+        "domestic_display": "18.5 L",
+        "foreign_display": "12,666",
+        "yoy_domestic_pct": null,
+        "yoy_foreign_pct": null,
+        "is_synthetic": true
+      },
+      {
+        "year": 2020,
+        "domestic_visits": 448865.0,
+        "foreign_visits": 2505.0,
+        "total_visits": 451370.0,
+        "domestic_display": "4.49 L",
+        "foreign_display": "2,505",
+        "yoy_domestic_pct": -75.69,
+        "yoy_foreign_pct": -80.22,
+        "is_synthetic": true
+      },
+      {
+        "year": 2021,
+        "domestic_visits": 522568.0,
+        "foreign_visits": 1196.0,
+        "total_visits": 523764.0,
+        "domestic_display": "5.23 L",
+        "foreign_display": "1,196",
+        "yoy_domestic_pct": 16.42,
+        "yoy_foreign_pct": -52.26,
+        "is_synthetic": true
+      },
+      {
+        "year": 2022,
+        "domestic_visits": 1254054.0,
+        "foreign_visits": 6489.0,
+        "total_visits": 1260543.0,
+        "domestic_display": "12.5 L",
+        "foreign_display": "6,489",
+        "yoy_domestic_pct": 139.98,
+        "yoy_foreign_pct": 442.56,
+        "is_synthetic": true
+      },
+      {
+        "year": 2023,
+        "domestic_visits": 1593529.0,
+        "foreign_visits": 11992.0,
+        "total_visits": 1605521.0,
+        "domestic_display": "15.9 L",
+        "foreign_display": "11,992",
+        "yoy_domestic_pct": 27.07,
+        "yoy_foreign_pct": 84.81,
+        "is_synthetic": true
+      },
+      {
+        "year": 2024,
+        "domestic_visits": 1871099.0,
+        "foreign_visits": 14986.0,
+        "total_visits": 1886085.0,
+        "domestic_display": "18.7 L",
+        "foreign_display": "14,986",
+        "yoy_domestic_pct": 17.42,
+        "yoy_foreign_pct": 24.97,
+        "is_synthetic": true
+      },
+      {
+        "year": 2025,
+        "domestic_visits": 2026597.0,
+        "foreign_visits": 11860.0,
+        "total_visits": 2038457.0,
+        "domestic_display": "20.3 L",
+        "foreign_display": "11,860",
+        "yoy_domestic_pct": 8.31,
+        "yoy_foreign_pct": -20.86,
+        "is_synthetic": true
+      }
+    ],
+    "source_countries": [],
+    "top_attractions": [
+      {
+        "name": "Hemis Monastery",
+        "type": "religious",
+        "annual_footfall": 387607,
+        "footfall_display": "3.88 L",
+        "footfall_year": 2024,
+        "is_unesco": false,
+        "is_asi_protected": false,
+        "is_synthetic": true
+      },
+      {
+        "name": "Nubra Valley",
+        "type": "adventure",
+        "annual_footfall": 142370,
+        "footfall_display": "1.42 L",
+        "footfall_year": 2024,
+        "is_unesco": false,
+        "is_asi_protected": false,
+        "is_synthetic": true
+      },
+      {
+        "name": "Pangong Tso",
+        "type": "nature",
+        "annual_footfall": 118215,
+        "footfall_display": "1.18 L",
+        "footfall_year": 2024,
+        "is_unesco": false,
+        "is_asi_protected": false,
+        "is_synthetic": true
+      },
+      {
+        "name": "Leh Palace",
+        "type": "heritage",
+        "annual_footfall": 115273,
+        "footfall_display": "1.15 L",
+        "footfall_year": 2024,
+        "is_unesco": false,
+        "is_asi_protected": true,
+        "is_synthetic": true
+      }
+    ],
+    "hotel_infrastructure": null,
+    "seasonality": {
+      "year": 2018,
+      "months": [],
+      "peak_month": null,
+      "low_month": null
+    },
+    "festivals": [
+      {
+        "name": "Hemis Festival",
+        "month": 6,
+        "month_name": "Jun",
+        "type": "religious",
+        "is_synthetic": true
+      },
+      {
+        "name": "Sindhu Darshan",
+        "month": 6,
+        "month_name": "Jun",
+        "type": "cultural",
+        "is_synthetic": true
+      },
+      {
+        "name": "Ladakh Festival",
+        "month": 9,
+        "month_name": "Sep",
+        "type": "cultural",
+        "is_synthetic": true
+      }
+    ],
+    "rank_history": [
+      {
+        "year": 2019,
+        "rank_total_visits": 28,
+        "total_visits": 1858779.0,
+        "rank_revenue": 27,
+        "is_synthetic": true
+      },
+      {
+        "year": 2020,
+        "rank_total_visits": 28,
+        "total_visits": 451370.0,
+        "rank_revenue": 28,
+        "is_synthetic": true
+      },
+      {
+        "year": 2021,
+        "rank_total_visits": 28,
+        "total_visits": 523764.0,
+        "rank_revenue": 28,
+        "is_synthetic": true
+      },
+      {
+        "year": 2022,
+        "rank_total_visits": 28,
+        "total_visits": 1260543.0,
+        "rank_revenue": 28,
+        "is_synthetic": true
+      },
+      {
+        "year": 2023,
+        "rank_total_visits": 28,
+        "total_visits": 1605521.0,
+        "rank_revenue": 27,
+        "is_synthetic": true
+      },
+      {
+        "year": 2024,
+        "rank_total_visits": 28,
+        "total_visits": 1886085.0,
+        "rank_revenue": 27,
+        "is_synthetic": true
+      },
+      {
+        "year": 2025,
+        "rank_total_visits": 28,
+        "total_visits": 2038457.0,
+        "rank_revenue": 27,
+        "is_synthetic": true
+      }
+    ],
+    "notes": [
+      "not_available: no tourism data for LA in 2018"
+    ]
+  },
+  "meta": {
+    "filters": {
+      "year": 2018,
+      "year_from": null,
+      "year_to": null,
+      "states": [],
+      "region": null,
+      "tourism_type": null,
+      "visitor_type": "all",
+      "include_synthetic": true,
+      "resolved": {
+        "year": 2018,
+        "state": "LA"
+      }
+    },
+    "data_sources": [
+      "SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source)",
+      "SYNTHETIC/UNVERIFIED: reference value entered by hand in src/reference.py (approximate, from general knowledge; not checked against an official source); population = Census 2011 (approx.)",
+      "SYNTHETIC: generated by src/synthesize.py (seed=42); illustrative values, not government statistics"
+    ],
+    "synthetic_share": 100.0,
+    "record_count": 22,
+    "notes": [
+      "Only year and include_synthetic apply; other filters are ignored for a single-state view.",
+      "Attraction footfall is a single 2024 snapshot.",
+      "not_available: no tourism data for LA in 2018"
+    ]
+  }
+}
