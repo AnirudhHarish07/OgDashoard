@@ -119,3 +119,15 @@ docs/DATA_REPORT.md   schema findings, gaps, caveats
 **Railway:** create a project from the GitHub repo; the `Procfile` provides the start command. Set the same environment variables.
 
 The free Render tier sleeps when idle, so the first request after a pause is slow. `/api/states/{code}` is cached and responds in well under 200 ms once warm.
+
+## Run the full dashboard (API + front end)
+
+```bash
+./scripts/run.sh          # installs, builds frontend/dist, serves everything on http://localhost:8000
+```
+
+Development with hot reload: `uvicorn app.main:app --port 8000` and, in `frontend/`, `npm install && npm run dev`
+(open http://localhost:5173). Use `npm run dev:mock` to run the front end from `samples/` without the API.
+Set `ANTHROPIC_API_KEY` to enable the "Ask the data" box and Claude-phrased insights.
+Front-end details: `frontend/README.md`. Checks: `pytest`, `cd frontend && npm test && npm run lint`,
+`node scripts/a11y.mjs` (axe audit), `node scripts/e2e-live.mjs` (real-API smoke run).
