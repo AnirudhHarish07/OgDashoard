@@ -1,4 +1,5 @@
 import logging
+from pathlib import Path
 import time
 from contextlib import asynccontextmanager
 
@@ -56,3 +57,19 @@ for r in (meta_router, map_router, overview_router, comparison_router, states_ro
           seasonality_router, economy_router, covid_router,
           analytics_router, ai_router, export_router):
     app.include_router(r.router)
+
+
+# Production: serve the built front end (frontend/dist) from the same origin. Skipped when it has not been built.
+_DIST = Path(__file__).resolve().parent.parent / "frontend" / "dist"
+if (_DIST / "index.html").exists():
+    from fastapi import HTTPException
+    from fastapi.responses import FileResponse
+
+    @app.get("/{path:path}", include_in_schema=False)
+    def spa(path: str):
+        if path.startswith("api/") or path in ("api", "docs", "redoc", "openapi.json"):
+            raise HTTPException(status_code=404)
+        f = (_DIST / path).resolve()
+        if path and f.is_file() and _DIST in f.parents:
+            return FileResponse(f)
+        return FileResponse(_DIST / "index.html")
