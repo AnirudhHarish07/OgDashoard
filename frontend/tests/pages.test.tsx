@@ -23,6 +23,7 @@ import { TypeCurves } from '@/components/seasonality/TypeCurves';
 import { DemandCapacity } from '@/components/economy/DemandCapacity';
 import { EconomyBars } from '@/components/economy/EconomyBars';
 import { OccupancyTrend } from '@/components/economy/OccupancyTrend';
+import { Dip } from '@/components/covid/Dip';
 import { Recovery } from '@/components/covid/Recovery';
 import StatePage from '@/pages/StatePage';
 
@@ -207,6 +208,17 @@ describe('economy and infrastructure', () => {
 });
 
 describe('covid recovery', () => {
+  it('dip chart indexes visits to the baseline year (=100) and shades the COVID years', async () => {
+    stubBackend();
+    renderApp(<Dip />);
+    const opt = await chartOpt('Line chart of national visits indexed to 2019');
+    const total: (number | null)[] = opt.series[0].data;
+    expect(opt.series).toHaveLength(3);
+    expect(opt.xAxis.data.indexOf('2019')).toBeGreaterThan(-1);
+    expect(total[opt.xAxis.data.indexOf('2019')]).toBe(100);
+    expect(total[opt.xAxis.data.indexOf('2020')]).toBeLessThan(40);
+    expect(opt.series[0].markArea.data[0][0].name).toBe('COVID-19 dip');
+  });
   it('ranks fastest first, highlights the top 5, and lists them', async () => {
     stubBackend();
     renderApp(<Recovery />);
